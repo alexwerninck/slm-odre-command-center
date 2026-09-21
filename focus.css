@@ -67,3 +67,4 @@ body{background:#00002B!important}
 #engine-home details.eh-progress>summary{font-size:21px;color:#00002B}
 @media(max-width:950px){#engine-home .eh-state-grid{grid-template-columns:1fr}#engine-home .eh-simple-flow{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:600px){#engine-home .eh-simple-flow{grid-template-columns:1fr}}
+#engine-home .eh-hero>.eh-row a:not(.eh-primary){color:#E6C07D;font-weight:800}
