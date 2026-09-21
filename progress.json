@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T23:36:55+01:00",
+  "updated_at": "2026-09-21T23:42:59+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
@@ -39,10 +39,10 @@
     "Book and Audiobook receiver gates were repaired and published as v2; fresh +48 and +50 customer journeys are running."
   ],
   "next_steps": [
-    "Install Mia final ODRE copy into the three live O1 email actions before +60 reaches Day 1 on September 22 at 12:49 pm EDT.",
-    "Review every O1 link and merge field, then test received emails without forcing the individual send actions.",
-    "Run the remaining Book, Audiobook, Everything, paid, duplicate, and negative full-customer journeys.",
-    "Alex physically repeats the frozen journeys after Codex passes each lane."
+    "Receive Mia final W2, G1, and O1 copy, install it into the existing actions, then verify every link and automatic customer field.",
+    "Alex performs the seven documented Gmail and Thinkific checks from the Morning Review.",
+    "Run one true paid checkout, O1 Day 1 through Day 7, one real W2F bounce, and the remaining later-gift and duplicate journeys.",
+    "Delete the three harmless O1 leftovers after Alex gives the required action-time confirmation."
   ],
   "milestones": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "place": "G1 gift router",
-      "purpose": "Unified MVP gift access route. Only the Everything branch retains a GoHighLevel placeholder email; other paths currently rely on Thinkific access messaging."
+      "purpose": "Unified gift access and one matching welcome for Book, Audiobook, Engine, Audiobook plus Engine, or Everything. All five messages are placeholders pending Mia."
     },
     {
       "place": "Owner help",
@@ -233,12 +233,12 @@
   ],
   "weekend_target": "MVP target: paid or gifted customers receive the correct Book, Audiobook and Engine access, Engine owners stop B1, Codex passes the frozen journeys, and Alex receives exact board instructions for his physical test.",
   "return_facts": [
-    "The newest W2R definition is saved with the paid-owner trigger, payment trigger, five-minute wait, email checks, audiobook split, welcome emails, and attempt markers.",
-    "The warning came from an older duplicate W2R tab. Its email matched the newest saved definition, and the stale duplicate was closed.",
-    "Book and Engine helper actions and workflows were saved again. The Audiobook helper retained its corrected Audiobook success action.",
-    "Book, Audiobook, and Engine Zapier receiver pages are published and ON.",
-    "The September 19 cutover says the intended GoHighLevel workflows were ON, but Monday fresh switch proof is blocked by the failed-payment account lock.",
-    "Codex runtime, Alex physical, and whole-system tests remain separate and still NOT RUN."
+    "W2 is ON. Both paid-welcome choices, one approved retry, and ordinary duplicate suppression passed in GoHighLevel.",
+    "G1 is ON. All five product-specific gift welcome actions executed in controlled GoHighLevel tests.",
+    "O1 is ON with placeholder copy. The controlled Engine owner entered, passed the owner gate, and reached the Day 1 wait.",
+    "B1 and X1 are ON. Controlled Engine owners were kept out of or removed from B1.",
+    "Book, Audiobook, and Engine access routes are published. Core enrollment callbacks returned to GoHighLevel.",
+    "Mia final copy, Alex inbox and Thinkific checks, true paid checkout, O1 later timing, and a real bounce test remain open."
   ],
   "focus_phase": 3,
   "launch_statement": "Core gift access paths are live and have partial Codex runtime proof. Final copy, paid-upgrade proof, duplicate protection, received-message checks, and Alex physical testing remain before the ecosystem is complete.",
@@ -565,148 +565,82 @@
   "save_status": "GoHighLevel saves and the public command-center repository are saved. The required main-project commit gate stopped before committing because the writer-admission binding self-test failed. No bypass was used.",
   "account_build_steps": [
     {
-      "number": 1,
-      "title": "Read current workflow definitions",
-      "asset": "A current account map showing the actual triggers, actions and connections.",
-      "state": "Canonical current-state registry installed. Exact MVP asset IDs, links, current live states, and evidence are on the master board."
+      "title": "Install Mia final copy",
+      "asset": "W2, G1, and O1 already contain editable placeholder actions.",
+      "state": "WAITING FOR MIA"
     },
     {
-      "number": 2,
-      "title": "Build the paid welcome",
-      "asset": "A saved GoHighLevel draft: qualifying paid buyer, one welcome, audiobook section only for audiobook owners, repeat welcome suppressed.",
-      "state": "W2R and W2F are ON. W2R initial welcome, one approved retry, retry-tag consumption, and duplicate suppression passed. W2 audiobook, W2F real-bounce behavior, inbox, and Alex tests remain open."
+      "title": "Alex physical review",
+      "asset": "Use the exact seven test identities on the Morning Review.",
+      "state": "NOT RUN"
     },
     {
-      "number": 3,
-      "title": "Build B1 ownership protection",
-      "asset": "New B1 and X1 replacement drafts. Existing owners cannot enter B1. New owners leave B1. Ownership checked before offers.",
-      "state": "B1 and X1 were read back ON on September 19. Monday recheck is blocked by the GoHighLevel failed-payment lock. Fifty B1 message safeguards, entry protection, portal skips, and old plus new B1 removal targets are installed. Runtime upgrade proof remains NOT RUN."
-    },
-    {
-      "number": 4,
-      "title": "Build the gift routes",
-      "asset": "Checked gift drafts for book, Engine, audiobook and all-products access and matching welcomes. Genuine paid tags preserved.",
-      "state": "Unified G1 is ON. All five product-specific welcome actions executed. Book, Audiobook, and Engine access chains have runtime proof. Final copy, inbox, physical access, and remaining whole-journey tests remain open."
-    },
-    {
-      "number": 5,
-      "title": "Test the customer journey",
-      "asset": "Real controlled test accounts, actual access, received welcome, duplicate-event checks and no B1 offers after ownership.",
-      "state": "Six exact cards and twelve fresh primary and retest identities are ready. Runtime is 0 of 6. The next action requires controlled test-data confirmation."
-    },
-    {
-      "number": 6,
-      "title": "Keep the controlled MVP cutover live",
-      "asset": "Eleven intended live assets, eight GoHighLevel workflows and three protected Zapier receivers, with old gift collisions OFF.",
-      "state": "September 19 switch readback passed. Monday Zapier readback passed. Current GoHighLevel switch recheck waits for account reactivation. Customer behavior remains unproven until the six complete journeys run."
+      "title": "Finish whole-system proof",
+      "asset": "True paid checkout, O1 later timing, real W2F bounce, and remaining duplicate or later-gift journeys.",
+      "state": "OPEN"
     }
   ],
   "actual_platform_report": "/real-platform",
   "live_assets": [
     {
-      "title": "OLD G4 Audiobook gift, OFF",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/6911446b-64bb-4902-9fd9-a7343903ffc1/advanced-canvas",
-      "detail": "Cutover readback PASS. OFF before unified G1 was published."
-    },
-    {
-      "title": "OLD G3 Engine gift, OFF",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/5481c663-429d-4401-b09d-1d6ab2c7e82c/advanced-canvas",
-      "detail": "Cutover readback PASS. OFF before unified G1 was published."
-    },
-    {
-      "title": "OLD G2 Book gift, OFF",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/ef9eba2f-5e9c-408c-8d8d-697c01724df1/advanced-canvas",
-      "detail": "Cutover readback PASS. OFF before unified G1 was published."
-    },
-    {
-      "title": "Earlier W2 draft, retained source only",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/908fe0e5-26c3-400a-92d9-c6a106c3784c",
-      "detail": "Retained as a source. The active MVP paid-welcome draft is W2R. A prior trigger-only view was a GoHighLevel lazy-render artifact, not proof that saved actions were missing."
-    },
-    {
-      "title": "NEW B1 owner safeguards, LIVE",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/1f3cf55a-27dc-4ef2-822a-fdc62e90f11c",
-      "detail": "Switch ON. Static checks passed. Full Book-to-Engine runtime test NOT RUN."
-    },
-    {
-      "title": "NEW X1 stop both B1 versions, LIVE",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9f410adb-299e-4ba2-882c-ebcfe7b6973a",
-      "detail": "Switch ON. Paid and gifted Engine owners should leave both B1 versions. Runtime test NOT RUN."
-    },
-    {
-      "title": "GHL purchase and enrollment",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/f073cea3-2a88-4826-b271-5c524cb39f25",
-      "detail": "Existing published H6. Qualifying payment, Engine ownership tag, enrollment request verified on screen."
-    },
-    {
-      "title": "Zapier enrolls into Thinkific",
-      "url": "https://zapier.com/editor/371809424/published/371809425/fields",
-      "detail": "Existing H6 Zap is on. Bundle and buyer-field mappings checked."
-    },
-    {
-      "title": "X1 stops B1 after upgrade",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c5e89771-8a7a-4c66-99ec-ffd3c5489bf7/logs",
-      "detail": "Existing published X1 has all three owner triggers and B1 removal. Two earlier test removals show Executed. Fresh complete journey still untested."
-    },
-    {
-      "title": "NEW W2F bounce-help, LIVE",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/d1e26e82-aa9a-4028-ac7a-90ffd7fd3ef4",
-      "detail": "Switch ON. Runtime bounce and negative-control tests NOT RUN."
-    },
-    {
-      "title": "Product welcome needs help, saved contact list",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/smart_list/EoeO6cJOq0fBkomlovot",
-      "detail": "Created and reloaded. Exact Tag Is odre:welcome-needs-help. Empty view is not runtime proof."
-    },
-    {
-      "title": "NEW G2 book gift, partial paused replacement",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/922bcd5a-e5e9-462d-a366-7a8275671527/advanced-canvas",
-      "detail": "Paid labels preserved, protected B1 handoff and book placeholder saved. Permission/presence check and two help writers independently confirmed after repair and reopening. Actual enrollment and all customer tests NOT RUN."
-    },
-    {
-      "title": "NEW G3 Engine gift, partial paused replacement",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/67741930-c892-4175-b1b7-01b3984e3559/advanced-canvas",
-      "detail": "Explicit welcome placeholder, disabled blank-test cleanup, exclusive hand-send branches and settings saved/reopened; independent configuration checked. Same private endpoint as paid H6. Real enrollment and all customer tests NOT RUN."
-    },
-    {
-      "title": "NEW G4 book and audiobook gift, partial paused replacement",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/e5812354-ecc0-4b00-984a-8fadbb7e6e3e/advanced-canvas",
-      "detail": "Book and audiobook request actions and two-product placeholder saved. Preflight AND and missing/blocked help tags independently checked. Actual enrollment and all customer tests NOT RUN."
-    },
-    {
-      "title": "NEW G1 unified MVP gift router, LIVE",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas",
-      "detail": "Switch ON. All five product-specific gift welcome actions executed in GoHighLevel. Mia final copy, inbox, physical access, and remaining whole-journey tests are open."
-    },
-    {
-      "title": "NEW W2R paid welcome recovery, LIVE, CODEX BOTH-BRANCH PASS",
+      "title": "W2, paid welcome recovery",
       "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c55cd1d8-0026-4bdc-978e-f8a59bf90649",
-      "detail": "Saved and ON. Engine-only and audiobook-owner welcome actions, one approved retry, retry-tag consumption, and ordinary duplicate suppression passed. Final copy, inbox, and true paid-checkout journey are open."
+      "detail": "ON. CODEX BOTH VARIANTS, RETRY, AND NO-THIRD-START PASS. PLACEHOLDER COPY.. Mia final welcome copy, one true paid-checkout test, and Alex inbox review."
     },
     {
-      "title": "Audiobook provider-result helper, LIVE and corrected",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/6ed8b68b-aeda-4698-83ce-b533cc3654a6",
-      "detail": "Switch ON. Fresh readback confirmed Audiobook action and odre:provider-enroll-audiobook-success. Runtime callback NOT RUN."
+      "title": "G1, everything gift",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas",
+      "detail": "ON. CODEX ACCESS CHAINS PASS. FIVE OF FIVE WELCOME ACTIONS PASS. PLACEHOLDER COPY.. Mia final words and links, Alex inbox and Thinkific review, plus later-gift and duplicate whole-journey tests."
     },
     {
-      "title": "Engine provider-result helper, LIVE",
-      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/5339b229-4387-4a94-8a53-17978a72fb1f",
-      "detail": "Switch ON. Runtime callback NOT RUN."
+      "title": "O1, new-owner onboarding",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/b4caee4a-b42f-492e-918a-192f026ebeb4",
+      "detail": "ON. +60 ENTERED AND IS WAITING AT DAY 1. PLACEHOLDER COPY IS STILL INSTALLED.. Mia final subjects, bodies, links, and approved timing. Later-message, completion, Alex, and whole-system tests remain open. Three disabled leftovers await Alex's action-time deletion confirmation."
     },
     {
-      "title": "Protected Book enrollment receiver, LIVE",
+      "title": "B1, protected book follow-up",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/1f3cf55a-27dc-4ef2-822a-fdc62e90f11c",
+      "detail": "ON. CODEX BOOK ENTRY AND ENGINE-OWNER REJECTION PASSED.. Run the paid Book-to-Engine upgrade test, then Alex checks the actual emails."
+    },
+    {
+      "title": "X1, stop both B1 versions",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9f410adb-299e-4ba2-882c-ebcfe7b6973a",
+      "detail": "ON. CODEX ENGINE-GIFT REMOVAL PASS. PAID-UPGRADE TEST OPEN.. Run the paid-upgrade journey and Alex physical review. The Engine-gift removal path already passed Codex testing."
+    },
+    {
+      "title": "W2F, flag bounced welcomes for help",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/d1e26e82-aa9a-4028-ac7a-90ffd7fd3ef4",
+      "detail": "ON. STRUCTURE PASS. REAL BOUNCE RUNTIME NOT RUN.. Run one real bounced-message test and confirm the correct contact receives the help tag."
+    },
+    {
+      "title": "Zapier, protected Book enrollment receiver",
       "url": "https://zapier.com/editor/380660773/published/_GEN_1789776271902/fields",
-      "detail": "Published v1 and ON. Full customer test NOT RUN."
+      "detail": "Published v2 and ON. CODEX RUNTIME PASS.. Alex checks the student account. Codex runtime enrollment and callback passed."
     },
     {
-      "title": "Protected Audiobook enrollment receiver, LIVE",
+      "title": "Zapier, protected Audiobook enrollment receiver",
       "url": "https://zapier.com/editor/380660870/published/_GEN_1789775422083/fields",
-      "detail": "Published v1 and ON. Full customer test NOT RUN."
+      "detail": "Published v2 and ON. CODEX RUNTIME PASS.. Alex checks the student account. Codex runtime enrollment and callback passed."
     },
     {
-      "title": "Protected Engine enrollment receiver, LIVE",
+      "title": "Zapier, protected Engine enrollment receiver",
       "url": "https://zapier.com/editor/380660704/published/_GEN_1789766824792/fields",
-      "detail": "Published v1 and ON. Full customer test NOT RUN."
+      "detail": "Published v1 and ON. CODEX CORE ENGINE ENROLLMENT AND CALLBACK PASS FOR +60.. Alex checks the student account. Codex runtime enrollment, callback, B1 suppression, and O1 entry passed for +60."
+    },
+    {
+      "title": "Book enrollment result helper",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/a5da3082-b00a-4a36-899e-7c2015ebd8ca",
+      "detail": "ON. CODEX CALLBACK RUNTIME PASS. ALEX PHYSICAL TEST OPEN.. Alex physical Book student-account confirmation and received-message review."
+    },
+    {
+      "title": "Audiobook enrollment result helper",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/6ed8b68b-aeda-4698-83ce-b533cc3654a6",
+      "detail": "ON. CODEX CALLBACK RUNTIME PASS. ALEX PHYSICAL TEST OPEN.. Alex physical Audiobook student-account confirmation and received-message review."
+    },
+    {
+      "title": "Engine enrollment result helper",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/5339b229-4387-4a94-8a53-17978a72fb1f",
+      "detail": "ON. CODEX CALLBACK RUNTIME PASS. ALEX PHYSICAL TEST OPEN.. Alex physical Engine student-account confirmation and received-message review."
     }
   ],
   "platform_counts": {
@@ -723,7 +657,7 @@
     "fresh_reserved_test_emails": 14,
     "published_scope": "Eight intended GoHighLevel workflows and three protected Zapier receivers are live. Three reference gift drafts remain OFF."
   },
-  "account_build_summary": "Corrected O1 is 100% structurally built with placeholders. Owner, valid-email, Day 1, Day 3, Day 7, and completion nodes are saved. Reload and Fit to Screen readback passed. O1 remains Draft.",
+  "account_build_summary": "The required MVP automation structure is live. W2 and all five G1 welcome choices have GoHighLevel runtime proof. O1 entry, B1 owner rejection, X1 Engine-gift removal, and the three access callback lanes have controlled evidence. Mia copy, Alex physical review, and remaining full journeys are open.",
   "account_next_concrete": "Install Mia final W2, G1, and O1 copy when supplied. Then Alex checks the documented inboxes and Thinkific access while Codex finishes the true paid-checkout and O1 later-message journeys.",
   "account_sender": "Mia Shark / mia@sharklifemedia.com, saved from project source. Actual delivery not proven.",
   "progress_components": [
