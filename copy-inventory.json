@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T22:56:12+01:00",
+  "generated_at": "2026-09-21T23:37:18+01:00",
   "title": "SLM MASTER Email and SMS Copy Center",
   "purpose": "Review every important Engine email and SMS without opening every GoHighLevel node.",
   "rules": [
@@ -351,7 +351,7 @@
       "source_url": "/copy-source/w2",
       "source_file": "output/_strategy/alex_handover/WELCOME_EMAIL_PLACEHOLDER_COPY_2026-09-10.md",
       "good": "One welcome, with an audiobook section only for audiobook owners.",
-      "bad": "Placeholder copy is not final. GoHighLevel executed the initial and replacement email actions, but inbox receipt and the audiobook variant still need review.",
+      "bad": "Placeholder copy is not final. GoHighLevel executed both welcome variants and the approved replacement action, but a true paid checkout and Alex inbox receipt still need review.",
       "messages": [
         {
           "id": "W2:EMAIL:1",
