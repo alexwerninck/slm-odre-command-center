@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T23:18:46+01:00",
+  "updated_at": "2026-09-21T23:36:55+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
@@ -30,7 +30,7 @@
     "G1, B1, X1, W2R, W2F, and all three acknowledgement helpers are ON.",
     "Old G2, G3, and G4 are OFF. New reference G2, G3, and G4 remain OFF.",
     "Fresh cutover readback caught and corrected the Audiobook helper from the copied Book success tag to odre:provider-enroll-audiobook-success.",
-    "Fresh published Zap readback confirmed the Book receiver selects \u2b50\ufe0f Just Make The Phone Ring + BONUSES, Audiobook selects the standalone Audiobook, and Engine selects \u2b50\ufe0f ODRE + BONUSES.",
+    "Fresh published Zap readback confirmed the Book receiver selects ⭐️ Just Make The Phone Ring + BONUSES, Audiobook selects the standalone Audiobook, and Engine selects ⭐️ ODRE + BONUSES.",
     "G1 Engine-only routing passed a fresh natural test without Book or Audiobook requests.",
     "Engine Zapier v3 passed live after repairing the webhook, test gate, and callback email mapping.",
     "Fresh +60 received the Engine provider-success tag and entered O1 at the Day 1 wait.",
@@ -166,7 +166,7 @@
       "next": "Install and check Mia final copy before September 22 at 12:49 pm EDT.",
       "owner": "Master schedules later",
       "purpose": "Possible login help, first-action reminder, and check-in. No SMS proposed in the first build.",
-      "prompt": "You are the OWNER_CARE execution chat for the On-Demand Revenue Engine. Open this exact project folder: /Users/alexwerninck/Documents/\u2b50\ufe0f Claude Code Projects/\u2b50\ufe0fCLAUDE CODE/oder.\nRead AGENTS.md, then 00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md, ENGINE_JOBS.json, and ENGINE_SOURCE_INDEX.md. Reuse the relevant MD work from the previous two weeks. Read the newest dated handoff section.\nRun tools/engine_jobs.py status under 00. Production System. Claim only OWNER_CARE with --scope planning and a unique session name. If another owner has claimed it, stop and report that, never steal its claim.\nPrepare proposed editable owner-help slots only. Start from actual proper paid or gift welcome completion, including honest manual completion. Keep login help suppressed after activated:portal. Message count and days are proposals, never approved defaults. No SMS. Reuse shared sequence slots without creating a competing canonical plan. Do not claim launch is blocked on these optional emails.\nPrepare actual editable local plan/configuration and independently checked customer cases, with placeholder message slots. Save only this job's artifacts and link every result. Keep a short plain-English progress note and exact next step in the shared job record. Hand back through engine_jobs.py for master review.\nPlanning only while CORE_PROOF and live build gates are blocked. Do not edit released workflows, customers, ownership registries, laws, another chat's job, or T3/T1/X2/X3. No sending, enrollment, publication, repository-wide staging, or commit. Do the authorized local work without sending Alex to a terminal. Returning a plan does not mean installed or live."
+      "prompt": "You are the OWNER_CARE execution chat for the On-Demand Revenue Engine. Open this exact project folder: /Users/alexwerninck/Documents/⭐️ Claude Code Projects/⭐️CLAUDE CODE/oder.\nRead AGENTS.md, then 00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md, ENGINE_JOBS.json, and ENGINE_SOURCE_INDEX.md. Reuse the relevant MD work from the previous two weeks. Read the newest dated handoff section.\nRun tools/engine_jobs.py status under 00. Production System. Claim only OWNER_CARE with --scope planning and a unique session name. If another owner has claimed it, stop and report that, never steal its claim.\nPrepare proposed editable owner-help slots only. Start from actual proper paid or gift welcome completion, including honest manual completion. Keep login help suppressed after activated:portal. Message count and days are proposals, never approved defaults. No SMS. Reuse shared sequence slots without creating a competing canonical plan. Do not claim launch is blocked on these optional emails.\nPrepare actual editable local plan/configuration and independently checked customer cases, with placeholder message slots. Save only this job's artifacts and link every result. Keep a short plain-English progress note and exact next step in the shared job record. Hand back through engine_jobs.py for master review.\nPlanning only while CORE_PROOF and live build gates are blocked. Do not edit released workflows, customers, ownership registries, laws, another chat's job, or T3/T1/X2/X3. No sending, enrollment, publication, repository-wide staging, or commit. Do the authorized local work without sending Alex to a terminal. Returning a plan does not mean installed or live."
     },
     {
       "id": "W1_REVIEW",
@@ -179,7 +179,7 @@
       "next": "Keep the old W1 parked. Review it after customers get correct access and welcomes.",
       "owner": "Master schedules later",
       "purpose": "W1 is an invitation route for people who do not own the Engine. It is separate from owner onboarding.",
-      "prompt": "You are the W1_REVIEW execution chat for the On-Demand Revenue Engine. Open this exact project folder: /Users/alexwerninck/Documents/\u2b50\ufe0f Claude Code Projects/\u2b50\ufe0fCLAUDE CODE/oder.\nRead AGENTS.md, then 00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md, ENGINE_JOBS.json, and ENGINE_SOURCE_INDEX.md. Reuse the relevant MD work from the previous two weeks. Read the newest dated handoff section.\nRun tools/engine_jobs.py status under 00. Production System. Claim only W1_REVIEW with --scope planning and a unique session name. If another owner has claimed it, stop and report that, never steal its claim.\nReview the old W1 waiting-list draft against the product being live. Recommend keep parked, retire later, or prepare a separate current-offer invitation. Use exact Engine paid/gift ownership exclusions. Keep the original immutable, do not revive old dates or scarcity claims. Return a clear recommendation plus a minimal local plan if justified. No live edits.\nPrepare actual editable local plan/configuration and independently checked customer cases, with placeholder message slots. Save only this job's artifacts and link every result. Keep a short plain-English progress note and exact next step in the shared job record. Hand back through engine_jobs.py for master review.\nPlanning only while CORE_PROOF and live build gates are blocked. Do not edit released workflows, customers, ownership registries, laws, another chat's job, or T3/T1/X2/X3. No sending, enrollment, publication, repository-wide staging, or commit. Do the authorized local work without sending Alex to a terminal. Returning a plan does not mean installed or live."
+      "prompt": "You are the W1_REVIEW execution chat for the On-Demand Revenue Engine. Open this exact project folder: /Users/alexwerninck/Documents/⭐️ Claude Code Projects/⭐️CLAUDE CODE/oder.\nRead AGENTS.md, then 00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md, ENGINE_JOBS.json, and ENGINE_SOURCE_INDEX.md. Reuse the relevant MD work from the previous two weeks. Read the newest dated handoff section.\nRun tools/engine_jobs.py status under 00. Production System. Claim only W1_REVIEW with --scope planning and a unique session name. If another owner has claimed it, stop and report that, never steal its claim.\nReview the old W1 waiting-list draft against the product being live. Recommend keep parked, retire later, or prepare a separate current-offer invitation. Use exact Engine paid/gift ownership exclusions. Keep the original immutable, do not revive old dates or scarcity claims. Return a clear recommendation plus a minimal local plan if justified. No live edits.\nPrepare actual editable local plan/configuration and independently checked customer cases, with placeholder message slots. Save only this job's artifacts and link every result. Keep a short plain-English progress note and exact next step in the shared job record. Hand back through engine_jobs.py for master review.\nPlanning only while CORE_PROOF and live build gates are blocked. Do not edit released workflows, customers, ownership registries, laws, another chat's job, or T3/T1/X2/X3. No sending, enrollment, publication, repository-wide staging, or commit. Do the authorized local work without sending Alex to a terminal. Returning a plan does not mean installed or live."
     },
     {
       "id": "QA_CANARY",
@@ -250,6 +250,15 @@
   ],
   "founder_now": "Use the public Master for status. Review W2, G1, and O1 in that order. Mia copy is pending, so the automation structure is complete where possible and the words remain placeholders.",
   "artifacts": [
+    {
+      "title": "SLM MASTER Morning Review",
+      "state": "PUBLISHED ZERO-CONTEXT START PAGE",
+      "description": "Explains the customer journey, current proof, workflows, exact test identities, Mia copy handoff, remaining work, and plain-English terms from top to bottom.",
+      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/morning-review.html",
+      "button": "Open the Morning Review",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/",
+      "check": "Start here after any interruption. It separates what Codex tested, what Alex must physically test, and what the whole system still needs."
+    },
     {
       "title": "Mia shareable On-Demand Revenue Engine command center",
       "state": "PUBLISHED AND VISUALLY VERIFIED. Unlisted web link.",
@@ -367,8 +376,8 @@
     },
     {
       "title": "SLM MASTER Email and SMS Copy Center",
-      "state": "Built and locally checked. 13 groups, 69 unique messages.",
-      "description": "Three views for Mia: review cards, sequence timeline, and full inventory. B1 branch duplicates are collapsed, W1 is marked outdated, and ODRE 1 through 9 show their current build blockers.",
+      "state": "BUILT AND REGENERATED. FINAL W2, G1, AND O1 COPY PENDING MIA.",
+      "description": "Mia starts with three direct sections for W2 paid welcomes, G1 gift welcomes, and O1 onboarding. The rest of the email and SMS inventory remains available below.",
       "artifact": "/copy-center",
       "button": "Open the Copy Center",
       "review": "/copy-inventory.json",
@@ -385,8 +394,8 @@
     },
     {
       "title": "Full MVP system test board",
-      "state": "ODRE GIFT CORE LANE CODEX PASS. REMAINING CARDS OPEN.",
-      "description": "One full ODRE gift core lane now passed across GoHighLevel, Zapier, Thinkific, B1 suppression, and O1 entry. The remaining customer cards and received-message checks are still open.",
+      "state": "CURRENT CONTROLLED PROOF RECORDED. ALEX PHYSICAL TESTS AND FULL END-TO-END JOURNEYS OPEN.",
+      "description": "GoHighLevel action proof is recorded for W2, G1, B1, X1, and O1 entry. Gmail, Thinkific, true paid checkout, later O1 timing, and real W2F bounce proof remain open.",
       "artifact": "/test-real",
       "button": "Open the full MVP test board",
       "review": "/mvp-freeze.json",
@@ -440,8 +449,8 @@
     },
     {
       "title": "H6 and H8 paid welcome convergence",
-      "state": "Built in paused W2R. Runtime test 0%.",
-      "description": "Direct trial and one-click Engine routes both write purchased:odre. W2R now uses that first ownership transition as their shared welcome handoff. Renewals and wrong products must not repeat it.",
+      "state": "W2 LIVE ON. BOTH WELCOME VARIANTS, ONE RETRY, AND DUPLICATE SUPPRESSION PASSED.",
+      "description": "Paid ownership converges on W2. Mia final copy, true checkout, Alex inbox, and whole-system proof remain open.",
       "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c55cd1d8-0026-4bdc-978e-f8a59bf90649",
       "button": "Open actual W2R draft",
       "review": "/paid-event-policy",
@@ -449,8 +458,8 @@
     },
     {
       "title": "Three protected enrollment receivers",
-      "state": "100% assembled and publish-ready as paused drafts. 0% externally tested.",
-      "description": "Book, Audiobook, and Engine each have six protected steps and the same 22-address fail-closed gate. All three are OFF. No external action was sent.",
+      "state": "PUBLISHED ON. BOOK, AUDIOBOOK, AND ENGINE CORE CALLBACK LANES HAVE CONTROLLED RUNTIME EVIDENCE.",
+      "description": "The protected access connections are live for controlled testing. Alex must still confirm matching student access, and full customer journeys remain open.",
       "artifact": "/cutover-preflight.json",
       "button": "Open exact preflight and repair receipt",
       "review": "/result-gate-review.json",
@@ -458,8 +467,8 @@
     },
     {
       "title": "Paid welcome",
-      "state": "Saved in GoHighLevel, paused",
-      "description": "Two alternative placeholder welcomes plus email blocked/missing-email help paths. Attempts are recorded without claiming delivery.",
+      "state": "LIVE ON. CODEX GHL ACTION PASS. PLACEHOLDER COPY.",
+      "description": "W2 selected the Engine-only and audiobook-owner actions correctly, consumed one retry, and blocked an ordinary duplicate. Mia final copy and Alex physical proof remain open.",
       "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c55cd1d8-0026-4bdc-978e-f8a59bf90649",
       "button": "Open actual W2R recovery draft",
       "review": "/real-w2",
@@ -476,8 +485,8 @@
     },
     {
       "title": "Gift access and welcome",
-      "state": "Unified G1 is LIVE ON. Runtime gift tests 0 of 4.",
-      "description": "All four gift tags enter one product-by-product router. Provider-success tags prevent repeat product requests. Re-entry is on so a different later gift can add only missing access.",
+      "state": "LIVE ON. ALL FIVE GHL WELCOME ACTIONS PASSED. PLACEHOLDER COPY.",
+      "description": "G1 selected Book, Audiobook, Engine, Audiobook plus Engine, and Everything welcome actions correctly. Mia final copy and Alex physical proof remain open.",
       "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas",
       "button": "Open live G1 workflow",
       "review": "/gift-serial-receipt.json",
@@ -503,8 +512,8 @@
     },
     {
       "title": "Flag bounced product welcomes for help",
-      "state": "Assembled in GoHighLevel, paused",
-      "description": "Five exact Bounced scopes: recovered paid welcome and G1/G2/G3/G4 gift welcomes. Marks the person for help, no sends or delivery-success claim.",
+      "state": "LIVE ON. STRUCTURE PASS. REAL BOUNCE NOT RUN.",
+      "description": "W2F is live and scoped to the intended welcome failures. One real bounced-email event is still required.",
       "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/d1e26e82-aa9a-4028-ac7a-90ffd7fd3ef4",
       "button": "Open bounce-help draft",
       "review": "W2F_ACCOUNT_BUILD_RECEIPT_2026-09-18.json",
@@ -818,8 +827,8 @@
       "checks_done": 0,
       "checks_total": 1,
       "test_state": "Whole welcome-bounce journey NOT RUN",
-      "live_state": "SEP 19 ON. MONDAY FRESH SWITCH RECHECK OPEN. RUNTIME NOT RUN.",
-      "next_step": "Perform a fresh exact-ID switch readback, then run the matching frozen customer journey.",
+      "live_state": "ON. STRUCTURE PASS. REAL BOUNCE RUNTIME NOT RUN.",
+      "next_step": "Run one real bounced welcome and confirm the same contact receives odre:welcome-needs-help.",
       "codex_test_state": "NOT RUN",
       "alex_test_state": "NOT RUN",
       "system_test_state": "NOT RUN",
@@ -843,13 +852,13 @@
         "total": 8
       },
       "build_basis": "Draft assembly: three ownership triggers, two specific B1 targets and three saved settings. Two duplicate actions disabled.",
-      "checks_done": 0,
+      "checks_done": 1,
       "checks_total": 3,
-      "test_state": "Paid, Engine gift and everything-gift upgrade journeys not run",
-      "live_state": "SEP 19 ON. MONDAY FRESH SWITCH RECHECK OPEN. RUNTIME NOT RUN.",
-      "next_step": "Perform a fresh exact-ID switch readback, then run the matching frozen customer journey.",
+      "test_state": "Engine-gift removal passed. Paid and Everything-owner upgrade journeys remain open.",
+      "live_state": "ON. CODEX ENGINE-GIFT REMOVAL PASS. PAID-UPGRADE TEST OPEN.",
+      "next_step": "Run the true paid-upgrade journey, then Alex physically checks that later B1 Engine offers stop.",
       "build_label": "Draft assembly",
-      "codex_test_state": "STATIC PASS. RUNTIME NOT RUN.",
+      "codex_test_state": "PARTIAL RUNTIME PASS. +60 ENGINE GIFT EXECUTED ALL FOUR B1 REMOVAL ACTIONS.",
       "alex_test_state": "NOT RUN",
       "system_test_state": "NOT RUN",
       "overall_complete": false,
@@ -1041,12 +1050,12 @@
       },
       "build_label": "Protected receiver assembly",
       "build_basis": "All six published steps are saved: trigger, 22-address QA gate, allow filter, Thinkific enrollment, success filter, and matching GoHighLevel callback.",
-      "checks_done": 0,
+      "checks_done": 1,
       "checks_total": 1,
-      "test_state": "Complete receiver journey NOT RUN. Unauthorized stored sample was blocked before Thinkific.",
-      "live_state": "Published v1 and ON. Runtime NOT RUN.",
-      "next_step": "Run the matching complete customer journey and verify the same email in Zapier, Thinkific, and GoHighLevel.",
-      "codex_test_state": "ISOLATED FAIL-CLOSED CODE CHECK PASS. EXTERNAL ACTIONS NOT RUN.",
+      "test_state": "Controlled +60 Engine enrollment and callback passed. Alex physical student-access check remains open.",
+      "live_state": "Published v1 and ON. CODEX CORE ENGINE ENROLLMENT AND CALLBACK PASS FOR +60.",
+      "next_step": "Alex verifies the Engine bundle inside the +60 student account, then run the true paid-checkout journey.",
+      "codex_test_state": "PASS FOR CONTROLLED +60 ENGINE ENROLLMENT AND CALLBACK.",
       "alex_test_state": "NOT RUN",
       "system_test_state": "NOT RUN",
       "overall_complete": false,
@@ -1393,6 +1402,10 @@
   "public_urls": {
     "master_command_center": "https://alexwerninck.github.io/slm-odre-command-center/",
     "email_sms_copy_center": "https://alexwerninck.github.io/slm-odre-command-center/copy-center.html",
-    "workflow_node_guide": "https://alexwerninck.github.io/slm-odre-command-center/workflow-guide.html"
+    "workflow_node_guide": "https://alexwerninck.github.io/slm-odre-command-center/workflow-guide.html",
+    "morning_review": "https://alexwerninck.github.io/slm-odre-command-center/morning-review.html",
+    "full_customer_tests": "https://alexwerninck.github.io/slm-odre-command-center/test-real.html",
+    "mia_system_map": "https://alexwerninck.github.io/slm-odre-command-center/system.html",
+    "product_gifting_sop": "https://alexwerninck.github.io/slm-odre-command-center/gift-sop.html"
   }
 }
