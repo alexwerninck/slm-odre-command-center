@@ -1,0 +1,113 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>On-Demand Revenue Engine: Mia system view</title><style>body{max-width:1100px;margin:28px auto;padding:20px;font:17px/1.6 system-ui;color:#173a3b;background:#f6f8f4}nav{display:flex;gap:20px;flex-wrap:wrap}a{color:#16656d}h1{font-size:34px;line-height:1.2}h2{margin-top:35px}table{width:100%;border-collapse:collapse;background:white;font-size:15px}td,th{padding:12px;border:1px solid #d5dfd7;text-align:left;vertical-align:top}li{margin:10px 0}.notice{padding:18px;background:#fff0cf;border-radius:10px}code{background:#e4eae3;padding:2px 5px}p{margin:8px 0}</style><nav><a href="/progress.html">Progress</a><a href="/system">Show Mia the system</a><a href="/test-real">Full customer tests</a></nav>
+<p>&gt; CURRENT PAID WELCOME RECOVERY: <a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c55cd1d8-0026-4bdc-978e-f8a59bf90649" target="_blank" rel="noopener">NEW W2R</a>, copied from stored W2 v6 and kept paused. Earlier W2 current editable view showed only its trigger. Recovery guard corrected to <code>odre:welcome-attempted</code>; fresh independent guard/writer routing verified; W2F target rebound and independently checked. Nine created drafts, eight intended roles. All actual tests NOT RUN.</p>
+<h1>On-Demand Revenue Engine, show Mia the system</h1>
+<p>- Updated 2026-09-18T19:59:35.380410+00:00. Nine created drafts for eight intended roles saved paused. None newly published.</p>
+<p>- Goal: the right product access, one matching welcome, and no B1 Engine offers after someone owns the Engine.</p>
+<p>- A workflow is the programmed set of steps. A tag is the label that records ownership or progress.</p>
+<p>- Built, Codex tested, Alex physically tested and entire system passed are separate states.</p>
+<p>- All actual customer journeys currently **NOT RUN**.</p>
+<h2>The full picture</h2>
+<ol>
+<li>Book purchase or book gift gives book access and begins eligible B1 follow-up.</li>
+<li>Paid Engine checkout or Engine gift gives Engine access.</li>
+<li>Engine ownership tells X1 to remove that person from both B1 versions. B1 also checks ownership before every active message.</li>
+<li>Paid buyers use W2. Gift recipients use their separate G2, G3 or G4 welcome. A person must not receive both paid and gift welcomes for the same entry.</li>
+<li>Thinkific is the course portal. Zapier carries the enrollment request. GoHighLevel controls the labels and messages.</li>
+<li>Existing students use their current login. New students follow the actual Thinkific account setup email, delivery must be checked.</li>
+</ol>
+<h2>Actual new draft links</h2>
+<table>
+<tr><td>Draft</td><td>What it does</td><td>Saved build</td><td>Actual automation test</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/1f3cf55a-27dc-4ef2-822a-fdc62e90f11c" target="_blank" rel="noopener">B1</a></td><td>protected book follow-up</td><td>50/50 owner checks installed</td><td>NOT RUN</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c55cd1d8-0026-4bdc-978e-f8a59bf90649" target="_blank" rel="noopener">W2R</a></td><td>paid Engine welcome</td><td>Recovered graph checked; sender agreement UNKNOWN</td><td>NOT RUN</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/d1e26e82-aa9a-4028-ac7a-90ffd7fd3ef4" target="_blank" rel="noopener">W2F</a></td><td>flag bounced welcomes for help</td><td>10/10 scoped bounce assembly</td><td>NOT RUN</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9f410adb-299e-4ba2-882c-ebcfe7b6973a" target="_blank" rel="noopener">X1</a></td><td>stop both B1 versions</td><td>8/8 draft assembly</td><td>NOT RUN</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/922bcd5a-e5e9-462d-a366-7a8275671527/advanced-canvas" target="_blank" rel="noopener">G2</a></td><td>book gift</td><td>6/8 draft milestones</td><td>NOT RUN</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/67741930-c892-4175-b1b7-01b3984e3559/advanced-canvas" target="_blank" rel="noopener">G3</a></td><td>Engine gift</td><td>6/8 draft milestones</td><td>NOT RUN</td></tr>
+<tr><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/e5812354-ecc0-4b00-984a-8fadbb7e6e3e/advanced-canvas" target="_blank" rel="noopener">G4</a></td><td>book plus audiobook gift</td><td>5/7 scoped draft milestones. Book request and email preflight now checked</td><td>NOT RUN</td></tr>
+</table>
+<p>- Percentages measure the named scope only. W2 assembled does not mean its delivery/recovery is finished.</p>
+<p>- <a href="http://127.0.0.1:8874/progress.html" target="_blank" rel="noopener">Progress bars and each separate test status</a>.</p>
+<p>- Exact build details and next steps (saved project document: ENGINE_ACCOUNT_BUILD_NEXT.md).</p>
+<h2>Paid and gift ownership stay different</h2>
+<table>
+<tr><td>Product</td><td>Paid label</td><td>Gift label</td></tr>
+<tr><td>Just Make The Phone Ring book</td><td>purchase:book</td><td>gift:book</td></tr>
+<tr><td>Just Make The Phone Ring audiobook</td><td>purchased: audiobook</td><td>gift:audiobook</td></tr>
+<tr><td>On-Demand Revenue Engine</td><td>purchased:odre</td><td>gift:odre</td></tr>
+</table>
+<p>- The space in <code>purchased: audiobook</code> is part of the actual existing label.</p>
+<p>- <code>gift:everything</code> is an ownership exclusion in B1/X1, but its actual gift delivery route remains unverified. Do not use it for gifting yet.</p>
+<p>- <code>access:comped</code> is a reporting label. It does not by itself prove or define product access.</p>
+<p>- NEW B1 writes only seq:b1-active and engagement:active on entry. Real checkout records paid-book labels.</p>
+<p>- NEW G2 preserves its copied paid-label removal disabled, so a later gift must not erase a real purchase.</p>
+<h2>Actual delivery connections</h2>
+<p>- <a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/539aced5-9856-4ea5-bac5-fb893c080a6c/advanced-canvas" target="_blank" rel="noopener">Existing book checkout H1</a>, published original unchanged.</p>
+<p>- <a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/f073cea3-2a88-4826-b271-5c524cb39f25/advanced-canvas" target="_blank" rel="noopener">Existing paid Engine checkout H6</a>, published original unchanged.</p>
+<p>- <a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/abaefc80-1724-4a6b-80cb-cbbefe51dcd2/advanced-canvas" target="_blank" rel="noopener">Existing Engine one-click checkout H8</a>, Order Submitted entry differs from H6 Payment Received. NEW W2 complete event coverage remains open.</p>
+<p>- <a href="https://zapier.com/editor/371809424/published/371809425/fields" target="_blank" rel="noopener">Published Engine enrollment Zap</a>, ON, in-use v3 ODRE + Bonuses. Fresh selected product/field mapping observed, real run NOT RUN.</p>
+<p>- Private native comparisons established G2 uses the same endpoint as H1, and G3 uses the same endpoint as H6. Endpoint strings remain private. Independent direct endpoint-to-Zap identity and G4 receiver remain open.</p>
+<h2>Fresh Thinkific catalog facts</h2>
+<table>
+<tr><td>Course</td><td>Actual course ID</td></tr>
+<tr><td>Just Make The Phone Ring book</td><td>3520954</td></tr>
+<tr><td>Perfect CSR Script</td><td>3419058</td></tr>
+<tr><td>Slow Season Survival Plan</td><td>3345601</td></tr>
+<tr><td>On-Demand Revenue Engine</td><td>3454176</td></tr>
+<tr><td>Just Make The Phone Ring audiobook</td><td>3446073</td></tr>
+</table>
+<p>- GET-only checks returned HTTP200 for all five course records.</p>
+<p>- Engine bundle441506 contains course3345601,3419058,3454176.</p>
+<p>- This is catalog proof. It is not student enrollment, lesson access, community access or received email proof.</p>
+<p>- Gift rules confirmed: book; book plus audiobook; Engine; everything or three individual tags gives all three. Exact rules (saved project document: GIFT_RULES_CONFIRMED_2026-09-18.md).</p>
+<p>- <a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas" target="_blank" rel="noopener">G1 everything gift</a>: all three request actions saved. Three-tag duplicate handling and actual fulfillment remain OPEN.</p>
+<h2>If a welcome needs help</h2>
+<ol>
+<li>W2 checks for email blocked from sending and a missing email before its welcome alternatives.</li>
+<li>W2 records an attempted email, never claims that marker proves delivery.</li>
+<li>W2F listens for a bounce from the recovered W2R or one of the four NEW gift workflows and adds odre:welcome-needs-help.</li>
+<li><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/smart_list/EoeO6cJOq0fBkomlovot" target="_blank" rel="noopener">Open the saved welcome-help contact list</a>.</li>
+<li>The queue is currently empty. Actual help-flag and recovery journeys are NOT RUN. No automatic resend is built.</li>
+<li>Gift failure/outcome paths remain unfinished. Native account menu did not expose a Delivered event, so no invented delivery monitor.</li>
+</ol>
+<h2>Where Mia changes copy</h2>
+<ol>
+<li>Open the exact W2 or gift draft above.</li>
+<li>Open the named automatic welcome action. Gift action names include &quot;PLACEHOLDER pending approved copy&quot;.</li>
+<li>Change &quot;Subject&quot;, &quot;Pre-Header (Preview Text)&quot; and message text after product access is verified.</li>
+<li>Click &quot;Save action&quot;. Wait for &quot;Saved&quot;. Reopen to verify persistence.</li>
+<li>Leave &quot;Publish&quot; off. Tell the master chat which draft and text changed so the exact version can be rechecked.</li>
+<li>B1 has several conditional versions of a day&#x27;s message. Give Codex the requested day and change so it updates all applicable branches consistently.</li>
+</ol>
+<h2>How Alex tests the complete system</h2>
+<ol>
+<li><a href="http://127.0.0.1:8874/test-real" target="_blank" rel="noopener">Open full customer test steps</a>.</li>
+<li>Use registered controlled inbox/mobile details only, not customers. Fresh controlled Gmail aliases are approved. Eight actual test contacts (saved project document: ENGINE_TEST_PEOPLE_2026-09-18.md). Phones blank; SMS delivery is NOT RUN.</li>
+<li>Follow one person from real entry through GoHighLevel logs, Zapier run, Thinkific access and their received inbox/SMS.</li>
+<li>For book-to-Engine upgrade, verify both B1 enrollments stop and no later Engine offer arrives.</li>
+<li>Run gift, existing paid owner, duplicate-event and failure cases too. Individual email previews do not count.</li>
+<li>Alex repeats the exact checked versions. Complete requires Codex PASS, Alex PASS and entire-system PASS.</li>
+</ol>
+<h2>Parked items</h2>
+<p>- W1 is the old VIP waiting-list draft. It stays parked while the offer is already live.</p>
+<p>- Additional owner-care messages are optional. Counts, copy and timing are not approved yet.</p>
+<p>- T3 portal sign-in is owned by the existing separate chat. This master reads its handback and tests natural sign-in; it does not edit that chat&#x27;s assets.</p>
+<h2>Return after a break</h2>
+<p>- Start at <a href="http://127.0.0.1:8874/progress.html" target="_blank" rel="noopener">the progress page</a>, then read ENGINE_MASTER.md and ENGINE_ACCOUNT_BUILD_NEXT.md.</p>
+<p>- Morning deliverable and audit contract (saved project document: ENGINE_MORNING_HANDOFF_CONTRACT.md).</p>
+<p>- Local pages work on Alex&#x27;s Mac. They are not an externally hosted Mia site or a background worker.</p>
+<p>- Local files and account drafts are saved. Current Git save blocked by unrelated Mailbox Asana sync. No bypass.</p>
+<h2>Actual prepared test contacts</h2>
+<table>
+<tr><td>Journey</td><td>Name</td><td>Email</td><td>Phone</td><td>GHL contact</td><td>Thinkific</td><td>Password</td><td>Actual automation</td></tr>
+<tr><td>Book upgrade</td><td>Engine Test Book Upgrade 0918</td><td>wernincka+engine-book-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/vpNApH4AYirTQj1udNCM" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>Audio gift</td><td>Engine Test Audio Gift 0918</td><td>wernincka+engine-audio-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/GGJU54ErdhZ8RMrj8Nym" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>All gifts</td><td>Engine Test All Gifts 0918</td><td>wernincka+engine-all-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/0XiegXks4DaXmqlMNBP3" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>Paid Engine</td><td>Engine Test Paid Engine 0918</td><td>wernincka+engine-paid-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/tRK7NLa6rk2x9PMkGcDn" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>Book gift</td><td>Engine Test Book Gift 0918</td><td>wernincka+engine-giftbook-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/M3P7S9qnqIN00xMzqps0" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>Engine gift</td><td>Engine Test Engine Gift 0918</td><td>wernincka+engine-giftengine-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/0uxTXEhjVIgHQDvaz1MP" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>Three gift tags</td><td>Engine Test Three Gift Tags 0918</td><td>wernincka+engine-three-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/9m0gCrWAuZqq3HB9DFqn" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+<tr><td>Wrong product</td><td>Engine Test Wrong Product 0918</td><td>wernincka+engine-negative-20260918@gmail.com</td><td>Blank</td><td><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/contacts/detail/a6ubOuPbKuj3JcmHYCcs" target="_blank" rel="noopener">Open exact GHL contact</a></td><td>NOT CREATED</td><td>None provided</td><td>NOT RUN</td></tr>
+</table>
+<p>- Blank phones. Actual automation, Alex and whole-system tests NOT RUN. Existing published gift sources must be controlled before applying gift tags. Hidden downstream executions or workflow behavior remain unknown.</p>
+</html>
