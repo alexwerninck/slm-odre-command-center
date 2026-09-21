@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-21T22:54:04+01:00",
+  "updated_at": "2026-09-21T23:12:33+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
-  "summary": "W2 now has live proof for the initial welcome, one approved retry, retry-tag consumption, and duplicate suppression. All five G1 gift welcome actions executed in GoHighLevel. Mia final copy, Alex inbox and Thinkific review, W2 audiobook testing, O1 later-message testing, and the remaining whole-system journeys are still open.",
+  "summary": "W2 passed both welcome branches, one approved retry, retry-tag consumption, and duplicate suppression. All five G1 gift welcome actions executed. Mia final copy, Alex inbox and Thinkific review, a true paid-checkout journey, O1 later-message testing, and remaining whole-system journeys are open.",
   "completed_setup": [
     "A canonical current-state registry now holds the exact MVP asset IDs, links, states, evidence and open gaps.",
     "A permanent operating system now defines read order, evidence levels, account readback, safe stopping points and board synchronization for Codex and Claude Code.",
@@ -63,7 +63,7 @@
     {
       "title": "Codex customer tests",
       "state": "partial",
-      "detail": "W2 initial and one-time retry passed, duplicate suppression passed, and all five G1 welcome actions executed. Inbox, audiobook W2, later O1, and remaining whole-journey tests are open."
+      "detail": "W2 both welcome branches, one-time retry, and duplicate suppression passed. All five G1 welcome actions executed. Inbox, true paid checkout, later O1, and remaining whole-journey tests are open."
     },
     {
       "title": "Alex physical tests",
@@ -72,8 +72,9 @@
     }
   ],
   "needs_from_you": [
-    "Send Mia final ODRE copy as soon as it is ready. O1 is live and the +60 Day 1 test reaches its email on September 22 at 12:49 pm EDT.",
-    "Alex does not need to test yet. Codex is continuing the remaining controlled lanes."
+    "Send Mia final W2, G1, and O1 copy when it is ready. Placeholders stay installed until then.",
+    "When awake, perform the physical inbox and Thinkific checks listed on the Master.",
+    "Reply DELETE O1 LEFTOVERS when you are ready for Codex to delete the one-second legacy bypass and two disabled duplicate email nodes."
   ],
   "today_focus": "Install final O1 copy and finish the remaining controlled customer lanes. The ODRE gift access, B1 suppression, callback, and O1 entry path now have one fresh Codex runtime pass.",
   "copy_map": [
@@ -221,11 +222,11 @@
     }
   ],
   "decision": "Do not start more chats. The master owns the MVP freeze, test board, controlled Codex tests and documentation system. G2, G3 and G4 remain paused reference drafts; unified G1 owns the MVP gift route.",
-  "return_message": "I am back. Yes, run the six live customer tests using fresh Gmail aliases.",
+  "return_message": "I am back. Open the Master Command Center and start with W2, G1, then O1. Show me the exact Alex physical tests and keep Codex, Alex, and whole-system results separate.",
   "human_actions": [
     {
-      "id": "ALEX_ONE_HOUR_REVIEW",
-      "text": "Use one hour: 10 minutes on Master progress, 25 minutes in the Copy Center on O1, W2, and B1, 20 minutes checking the +58 Book email and +54 Everything access with no B1 sales email, then 5 minutes recording anything wrong.",
+      "id": "ALEX_MORNING_REVIEW",
+      "text": "Morning review: open W2, G1, and O1 from this Master. Then check the documented +63 and +64 W2 inboxes, the five G1 welcome inboxes, and the matching Thinkific access. Record each result separately.",
       "status": "AWAITING_ALEX_PHYSICAL_REVIEW",
       "review": "https://alexwerninck.github.io/slm-odre-command-center/"
     }
@@ -669,9 +670,9 @@
       "detail": "Switch ON. All five product-specific gift welcome actions executed in GoHighLevel. Mia final copy, inbox, physical access, and remaining whole-journey tests are open."
     },
     {
-      "title": "NEW W2R paid welcome recovery, LIVE, CODEX RETRY PASS",
+      "title": "NEW W2R paid welcome recovery, LIVE, CODEX BOTH-BRANCH PASS",
       "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/c55cd1d8-0026-4bdc-978e-f8a59bf90649",
-      "detail": "Saved and ON. Initial Engine-only welcome, one approved retry, retry-tag consumption, and ordinary duplicate suppression passed in GoHighLevel. Audiobook variant, final copy, inbox, and paid-checkout journey are open."
+      "detail": "Saved and ON. Engine-only and audiobook-owner welcome actions, one approved retry, retry-tag consumption, and ordinary duplicate suppression passed. Final copy, inbox, and true paid-checkout journey are open."
     },
     {
       "title": "Audiobook provider-result helper, LIVE and corrected",
@@ -714,7 +715,7 @@
     "published_scope": "Eight intended GoHighLevel workflows and three protected Zapier receivers are live. Three reference gift drafts remain OFF."
   },
   "account_build_summary": "Corrected O1 is 100% structurally built with placeholders. Owner, valid-email, Day 1, Day 3, Day 7, and completion nodes are saved. Reload and Fit to Screen readback passed. O1 remains Draft.",
-  "account_next_concrete": "Install Mia final copy when supplied. Then test W2 audiobook, O1 later messages, Alex inbox and Thinkific access, and the remaining whole-system journeys.",
+  "account_next_concrete": "Install Mia final W2, G1, and O1 copy when supplied. Then Alex checks the documented inboxes and Thinkific access while Codex finishes the true paid-checkout and O1 later-message journeys.",
   "account_sender": "Mia Shark / mia@sharklifemedia.com, saved from project source. Actual delivery not proven.",
   "progress_components": [
     {
@@ -755,24 +756,24 @@
         "total": 12
       },
       "build_basis": "Current W2R v6 includes two admission triggers, prior-attempt guard, wait, email permission routes, help actions, audiobook choice, two placeholder alternatives and attempted-only markers.",
-      "checks_done": 1,
+      "checks_done": 2,
       "checks_total": 2,
-      "test_state": "Engine-only initial welcome, one approved retry, retry-tag consumption, and duplicate suppression passed. Audiobook owner variant and inbox receipt remain open.",
-      "live_state": "ON. CODEX INITIAL, RETRY, AND NO-THIRD-START PASS. PLACEHOLDER COPY.",
-      "next_step": "Install Mia final copy when supplied, then test the audiobook-owner variant and Alex inbox receipt.",
+      "test_state": "Both welcome variants, one approved retry, retry-tag consumption, and duplicate suppression passed in GoHighLevel. Inbox and true paid-checkout proof remain open.",
+      "live_state": "ON. CODEX BOTH VARIANTS, RETRY, AND NO-THIRD-START PASS. PLACEHOLDER COPY.",
+      "next_step": "Install Mia final copy, run a true paid-checkout journey, and complete Alex inbox review.",
       "build_label": "Draft assembly",
-      "codex_test_state": "PASS FOR ENGINE-ONLY INITIAL, ONE-TIME RETRY, AND DUPLICATE SUPPRESSION.",
+      "codex_test_state": "PASS FOR BOTH WELCOME VARIANTS, ONE-TIME RETRY, AND DUPLICATE SUPPRESSION.",
       "alex_test_state": "NOT RUN",
       "system_test_state": "NOT RUN",
       "overall_complete": false,
-      "codex_check_state": "Live execution log showed exactly two starts: the initial purchase-tag run and one approved retry. The retry tag was consumed. Reapplying purchased:odre produced no third start.",
+      "codex_check_state": "Live logs proved Engine-only and Engine-plus-audiobook actions, exactly one approved retry, retry-tag consumption, and no third start after a duplicate purchase-tag reapply.",
       "plain_english": {
         "platform": "GoHighLevel",
         "who": "A paid On-Demand Revenue Engine owner. They enter from a successful funnel payment or when the purchased:odre tag is first added.",
         "what": "Sends one immediate paid welcome. It prevents a repeat welcome, waits five minutes for the access systems to settle, checks that email can be sent, then chooses the plain welcome or the audiobook-owner welcome.",
         "see": "Two triggers at the top. Then Prior paid welcome attempt recorded?, a five-minute wait, email permission paths, an audiobook choice, two alternative welcome emails, help paths, and odre:welcome-attempted markers.",
-        "missing": "Mia final welcome copy, one audiobook-owner test, a true paid-checkout test, and Alex inbox review.",
-        "built": "Built and turned on the paid-owner welcome with an Engine-only path, an audiobook-owner path, a five-minute safety wait, email checks, help routes, and a one-time retry tag. The initial send, approved retry, and repeat blocker passed in GoHighLevel."
+        "missing": "Mia final welcome copy, one true paid-checkout test, and Alex inbox review.",
+        "built": "Built and turned on the paid-owner welcome with separate Engine-only and audiobook-owner messages, a five-minute safety wait, email checks, help routes, and a one-time retry tag. Both message branches, the approved retry, and the repeat blocker passed in GoHighLevel."
       }
     },
     {
@@ -1374,7 +1375,7 @@
     }
   ],
   "completion_rule": "100% complete requires Codex actual test PASS, Alex physical test PASS, and whole-system test PASS for the exact tested versions. 100% built alone is assembly only.",
-  "execution_state": "W2_RECOVERY_AND_G1_FIVE_WELCOME_ACTIONS_CODEX_PASS_FINAL_COPY_AND_ALEX_TESTS_PENDING",
+  "execution_state": "W2_BOTH_VARIANTS_RECOVERY_AND_G1_FIVE_WELCOMES_CODEX_PASS_FINAL_COPY_AND_ALEX_TESTS_PENDING",
   "build_blocker": "No structural blocker. Mia final copy and timing are pending. Runtime customer tests remain open.",
   "done": [
     "Three protected receiver Zaps published ON.",
@@ -1388,7 +1389,7 @@
   "test_identity_policy": "Eight actual controlled GHL contacts created, zero reserved. All use fresh wernincka+ aliases. Phone blank, tags blank, Thinkific not created. No explicit product-tag application, enrollment or sends. Hidden downstream contact-created executions UNKNOWN. SMS delivery and all automation/Alex/whole-system tests NOT RUN.",
   "gift_rules": "gift:book=book; gift:audiobook=book+audio; gift:odre=Engine; gift:everything OR all three individual tags=all three. Gift request tags do not prove enrollment.",
   "test_people_report": "ENGINE_TEST_PEOPLE_2026-09-18.md",
-  "last_updated": "2026-09-21T22:54:04+01:00",
+  "last_updated": "2026-09-21T23:12:33+01:00",
   "public_urls": {
     "master_command_center": "https://alexwerninck.github.io/slm-odre-command-center/",
     "email_sms_copy_center": "https://alexwerninck.github.io/slm-odre-command-center/copy-center.html",
