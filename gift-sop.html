@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Product Gifting SOP</title>
+<style>
+:root{--ink:#173b3d;--muted:#5c6d6e;--paper:#f3f6f3;--card:#fff;--line:#d6e0da;--green:#18724d;--red:#a12d2d;--amber:#9a5a00;--blue:#245b94}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1080px;margin:auto;padding:24px}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin:0 0 18px}.hero h1{margin:.15em 0}.kicker{font-size:.8rem;font-weight:800;letter-spacing:.08em}.status{display:inline-block;border-radius:999px;padding:6px 12px;font-weight:800;background:#fff1dd;color:var(--amber)}.status.ready{background:#dcf5e6;color:var(--green)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.choice{border:1px solid var(--line);border-radius:12px;padding:16px}.choice code{font-size:.9em}.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button,button.copy,a.button{border:0;border-radius:10px;padding:11px 15px;font:inherit;font-weight:750;cursor:pointer;background:var(--blue);color:white;text-decoration:none}.tabs button[aria-selected="false"]{background:#e6ece8;color:var(--ink)}.panel[hidden]{display:none}.warning{border-left:6px solid var(--amber);background:#fff8ea;padding:14px 16px}.danger{border-left-color:var(--red);background:#fff0f0}.ok{border-left-color:var(--green);background:#eaf8ef}table{width:100%;border-collapse:collapse}th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:10px}pre{white-space:pre-wrap;word-break:break-word;background:#102f31;color:#eef8f5;padding:18px;border-radius:12px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.quiet{color:var(--muted);font-size:.93em}ol li,ul li{margin:.45em 0}details{border-top:1px solid var(--line);padding:12px 0}summary{font-weight:800;cursor:pointer}@media(max-width:650px){main{padding:12px}.hero,.card{padding:18px}table{font-size:14px}}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="kicker">JUST MAKE THE PHONE RING AND ENGINE GIFTING</div>
+<h1>Give the right product without guessing.</h1>
+<p>Use the manual VA steps, or copy one prompt into Codex or Claude Code.</p>
+<div class="row"><span id="release-status" class="status">CHECKING RELEASE STATUS</span><a class="button" href="/progress.html">Open main progress board</a></div>
+<p id="release-detail" class="quiet">Reading the saved release gate.</p>
+</section>
+<section class="card">
+<h2>1. Pick what they receive</h2>
+<div class="grid">
+<div class="choice"><strong>Book</strong><p>Just Make The Phone Ring Book.</p><code>gift:book</code></div>
+<div class="choice"><strong>Book plus Audiobook</strong><p>The Book and Audiobook together.</p><code>gift:audiobook</code></div>
+<div class="choice"><strong>Engine</strong><p>On-Demand Revenue Engine.</p><code>gift:odre</code></div>
+<div class="choice"><strong>Everything</strong><p>Book, Audiobook, and On-Demand Revenue Engine.</p><code>gift:everything</code></div>
+</div>
+<div class="warning"><strong>Influencer or personal relationship?</strong> Add <code>influencer:hand-send</code>. Mia writes the personal welcome. Product access stays the same.</div>
+</section>
+<section class="card">
+<h2>2. Choose how to do it</h2>
+<div class="tabs" role="tablist"><button id="manual-tab" aria-selected="true">Manual VA steps</button><button id="ai-tab" aria-selected="false">Codex or Claude Code</button></div>
+<div id="manual-panel" class="panel">
+<ol>
+<li>Confirm the top of this page says <strong>READY FOR LIVE GIFTING</strong>. If it says <strong>BLOCKED</strong>, stop.</li>
+<li>Collect first name, last name, email, gift choice, and influencer yes or no. Phone is optional.</li>
+<li>In GoHighLevel, click <strong>"Contacts"</strong>.</li>
+<li>Search the email. If no email match exists, search the full name before creating a contact.</li>
+<li>If the person may already exist, stop and resolve the duplicate.</li>
+<li>If needed, click <strong>"+ Add Contact"</strong> and enter the name and email.</li>
+<li>Open <strong>"Tags"</strong>. Add exactly one gift tag from the choices above.</li>
+<li>If Mia sends the welcome, also add <code>influencer:hand-send</code>.</li>
+<li>Never add a paid tag such as <code>purchase:book</code> or <code>purchased:odre</code>.</li>
+<li>Verify the matching provider-success tag in GoHighLevel.</li>
+<li>Verify the promised access in Thinkific using the same email.</li>
+<li>For an Engine gift, verify the person is no longer active in B1.</li>
+<li>Verify the welcome route. An influencer should not receive the automated gift welcome.</li>
+<li>Record PASS or the exact failure point. Do not retry blind.</li>
+</ol>
+</div>
+<div id="ai-panel" class="panel" hidden>
+<p>Copy the prompt below into a Codex or Claude Code chat opened in this project folder.</p>
+<div class="row"><button id="copy-prompt" class="copy">Copy AI gifting prompt</button><span id="copy-result" class="quiet"></span></div>
+<pre id="ai-prompt">Complete one approved product gift using the On-Demand Revenue Engine operating system.
+
+Project folder:
+/Users/alexwerninck/Documents/⭐️ Claude Code Projects/⭐️CLAUDE CODE/oder
+
+Read AGENTS.md, then these files:
+1. 00. Production System/output/_strategy/alex_handover/ENGINE_OPERATING_SYSTEM.md
+2. 00. Production System/output/_strategy/alex_handover/ENGINE_MVP_CURRENT_STATE_2026-09-19.json
+3. 00. Production System/output/_strategy/alex_handover/ENGINE_GIFT_RELEASE_2026-09-19.json
+4. 00. Production System/output/_strategy/alex_handover/GIFT_SOP_FOR_VA_AND_LLM_2026-09-19.md
+
+First run:
+python3 "00. Production System/tools/ghl_gift.py" --status
+
+If the requested gift is BLOCKED, do not add any tag and do not use an older published gift route. Report the exact blocker and open http://127.0.0.1:8874/progress.html.
+
+Authorized intake source: [Mia's latest relevant Facebook Messenger conversation / named conversation / details pasted below]
+Person or conversation: [NAME OR DESCRIPTION]
+Gift: [book / audiobook / odre / everything]
+Influencer or personal hand-send: [yes / no]
+
+Use Mia's already signed-in Chrome session only if Facebook Messenger is the authorized source. Read the newest relevant message. Collect first name, last name, email, optional phone, gift choice, and influencer status. Do not guess missing information. Do not read unrelated conversations. Do not send a Facebook message unless this prompt explicitly says to send it.
+
+Search GoHighLevel by email, then phone if supplied, then full name. Do not create a duplicate contact. Never use a contact upsert with a tags array. Never write paid ownership tags.
+
+Run the protected helper with --dry-run first. If the gift is enabled and the facts are complete, run the live helper once. Use --hand-send only when influencer or personal hand-send is yes.
+
+Verify the same email across GoHighLevel and Thinkific. For an Engine gift, verify B1 removal. Verify the expected welcome route. Report GoHighLevel, Thinkific, welcome, B1, and duplicate protection separately as PASS or FAIL. A tag write alone is not completion.</pre>
+</div>
+</section>
+<section class="card">
+<h2>3. Facebook Messenger intake</h2>
+<ol>
+<li>Use Mia's already signed-in Chrome session.</li>
+<li>Open Facebook Messenger.</li>
+<li>Read the newest relevant conversation, or the sender named by Mia.</li>
+<li>Use only information shown in that conversation.</li>
+<li>Collect first name, last name, email, gift choice, influencer status, and optional phone.</li>
+<li>If the email or gift is missing, stop and draft one short question. Do not guess.</li>
+<li>Do not read unrelated conversations, scrape profiles, or export contacts.</li>
+<li>Do not send a Facebook message unless Alex or Mia explicitly authorizes sending it.</li>
+</ol>
+</section>
+<section class="card">
+<h2>4. What PASS looks like</h2>
+<table><thead><tr><th>Gift</th><th>Thinkific access</th><th>Engine and B1</th></tr></thead><tbody>
+<tr><td>Book</td><td>Just Make The Phone Ring Book</td><td>No Engine ownership required</td></tr>
+<tr><td>Book plus Audiobook</td><td>Book and Audiobook</td><td>No Engine ownership required</td></tr>
+<tr><td>Engine</td><td>On-Demand Revenue Engine</td><td>Engine owner, removed from B1</td></tr>
+<tr><td>Everything</td><td>Book, Audiobook, and Engine</td><td>Engine owner, removed from B1</td></tr>
+</tbody></table>
+<p class="warning danger"><strong>A gift tag alone is not PASS.</strong> Check GoHighLevel, Thinkific, the welcome route, B1 when applicable, and duplicate protection.</p>
+</section>
+<section class="card">
+<h2>5. Deliverables and proof</h2>
+<ul>
+<li><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas" target="_blank" rel="noopener">Open the unified G1 gift workflow</a></li>
+<li><a href="/gift-serial-receipt.json">Open the latest G1 receipt</a></li>
+<li><a href="/gift-release.json">Open the live-write release gate</a></li>
+<li><a href="/jmtpr-todo">Open the Just Make The Phone Ring MVP list</a></li>
+<li><a href="/operating-system">Open the Codex and Claude Code operating system</a></li>
+</ul>
+<details><summary>Why this SOP replaced the old one</summary><ul><li>The old SOP contained stale product rules and stale live-status claims.</li><li>It treated legacy workflows as permanent truth.</li><li>It could allow the helper to write a tag before the replacement route passed.</li><li>The new helper fails closed from a release file, and the HTML shows that same status.</li></ul></details>
+</section>
+</main>
+<script>
+const $=id=>document.getElementById(id);function tab(which){const manual=which==='manual';$('manual-panel').hidden=!manual;$('ai-panel').hidden=manual;$('manual-tab').setAttribute('aria-selected',String(manual));$('ai-tab').setAttribute('aria-selected',String(!manual));}$('manual-tab').onclick=()=>tab('manual');$('ai-tab').onclick=()=>tab('ai');$('copy-prompt').onclick=async()=>{try{await navigator.clipboard.writeText($('ai-prompt').textContent);$('copy-result').textContent='Copied.'}catch{$('copy-result').textContent='Copy failed. Select the prompt below.'}};fetch('/gift-release.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{const ready=Object.values(d.gifts||{}).every(x=>x.enabled===true)&&d.publication_state==='PUBLISHED';const s=$('release-status');s.textContent=ready?'READY FOR LIVE GIFTING':'BLOCKED, REVIEW ONLY';if(ready)s.classList.add('ready');$('release-detail').textContent=ready?'All four gift choices are enabled in the saved release file.':'The gifting helper refuses live writes. MVP runtime tests and publication are incomplete.'}).catch(()=>{$('release-status').textContent='STATUS UNAVAILABLE, DO NOT GIFT';$('release-detail').textContent='The release file could not be read.'});
+</script>
+</body>
+</html>
