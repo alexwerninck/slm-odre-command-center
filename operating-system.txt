@@ -1,0 +1,146 @@
+# On-Demand Revenue Engine operating system
+
+## Purpose
+
+- This file is the permanent operating rule for Codex and Claude Code.
+- A new session should understand the current system without re-auditing two weeks of chat history.
+- A readback of the exact asset being changed is still required before an account edit. That prevents editing a stale version. It is a quick safety check, not a new ecosystem audit.
+
+## Read order for every session
+
+1. Read `AGENTS.md`.
+2. Read `ENGINE_MASTER.md` for the current business goal and priority.
+3. Read `ENGINE_MVP_CURRENT_STATE_2026-09-19.json` for exact asset IDs, links, states, proof, and open gaps.
+4. Read `ENGINE_PROGRESS.json` for Alex and Mia's current status.
+5. Read `ENGINE_SOURCE_INDEX.md` only when deeper historical context is needed.
+6. Read the exact receipt named by the current-state record before changing an asset.
+
+## One source for each kind of fact
+
+- Current account truth: `ENGINE_MVP_CURRENT_STATE_2026-09-19.json`.
+- Founder progress and next action: `ENGINE_PROGRESS.json`.
+- Work coordination: `ENGINE_JOBS.json`.
+- Historical decisions and older audits: `ENGINE_SOURCE_INDEX.md` and the linked dated files.
+- Platform evidence: dated JSON receipts.
+- Human instructions: start with `ENGINE_MORNING_REVIEW_2026-09-22.html`, then use the Master Command Center, Copy Center, Workflow Guide, and `ENGINE_RETURN_HERE.md`.
+
+Do not copy the same live fact into many files and treat every copy as current. Link to the canonical record. Older dated files remain evidence of what was known then.
+
+## Evidence ladder
+
+Every status must use one of these levels.
+
+1. `PLANNED`: the rule is written only.
+2. `BUILT_DRAFT`: the asset is saved in the real account and remains off.
+3. `STATIC_VERIFIED`: the saved controls were reopened and read back.
+4. `CODEX_RUNTIME_PASS`: Codex ran the complete customer journey and checked GoHighLevel, Zapier, Thinkific, and the received email.
+5. `ALEX_RUNTIME_PASS`: Alex physically ran the same frozen version.
+6. `SYSTEM_PASS`: the paid and gift journeys work together, including B1 removal and duplicate protection.
+7. `LIVE`: the approved version is published through the frozen changeover checklist.
+
+Never convert one level into another by assumption. Published does not mean tested. A workflow log does not prove course access. A Thinkific enrollment does not prove an email arrived.
+
+## Completion rule
+
+- `100% built` means the draft structure is assembled.
+- `Codex tested` means the full automation ran with controlled test data.
+- `Alex tested` means Alex physically repeated it.
+- `100% complete` requires Codex PASS, Alex PASS, and whole-system PASS on the same frozen versions.
+
+## Account editing rule
+
+1. Open the exact asset link from the current-state record.
+2. Confirm the location, asset name, asset ID, saved state, and Draft or Published state.
+3. In GoHighLevel, click "Fit to Screen" before inventorying the graph.
+4. If the canvas appears incomplete, open "Version history" and read the current version. GoHighLevel can lazily render only part of a workflow.
+5. Never add replacement actions because a cropped canvas looked empty.
+6. Make one bounded change.
+7. Wait for "Saved".
+8. Reopen or reread the saved control.
+9. Write a dated receipt with exact node IDs, selected values, state, and tests not run.
+10. Update the current-state record and progress record.
+11. Update the matching node list in `engine_workflow_guide.py`. Every added, removed, disabled, renamed, or rerouted node must be explained in plain English.
+12. Run `python3 "00. Production System/tools/engine_state_sync.py" --sync`.
+13. Run `python3 "00. Production System/tools/engine_workflow_guide.py"`.
+14. Run `python3 "00. Production System/tools/engine_master_preview.py" --self-test`.
+15. Open the Master card and click "Open Node-by-Node Guide". Confirm the exact workflow section, node order, test status, and review checklist before publishing the public pages.
+
+## Root causes already fixed
+
+- Chat transcripts were treated as memory. The current state is now stored in project files.
+- Planning, saved drafts, static checks, runtime tests, and completion were mixed together. The evidence ladder separates them.
+- Old summaries overrode newer live observations. The current-state file now names the latest verified state and exact receipt.
+- GoHighLevel's lazy canvas made complete workflows look empty. The audit procedure now requires "Fit to Screen" and a current-version check.
+- Multiple HTML boards carried stale embedded JSON. `engine_state_sync.py` now updates and verifies both boards from the canonical JSON.
+- Percentage bars hid the difference between build progress and customer proof. Every MVP asset now carries separate build, Codex test, Alex test, and system test states.
+- Agents produced detached plans without updating the founder view. Every account change now requires a receipt, current-state update, progress update, board sync, and self-test.
+- Gift re-entry has an explicit rule. G1 keeps "Allow re-entry" on so a different later gift can add missing access. The helper refuses an already-present input tag, and provider-success guards skip products already granted.
+- Controlled testing no longer depends on opening the general gifting gate. `ghl_gift.py --test-permit` requires a successful live cutover readback, an enabled test permit, and an exact reserved email plus matching product from the runtime audit log.
+- The master board no longer depends on browser-only pause bookmarks. Its permanent resume box reads the canonical progress record and shows current work, Codex's next action, and Alex's next review.
+- Copy review no longer requires opening every GoHighLevel branch. The Copy Center collapses identical messages, records placement counts, and links each group to the exact workflow or source.
+- Workflow understanding no longer depends on decoding a GoHighLevel canvas. Every Master card links to one dedicated Node-by-Node Guide section with the workflow job, customer experience, recorded node order, proof status, review steps, and unfinished work.
+- Stale runtime labels are checked against the newest dated receipt before publication. The September 21 guide build corrected Book and Audiobook acknowledgement helpers from runtime not run to callback runtime pass.
+- Both paid entry doors must stay visible. H6 is the direct trial-payment route. H8 is the one-click offer route.
+
+## Known GoHighLevel audit traps
+
+- A visible END node can be a partial lazy render, not the whole workflow.
+- Offscreen conditions can be absent from the accessibility tree until the graph is fitted or the version is loaded.
+- A workflow action UUID is not the destination workflow UUID.
+- A disabled duplicate remains visible and must be distinguished from the active action.
+- "Saved" proves configuration persistence only.
+- An attempted-email tag does not prove delivery.
+- A provider-success tag is a reporting result. It is not an ownership label.
+
+## MVP priority order
+
+1. Paid On-Demand Revenue Engine purchase gives access, sends one correct welcome, and stops B1.
+2. Gifted On-Demand Revenue Engine gives access and stops B1.
+3. Gifted Just Make The Phone Ring gives Book access.
+4. Gifted audiobook gives Book plus Audiobook access.
+5. Gift everything gives Book, Audiobook, and On-Demand Revenue Engine access.
+6. Duplicate and overlapping gift inputs do not duplicate access or welcomes.
+7. Alex runs the frozen customer tests from the HTML board.
+
+Optional owner nurture, W1 replacement, reporting upgrades, and high-volume notification changes wait until the MVP journeys pass.
+
+## Safe stopping point rule
+
+Before a session stops, it must record:
+
+- The exact last saved account change.
+- The exact asset and node IDs.
+- What was reopened and verified.
+- What was not run.
+- The next single action.
+- Any newly discovered limitation.
+- The synchronized progress page state.
+- The regenerated Node-by-Node Guide section and its exact public link.
+
+If any of those items are missing, the handoff is incomplete.
+
+## Test handoff to Alex
+
+- When the MVP drafts and release checklist are ready, the progress page must display "Alex test ready".
+- The board must name the exact test email, starting action, expected tags, expected Thinkific products, expected email, and expected B1 result.
+- Alex should never test individual email actions. He tests the complete customer journey.
+- The board must provide a PASS or FAIL box for each journey and a place to record the failure point.
+- Every journey reserves a primary and a fresh retest email before the first start action.
+- The runtime log records the contact ID, start time, GoHighLevel execution, Zap run, Thinkific access, inbox result, B1 result, failure, repair, and retest.
+- Test permit activation happens only after every changed live switch is read back. A tag readback starts a test, but it is not a customer-journey PASS.
+
+## Future changes
+
+- Add facts to the canonical current-state record first.
+- Add detailed evidence as a dated receipt.
+- Update the matching node guide whenever a workflow node or integration step changes. If an exact node list is not freshly established, label it as high-level only instead of inventing details.
+- Append corrections to historical files. Do not rewrite old evidence as if it described the current account.
+- Keep secrets, webhook addresses, credentials, and private tokens out of every repository file and exported board.
+- Use the same process whether the runtime is Codex or Claude Code.
+## Live test identity check, added 2026-09-21
+
+- Treat the local test log as a coordination record, not proof that a contact does or does not exist in GoHighLevel.
+- Immediately before creating or reusing a test contact, search the exact email in live GoHighLevel.
+- Record the live contact ID when found or created.
+- If live state disagrees with `RESERVED_NOT_CREATED`, stop using the reservation claim, record the mismatch, and continue only with the verified live contact state.
+- Never claim a fresh-contact test when the exact email already existed.
