@@ -1,0 +1,99 @@
+# On-Demand Revenue Engine, current restart checkpoint
+
+## Open this first after the computer restarts
+
+1. Double-click `OPEN_ODRE_MASTER.command` in the project folder.
+2. Your browser opens `http://127.0.0.1:8874/progress.html`.
+3. Open the O1 deliverable card.
+4. Return to the Codex MASTER chat.
+5. Type `I am back.`
+
+## Current truth, verified before restart on September 21, 2026
+
+- Mia's public command center is published and can be shared now: `https://htmlpreview.github.io/?https://gist.githubusercontent.com/alexwerninck/ab9d85808e3ab5c7d199690463eab1c7/raw/MIA_SHARE_COMMAND_CENTER.html`.
+- The published Mia page passed an HTTP check and a visual browser check.
+- W2R is the saved immediate paid-owner welcome. It is not the new multi-email onboarding sequence.
+- The new onboarding MVP has a complete build sheet at `ODRE_ONBOARDING_MVP_BUILD_SHEET_2026-09-21.md`.
+- Corrected O1 is saved in GoHighLevel as `O1 - On-Demand Revenue Engine - New Owner Onboarding - CORRECTED DRAFT 2026-09-21`.
+- Corrected O1 workflow ID: `b4caee4a-b42f-492e-918a-192f026ebeb4`.
+- A visual audit caught the first O1 draft in reverse order before publication. No customer entered it and no message was sent.
+- Corrected O1 has the verified Engine enrollment trigger and is published ON with placeholder copy.
+- Corrected O1 is 100% structurally built with placeholders. The owner gate, email gate, Day 1, Day 3, Day 7, and completion tag passed save, reload, full-canvas, Settings readback, and a fresh runtime entry test.
+- Do not publish the superseded workflow ID `d00040d9-6d10-49e2-aa8e-cb16982e91be`.
+- Install Mia's final O1 copy before `wernincka+60@gmail.com` reaches the Day 1 message on September 22 at 12:49 pm EDT.
+- Local project files are saved on this Mac.
+- The master HTML and its JSON records are synchronized.
+- The local page server passed its self-test.
+- The September 21 ODRE gift runtime receipt is the latest external-system proof.
+- Eight intended GoHighLevel workflows were read back ON at cutover.
+- Three protected Zapier receivers were read back published and ON at cutover.
+- Old G2, G3, and G4 were read back OFF at cutover.
+- Replacement G2, G3, and G4 remain OFF as references.
+- Codex customer tests: one complete ODRE gift core lane passed. The original six-card suite is still incomplete.
+- Alex physical tests: 0 of 6.
+- Whole-system tests: 0 of 6.
+- Fresh ODRE test identity: `wernincka+60@gmail.com`, contact ID `xEb0x43VL78YyHV1eTCr`.
+- Fresh ODRE result: G1 requested Engine only, Zapier v3 succeeded, Thinkific enrollment succeeded, the provider-success tag returned, X1 removed B1 targets, the new B1 did not enroll the owner, and O1 entered its Day 1 wait.
+- Exact runtime receipt: `http://127.0.0.1:8874/odre-gift-runtime-receipt.json`.
+- The named W2R workflow was saved. Its paid-owner trigger, payment trigger, welcome branches, five-minute wait, email checks, audiobook split, email copy, and attempt markers are visible in the newest saved definition.
+- A stale duplicate W2R tab caused the warning. GoHighLevel rejected it because a newer version already existed. Its email matched the newest saved version, so the stale duplicate was closed without losing unique work.
+- The Book and Engine helper action panels were saved again and both workflows displayed `Saved`.
+- The Audiobook helper displayed the correct Audiobook action and provider-success tag.
+- The Book, Audiobook, and Engine Zapier receivers were read back published and ON.
+- Final named-tab save audit passed. Every visible GoHighLevel workflow editor showed `Saved` or a disabled `Save workflow` button.
+- No named workflow displayed `Save action`, `Save trigger`, or an unsaved-changes warning.
+- The remaining unnamed Shark Life Media tabs were not workflow editors.
+- The earlier failed-payment page was not a hard workflow-builder blocker. If it appears, click `Bring me to my dashboard` and reopen the exact asset.
+- Do not click `Reactivate Now` as part of normal workflow navigation.
+- Exact tab-save evidence: `ENGINE_RESTART_TAB_SAVE_AUDIT_2026-09-21.json`.
+
+## What Alex reviews first
+
+1. Open the SLM MASTER board.
+2. Open the O1 deliverable card.
+3. Read `Alex review gate`.
+4. Open `Full customer journey tests`.
+5. Open the `Email and SMS Copy Center`.
+6. Review one deliverable at a time. Report each problem in the MASTER chat.
+
+## What Codex does while Alex reviews
+
+2. Continue the remaining Book, Audiobook, Everything, paid, negative, duplicate, and received-message customer tests.
+3. Repair any failed path and repeat it with the reserved retest identity.
+4. Keep Codex, Alex, and whole-system results separate.
+5. Prepare the final On-Demand Revenue Engine email sequence for installation as Mia finishes the copy.
+6. Install and verify final approved copy in the exact live sequence without losing the working automation structure.
+
+## Monday priority
+
+1. Install Mia final copy into the three saved O1 email actions and review every link and merge field.
+2. Set and read back `Allow re-entry` off and `Allow multiple opportunities` off.
+3. Install Mia's final email copy without changing the ownership, enrollment, or B1 protection logic.
+4. Prove Book, Audiobook, Engine, Everything, Book-to-Engine upgrade, and duplicate protection.
+5. Confirm Engine ownership stops B1 Engine offers.
+6. Confirm correct Thinkific access and received emails for the same person.
+7. Move to Alex physical review only after Codex passes the same frozen version.
+
+## Pages
+
+- Master board: `http://127.0.0.1:8874/progress.html`
+- Mia public command center: `https://htmlpreview.github.io/?https://gist.githubusercontent.com/alexwerninck/ab9d85808e3ab5c7d199690463eab1c7/raw/MIA_SHARE_COMMAND_CENTER.html`
+- On-Demand Revenue Engine onboarding MVP build sheet: `http://127.0.0.1:8874/onboarding-mvp`
+- O1 saved build receipt: `http://127.0.0.1:8874/o1-build-receipt.json`
+- Full customer tests: `http://127.0.0.1:8874/test-real`
+- Email and SMS Copy Center: `http://127.0.0.1:8874/copy-center`
+- Six-test manifest: `http://127.0.0.1:8874/six-test-manifest.json`
+- Runtime audit log: `http://127.0.0.1:8874/runtime-test-log.json`
+- Product and callback proof: `http://127.0.0.1:8874/zapier-product-readback.json`
+- Live cutover receipt: `http://127.0.0.1:8874/live-cutover.json`
+
+## Save limitation
+
+- The files are saved locally and survive a computer restart.
+- The required repository commit was attempted.
+- The required repository commit was attempted again on Monday.
+- The latest repository gate blocked the commit because its repository-wide secret scan found credential-like literals in older proof and test-fixture files.
+- The latest exact blockers are `CORE_PROOF_2026-09-18/model.json` and `00. Production System/tools/ghl_map/test_capture_receipt.js`.
+- The ODRE policy labels found during that scan were renamed so they cannot be mistaken for stored credentials. Older unrelated proof files still require separate redaction review before the repository can commit.
+- No raw Git command, bypass, fake external record, or credential was exposed.
+- Do not delete or move the project folder before the repository gate is resolved.
