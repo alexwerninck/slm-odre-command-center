@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Product Gifting SOP</title>
+<title>SLM MASTER | Product Gifting SOP</title>
 <style>
 :root{--ink:#173b3d;--muted:#5c6d6e;--paper:#f3f6f3;--card:#fff;--line:#d6e0da;--green:#18724d;--red:#a12d2d;--amber:#9a5a00;--blue:#245b94}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1080px;margin:auto;padding:24px}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin:0 0 18px}.hero h1{margin:.15em 0}.kicker{font-size:.8rem;font-weight:800;letter-spacing:.08em}.status{display:inline-block;border-radius:999px;padding:6px 12px;font-weight:800;background:#fff1dd;color:var(--amber)}.status.ready{background:#dcf5e6;color:var(--green)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.choice{border:1px solid var(--line);border-radius:12px;padding:16px}.choice code{font-size:.9em}.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button,button.copy,a.button{border:0;border-radius:10px;padding:11px 15px;font:inherit;font-weight:750;cursor:pointer;background:var(--blue);color:white;text-decoration:none}.tabs button[aria-selected="false"]{background:#e6ece8;color:var(--ink)}.panel[hidden]{display:none}.warning{border-left:6px solid var(--amber);background:#fff8ea;padding:14px 16px}.danger{border-left-color:var(--red);background:#fff0f0}.ok{border-left-color:var(--green);background:#eaf8ef}table{width:100%;border-collapse:collapse}th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:10px}pre{white-space:pre-wrap;word-break:break-word;background:#102f31;color:#eef8f5;padding:18px;border-radius:12px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.quiet{color:var(--muted);font-size:.93em}ol li,ul li{margin:.45em 0}details{border-top:1px solid var(--line);padding:12px 0}summary{font-weight:800;cursor:pointer}@media(max-width:650px){main{padding:12px}.hero,.card{padding:18px}table{font-size:14px}}
 </style>
@@ -14,7 +14,7 @@
 <div class="kicker">JUST MAKE THE PHONE RING AND ENGINE GIFTING</div>
 <h1>Give the right product without guessing.</h1>
 <p>Use the manual VA steps, or copy one prompt into Codex or Claude Code.</p>
-<div class="row"><span id="release-status" class="status">CHECKING RELEASE STATUS</span><a class="button" href="/progress.html">Open main progress board</a></div>
+<div class="row"><span id="release-status" class="status">CHECKING RELEASE STATUS</span><a class="button" href="index.html">Open main progress board</a></div>
 <p id="release-detail" class="quiet">Reading the saved release gate.</p>
 </section>
 <section class="card">
@@ -65,7 +65,7 @@ Read AGENTS.md, then these files:
 First run:
 python3 "00. Production System/tools/ghl_gift.py" --status
 
-If the requested gift is BLOCKED, do not add any tag and do not use an older published gift route. Report the exact blocker and open http://127.0.0.1:8874/progress.html.
+If the requested gift is BLOCKED, do not add any tag and do not use an older published gift route. Report the exact blocker and open https://alexwerninck.github.io/slm-odre-command-center/.
 
 Authorized intake source: [Mia's latest relevant Facebook Messenger conversation / named conversation / details pasted below]
 Person or conversation: [NAME OR DESCRIPTION]
@@ -108,16 +108,16 @@ Verify the same email across GoHighLevel and Thinkific. For an Engine gift, veri
 <h2>5. Deliverables and proof</h2>
 <ul>
 <li><a href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas" target="_blank" rel="noopener">Open the unified G1 gift workflow</a></li>
-<li><a href="/gift-serial-receipt.json">Open the latest G1 receipt</a></li>
-<li><a href="/gift-release.json">Open the live-write release gate</a></li>
-<li><a href="/jmtpr-todo">Open the Just Make The Phone Ring MVP list</a></li>
-<li><a href="/operating-system">Open the Codex and Claude Code operating system</a></li>
+<li><a href="gift-serial-receipt.json">Open the latest G1 receipt</a></li>
+<li><a href="gift-release.json">Open the live-write release gate</a></li>
+<li><a href="jmtpr-todo.txt">Open the Just Make The Phone Ring MVP list</a></li>
+<li><a href="operating-system.txt">Open the Codex and Claude Code operating system</a></li>
 </ul>
 <details><summary>Why this SOP replaced the old one</summary><ul><li>The old SOP contained stale product rules and stale live-status claims.</li><li>It treated legacy workflows as permanent truth.</li><li>It could allow the helper to write a tag before the replacement route passed.</li><li>The new helper fails closed from a release file, and the HTML shows that same status.</li></ul></details>
 </section>
 </main>
 <script>
-const $=id=>document.getElementById(id);function tab(which){const manual=which==='manual';$('manual-panel').hidden=!manual;$('ai-panel').hidden=manual;$('manual-tab').setAttribute('aria-selected',String(manual));$('ai-tab').setAttribute('aria-selected',String(!manual));}$('manual-tab').onclick=()=>tab('manual');$('ai-tab').onclick=()=>tab('ai');$('copy-prompt').onclick=async()=>{try{await navigator.clipboard.writeText($('ai-prompt').textContent);$('copy-result').textContent='Copied.'}catch{$('copy-result').textContent='Copy failed. Select the prompt below.'}};fetch('/gift-release.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{const ready=Object.values(d.gifts||{}).every(x=>x.enabled===true)&&d.publication_state==='PUBLISHED';const s=$('release-status');s.textContent=ready?'READY FOR LIVE GIFTING':'BLOCKED, REVIEW ONLY';if(ready)s.classList.add('ready');$('release-detail').textContent=ready?'All four gift choices are enabled in the saved release file.':'The gifting helper refuses live writes. MVP runtime tests and publication are incomplete.'}).catch(()=>{$('release-status').textContent='STATUS UNAVAILABLE, DO NOT GIFT';$('release-detail').textContent='The release file could not be read.'});
+const $=id=>document.getElementById(id);function tab(which){const manual=which==='manual';$('manual-panel').hidden=!manual;$('ai-panel').hidden=manual;$('manual-tab').setAttribute('aria-selected',String(manual));$('ai-tab').setAttribute('aria-selected',String(!manual));}$('manual-tab').onclick=()=>tab('manual');$('ai-tab').onclick=()=>tab('ai');$('copy-prompt').onclick=async()=>{try{await navigator.clipboard.writeText($('ai-prompt').textContent);$('copy-result').textContent='Copied.'}catch{$('copy-result').textContent='Copy failed. Select the prompt below.'}};fetch('gift-release.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{const ready=Object.values(d.gifts||{}).every(x=>x.enabled===true)&&String(d.publication_state||'').startsWith('PUBLISHED');const s=$('release-status');s.textContent=ready?'READY FOR LIVE GIFTING':'BLOCKED, REVIEW ONLY';if(ready)s.classList.add('ready');$('release-detail').textContent=ready?'All four gift choices are enabled in the saved release file.':((d.current_evidence?.g1||'G1 status unavailable')+' Normal customer gifting stays blocked until Mia final copy and Alex physical review pass.')}).catch(()=>{$('release-status').textContent='STATUS UNAVAILABLE, DO NOT GIFT';$('release-detail').textContent='The release file could not be read.'});
 </script>
 </body>
 </html>
