@@ -1,0 +1,696 @@
+{
+  "coordinator_session": "engine-master-2026-09-18",
+  "jobs": {
+    "CORE_PROOF": {
+      "critical": true,
+      "dependencies": [],
+      "directives": [
+        {
+          "at": "2026-09-18T13:00:27Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md",
+          "meaning": "local coordination direction only, not a waiver of external gates or publication permission",
+          "reviewer": "engine-master-2026-09-18",
+          "text": "Master coordination approval: implement the missing build-time compiler and verifier in tools/ghl_map/compile_spec.js and tools/ghl_map/verify_workflow.js, plus their directly related test files. This is within CORE_PROOF. Prepare and test code, capability derivation and fresh read-only account mapping evidence. Preserve accepted rulings and fail closed on unproven mechanics. Do not weaken checkers, edit registries/rules or live workflows, publish, send messages, or commit/stage other chats work. Return code and evidence for independent master review. Approval is local coordination only and waives no production gate. Other scope changes must be requested through the job record."
+        },
+        {
+          "at": "2026-09-18T13:07:18Z",
+          "evidence": "00. Production System/output/campaigns/_funnels/founding50/specs/ODRE10.arch.json",
+          "meaning": "local coordination direction only, not a waiver of external gates or publication permission",
+          "reviewer": "engine-master-2026-09-18",
+          "text": "Additional master allocation: a narrow CLI compatibility change to tools/ghl_map/collide.js is authorized so --fail-on blocker retains the existing all-classes BLOCKER failure semantics of --fail-on baseline. Preserve existing options and fail closed; add known-bad tests and do not suppress findings. Preserve the dated Alex2026-09-08 ODRE10 one-shot exception recorded in its canonical openQuestions. Compiler must record that named accepted ruling rather than invent a new demand to rebuild nine-step machinery for this one welcome. Any required residual measurement remains open before publication; no measured or live proof is inferred from the ruling. Do not alter source laws, registries, capabilities or other plans. Parent independently reviews before account use."
+        }
+      ],
+      "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/SPRINT_CODE_REVIEW.md",
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-18T12:55:49Z",
+          "owner": "core-proof-codex-20260918-1427-a7f3",
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T12:57:03Z",
+          "evidence": "00. Production System/.claude/skills/ghl-build/SKILL.md",
+          "owner": "core-proof-codex-20260918-1427-a7f3",
+          "text": "Planning audit in progress. GHL Sidekick doctor: all checks green, 109 workflows, 235 tags, fixed Shark Life Media location. Coordination request for master: compiler/verifier repair changes shared tooling and needs integration approval. Worker will prepare isolated CORE_PROOF evidence and repair contract, leaving shared tools, registries and live workflows unchanged."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:03:42Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/DEEP_COMMAND_OUTPUT.txt",
+          "owner": "core-proof-codex-20260918-1427-a7f3",
+          "text": "Isolated evidence pack saved. Fresh API pull: 109 workflows, 235 tags, 37 endpoint calls, email-template variants unresolved. Canonical full reader reported capture for first three analytics-only files, zero workflow definitions; interrupted exit130. Fresh partial collision diagnostic exit1: 263 findings, 220 blockers, 109 definitions missing, 16 planned files. Missing compiler/verifier and rejected skill CLI option documented. Shared tooling/registry/workflow edits still require master allocation. Prerequisite auditor failed parent review for undefined semantics and inadequate known-bad tests; escalated one tier for correction. Live prerequisites remain blocked."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:11:00Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/NEUTRAL_CAPTURE_FACTS.md",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "core-proof-codex-20260918-1427-a7f3",
+          "result": "PLANNING REVIEW ONLY. Fresh API/original metadata evidence, partial collision diagnostic and exact shared-tool repair contract ready for master review. Canonical reader captured analytics at billing interstitial, zero definitions, interrupted exit130; full structural refresh not passed. 109 definitions missing, 220 preliminary blockers, canonical compiler/verifier absent, skill CLI mismatch. Experimental prerequisite auditor: 13 negative fixtures PASS, actual exit1 with 13 blockers and liveReady false. Shared-tool integration allocation requested. No live workflow/contact/message/enrollment changes; T3 untouched. Planning acceptance cannot unblock live dependencies. Master owns independent integration review, historical log append and commit gate."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T13:20:38Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/MASTER_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Evidence independently reviewed and accepted as diagnostic only. Requested canonical repairs were not implemented despite recorded allocation. Return for actual approved compiler/verifier and collision compatibility code with negative tests. Complete fresh structure and all live proof remain blocked. Master team takes implementation, Alex need not restart job 1."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:20:59Z",
+          "owner": "master-core-repair-20260918",
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:20:59Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_JOBS.json",
+          "owner": "master-core-repair-20260918",
+          "text": "Implementation started: canonical compiler, static verifier, blocker compatibility, and local fixture tests only. No live reads, account changes, source-law or registry edits, staging, or commit."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:23:50Z",
+          "evidence": "00. Production System/tools/ghl_map/test_compile_verify.js",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-core-repair-20260918",
+          "result": "Implemented canonical local compile_spec.js and verify_workflow.js, plus test_compile_verify.js and compatible collide.js --fail-on blocker. Local tests pass. Compiler refuses incomplete or nonzero-blocker maps and unproven or expired capabilities. Verifier requires two independent matching local read receipts and exact canonical expected-state hash. ODRE10 dated Alex one-shot ruling is recognized and emitted with residual proof OPEN. No live reads, account changes, source-law or registry changes, staging, or commit. Limit: receipts are local inputs only; this does not establish fresh account coverage, capability behavior, dynamic tests, inbox receipt, or publication readiness."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T13:27:20Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/CODE_MASTER_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Independent code review FAIL: prototypes only, not for account use. Stale/booleans map accepted, mechanics omitted from capability proof, incomplete semantic projection/source binding/ruling provenance, invented read receipts accepted. Correct documented adversarial failures. No build/live prerequisite passes."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:27:35Z",
+          "owner": "master-core-repair-20260918-r2",
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:27:35Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/CODE_MASTER_REVIEW.md",
+          "owner": "master-core-repair-20260918-r2",
+          "text": "Second implementation pass started after independent review FAIL. Hardening source, map, capability, ruling, target, freshness, unsupported-mechanic, body-resolution, and evidence provenance checks. Local equality stays diagnostic only and cannot claim binding static proof. No account or source-law changes."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:31:59Z",
+          "evidence": "00. Production System/tools/ghl_map/test_compile_verify.js",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-core-repair-20260918-r2",
+          "result": "Second pass implemented strict ghl.compile.v2 inputs and diagnostic-only verifier behavior. Compiler now requires typed hash-bound architecture, map, capability, collision, ruling, tag registry, field ledger, neutral facts, shared rails, goldens, and target manifest inputs; rejects stale or malformed map receipts, empty or foreign definitions, nonzero or hash-mismatched collision reports, unsupported nodes/triggers/operators, missing or expired capability records, unresolved bodies, dangling targets, and unguarded sends. ODRE10 exception now requires a structured ruling record with exact ID, owner, date, source hash, scope, and OPEN residual proof. Verifier requires detailed receipt shape but marks local equality staticProof false and CLI exits failed because authenticated independent provenance is unavailable. Tests pass. No account/law/registry/source-job edits, staging, or commit."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T13:47:40Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/CODE_MASTER_REVIEW_R2.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "R2 independent review FAIL for account use. Invented static proof correctly refused, but target/revision/status binding and capability dates bypassed, typed registries unused, full guard/cap/capture proof and binding build sheet incomplete. Remains local prototype, live dependencies closed."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:55:14Z",
+          "owner": "master-core-target-date-20260918",
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:56:48Z",
+          "evidence": "00. Production System/tools/ghl_map/test_target_dates.js",
+          "owner": "master-core-target-date-20260918",
+          "text": "The checker now rejects wrong workflow/version/status/hash and invalid or overlong proof dates. Scoped local patch and tests: 4 valid controls, 28 rejected target/date cases; existing compiler and model tests pass. Independent scoped review requested. Full registry semantics, graph dominance, authenticated map/capture, build sheet and customer proof remain open; readyForBuild remains false."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:57:09Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/TARGET_DATE_PATCH.md",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-core-target-date-20260918",
+          "result": "Scoped target/date defects repaired locally. Four valid controls, 28 known-bad cases rejected; existing compiler/model checks pass. Independently review these two fixes only. Full registry/guard/capture/build-contract and all account/customer proofs remain open. readyForBuild false, no account reads or mutations."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T13:58:17Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/TARGET_DATE_MASTER_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Independent scoped PASS for repaired target binding and capability date validation: 4 valid controls, 28 rejected inputs plus separate review probes. These two code defects are resolved locally. Return remaining CORE scope for semantic registries/capabilities, graph dominance, authenticated map/read proof and binding build sheet. Full CORE proof and live prerequisites remain closed."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T14:17:28Z",
+          "owner": "master-core-sprint-20260918",
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T14:25:25Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/GRAPH_PATCH.md",
+          "owner": "master-core-sprint-20260918",
+          "text": "Working sprint: explicit graph entries and all message paths now checked; typed registry/field/body/rail inputs are consumed and bound into expected hashes. Tests reject35 graph/semantic,49 typed and10 integrated cases. Independent scoped review running. Fresh API doctor109workflows235tags passed; current W2 UI still3triggers thenEND. Saved robot session credentials are expired, direct definition reads401; freshChromeUI remains available. No account edits or build-ready claim."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T14:37:30Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/SPRINT_CODE_REVIEW.md",
+          "owner": "master-core-sprint-20260918",
+          "text": "Scoped compiler, token and capture repairs independently passed. Fresh read-only metadata confirms109 workflows235 tags240 fields; all9 required labels exist. W2 remains3 triggers thenEND. Full account definition access, actual adapters and exact semantic/capability/collision receipts remain open. Progress now has artifact links and existing-account tests. Building local rules playground for actual safe user tests."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T14:39:33Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/SPRINT_CODE_REVIEW.md",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-core-sprint-20260918",
+          "result": "Scoped repairs passed independently: target/date, typed compiler inputs, declared message paths, location-bound credential fallback and capture redaction. Reader reaches109 workflows235 tags240 fields and all9 required tags. Full CORE remains incomplete: full authentic definitions, actual adapters, exact policy/capability/collision proof and build/account/delivery receipts are missing. No new workflow installed."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T14:39:33Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/CORE_PROOF_2026-09-18/SPRINT_CODE_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Independent scoped repair PASS retained, full CORE not accepted. Next: acquire authenticated full account definitions and triggers, connect actual canonical source adapters and exact policy/capability bindings, then clean collision/compiled build receipts. Progress and local playground are usable today; installation/customer proof remain0."
+        }
+      ],
+      "master_owner": "master",
+      "result": "Scoped repairs passed independently: target/date, typed compiler inputs, declared message paths, location-bound credential fallback and capture redaction. Reader reaches109 workflows235 tags240 fields and all9 required tags. Full CORE remains incomplete: full authentic definitions, actual adapters, exact policy/capability/collision proof and build/account/delivery receipts are missing. No new workflow installed.",
+      "scope": "Build proof tooling and a fresh collision map before live work.",
+      "status": "available",
+      "title": "Proof tooling and fresh collision map",
+      "updated_at": "2026-09-18T14:39:33Z"
+    },
+    "GIFTS": {
+      "blocker": "Human decision is required only if work changes the book and audiobook entitlement mismatch. Known book-only core work can proceed after verified proof.",
+      "dependencies": [
+        "CORE_PROOF"
+      ],
+      "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/LOCAL_CASE_RESULTS.json",
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:44:58Z",
+          "owner": "master-gifts-20260918",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:44:58Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_JOBS.json",
+          "owner": "master-gifts-20260918",
+          "text": "I am making one local Gifts plan and bad-case checklist. It will not change customer access, messages, workflows, tags, or any shared plan."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:45:57Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/GIFT_ROUTING_AND_CASE_CHECKS.md",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-gifts-20260918",
+          "result": "Local Gifts routing and customer-case plan completed. It records G1 as missing proof, G3 and G4 as blocked drafts, keeps book and audiobook separate, preserves per-product ownership and existing-login wording, distinguishes automatic from manual welcome completion, and keeps B1/X1 coordination outside this asset. Ten bad-case checks cover entitlement leakage, duplicate welcome, missing proof, forbidden paid labels, and B1 leakage. No account, customer, message, enrollment, workflow, registry, law, shared-plan, staging, or commit change occurred."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T13:47:40Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/MASTER_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Master review returned: stale G3/G4 draft statements, incorrect G2 wait attribution, X1 vs B1 admission, genuine paid-label preservation, invented access-email signal and unexecuted case tables need correction. No planning or live acceptance."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:47:53Z",
+          "owner": "master-gifts-20260918-r2",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:47:53Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/MASTER_REVIEW.md",
+          "owner": "master-gifts-20260918-r2",
+          "text": "Correcting the returned Gifts plan with September 18 G2, G3, and G4 facts. I will add editable local routing data and runnable bad-case checks. No account or customer changes."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:48:56Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/test_gift_routing.js",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-gifts-20260918-r2",
+          "result": "Corrected local Gifts plan and added editable routing JSON plus executable case checks. G3v11 and G4v10 are recorded as observed published September 18, while customer delivery proof remains missing. G2 now separates one-minute B1 addition from five-minute welcome timing. B1 safety requires admission and send guards, with X1 only a separate layer. Gift routes do not write paid labels and preserve legitimate pre-existing paid labels. Access-email runtime signal remains UNKNOWN. Manual completion requires actual send evidence. The runnable checks pass for ownership, paid-label preservation, both event orders, separate waits, and B1 admission. No account, workflow, customer, message, enrollment, shared canonical source, registry, law, staging, or commit change occurred."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T13:50:22Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/MASTER_REVIEW_R2.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Independent R2 review: conditional planning progress only. Corrected routing and slots saved, but hardcoded checker does not exercise configuration, event transitions, paid-tag mutation, manual suppression/completion or real B1 actions. Config-driven local simulator and independently authored goldens needed. No executed customer or account proof."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:55:07Z",
+          "owner": "master-gifts-20260918-r3",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:55:07Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/MASTER_REVIEW_R2.md",
+          "owner": "master-gifts-20260918-r3",
+          "text": "Building a local-only Gifts routing simulator and runner. It will produce planned actions only, never customer changes. It will wait for the independent case file and fail closed if it is absent or malformed."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:59:29Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/INDEPENDENT_CASES.json",
+          "owner": "master-gifts-20260918-r3",
+          "text": "Concrete implementation failure: the local runner currently checks only final tags and does not yet enforce the independent cases planned actions, guard decisions, welcome state, removal targets, duplicate-event state, or external-proof expectations. Do not treat its case count as a pass. Saved artifacts remain for the next worker."
+        },
+        {
+          "action": "release",
+          "at": "2026-09-18T13:59:30Z",
+          "owner": "master-gifts-20260918-r3",
+          "reason": "Escalating after concrete mid-tier simulator failure. Saved local artifacts are preserved; runner assertions need a stronger repair."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T13:59:52Z",
+          "owner": "master-gifts-sol-r4-20260918",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T14:02:49Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/LOCAL_CASE_RESULTS.json",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-gifts-sol-r4-20260918",
+          "result": "Proposed LOCAL policy model ready for independent review, not deployed behavior. Replaced hardcoded predicates with config-derived exact ownership, doors, waits, old/new removal targets, ordered transition traces, guarded B1 admission/offers, book access outside B1, manual suppression/evidence completion, duplicate tags and repeated event IDs. Latest independently amended goldens pass all recognized planning/external_proof/final_state fields: 15 cases and 4 invalid inputs. Unknown expected fields hard fail. Required semantic-action subsets are supplemented by exhaustive action-type and safety rejection; all unresolved proof requirements are exposed. Tests reject 22 unsafe configuration/outcome mutations; editable waits/targets propagate. liveReady remains false including unresolved G1. No account reads/writes, messages, enrollments, publication, laws/registry/shared canonical/tools changes, staging or commit. Independent neutral review requested, no customer or live proof established."
+        },
+        {
+          "action": "review_return",
+          "at": "2026-09-18T14:03:58Z",
+          "decision": "return",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/MASTER_REVIEW_R3.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Meaningful 15-case proposed model verified, but independent adversarial review found config bypasses: empty required proof and false Engine ownership via access:comped. Return for exact locked ownership and mandatory proof-set validation. No account proof."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T14:04:06Z",
+          "owner": "master-gifts-sol-r4-20260918",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T14:04:41Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/LOCAL_CASE_RESULTS.json",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "master-gifts-sol-r4-20260918",
+          "result": "Focused R3 configuration repair ready for independent review. validate now directly enforces the exact reviewed per-product ownership sets and bindings, rejects non-owner/near-miss/stage operands, and enforces every nonempty exact mandatory door proof set with no missing, duplicate or unknown entries. Tests pass: 15 independent proposed-policy cases, 4 invalid inputs, 22 unsafe mutations, 57 direct validation mutation rejections, repeated-event-ID behavior and adjustable delay/old-new target propagation. Full unresolved-proof traces retained in LOCAL_CASE_RESULTS.json. B1 guards and target values remain proposed placeholders, not account bindings. liveReady false; no account actions, messages, enrollment, publication, canonical/gate changes or git writes."
+        },
+        {
+          "action": "review_accept",
+          "at": "2026-09-18T14:05:30Z",
+          "decision": "accept",
+          "evidence": "00. Production System/output/_strategy/alex_handover/GIFTS_2026-09-18/MASTER_REVIEW_R4.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Independent R4 scoped PASS plus master test rerun: 15 proposed customer cases,4 invalid events,22 outcome/config mutations and57 direct validation rejections. Exact ownership and mandatory proof bypasses fixed. Accepted local proposed policy only. G1, B1 actual bindings, account capabilities, customer access and received welcome remain unproven. No live dependency or publication gate unblocked."
+        }
+      ],
+      "planning_allowed_while_blocked": true,
+      "result": "Focused R3 configuration repair ready for independent review. validate now directly enforces the exact reviewed per-product ownership sets and bindings, rejects non-owner/near-miss/stage operands, and enforces every nonempty exact mandatory door proof set with no missing, duplicate or unknown entries. Tests pass: 15 independent proposed-policy cases, 4 invalid inputs, 22 unsafe mutations, 57 direct validation mutation rejections, repeated-event-ID behavior and adjustable delay/old-new target propagation. Full unresolved-proof traces retained in LOCAL_CASE_RESULTS.json. B1 guards and target values remain proposed placeholders, not account bindings. liveReady false; no account actions, messages, enrollment, publication, canonical/gate changes or git writes.",
+      "reviewed_by": "engine-master-2026-09-18",
+      "scope": "Planning is allowed while blocked. Known book-only core work may proceed after verified proof.",
+      "status": "verified_local",
+      "title": "Gift doors G1 through G4",
+      "updated_at": "2026-09-18T14:05:30Z",
+      "verified_scope": "planning"
+    },
+    "NIGHT_MVP_COMPLETION_2026_09_21": {
+      "claim_scope": "live",
+      "critical": true,
+      "dependencies": [],
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-21T21:06:56Z",
+          "owner": "engine-master-2026-09-21-night",
+          "scope": "live"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T21:06:56Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md",
+          "owner": "engine-master-2026-09-21-night",
+          "text": "Alex authorized W2 failure recovery, every non-copy gift welcome component, O1 cleanup, fresh readbacks, and controlled Codex tests. Mia final copy and Alex physical tests remain pending and will be shown separately."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T21:55:19Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_W2_GIFT_WELCOME_RUNTIME_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-2026-09-21-night",
+          "text": "W2 initial welcome, one approved retry, retry-tag consumption, and no-third-start duplicate suppression passed. All five G1 gift welcome actions executed. Mia final copy, Alex inbox and Thinkific review, W2 audiobook, O1 later messages, and action-time confirmation for three O1 deletions remain open."
+        }
+      ],
+      "owner": "engine-master-2026-09-21-night",
+      "scope": "Finish W2 failure recovery, finish every non-copy gift welcome component, clean O1, re-read all already-built MVP assets, and run controlled Codex tests. Mia final copy and Alex physical testing remain separate dependencies.",
+      "status": "claimed",
+      "title": "September 21 MVP automation completion",
+      "updated_at": "2026-09-21T21:55:19Z"
+    },
+    "OWNER_CARE": {
+      "blocker": "Proposed optional sequence, blocked for live work until core proof is verified.",
+      "claim_scope": "planning",
+      "dependencies": [
+        "CORE_PROOF",
+        "OWNER_GUARD",
+        "PAID_WELCOME",
+        "GIFTS"
+      ],
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-21T14:57:27Z",
+          "owner": "engine-master-o1-20260921",
+          "pending_dependencies": [
+            "CORE_PROOF",
+            "OWNER_GUARD"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T15:16:35Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_O1_ACCOUNT_BUILD_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-o1-20260921",
+          "text": "Visual full-canvas audit caught reverse action order in the first unpublished O1 draft before customer impact. Canonical corrected draft b4caee4a-b42f-492e-918a-192f026ebeb4 is saved, Draft, Publish off, and 45% built. Correct six-action order and both Settings readbacks remain open. Master records and progress board now state the defect and exact next action. Large Codex tab group closed to reduce Chrome memory use. No workflow deleted or published."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T15:32:30Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_O1_ACCOUNT_BUILD_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-o1-20260921",
+          "text": "Corrected O1 core sequence physically built and saved in GoHighLevel. Exact workflow reloaded and Fit to Screen readback passed: labeled 1-second legacy bypass, 1-day wait, O1.1, 2-day wait, O1.2, 4-day wait, O1.3, then two disabled obsolete emails. Allow re-entry OFF, Allow multiple opportunities OFF, Draft, Publish OFF. O1 is 80% built overall. Final Mia copy, explicit owner/email gates, completion marker, cleanup, and runtime tests remain."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T15:51:20Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_O1_ACCOUNT_BUILD_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-o1-20260921",
+          "text": "Corrected O1 b4caee4a-b42f-492e-918a-192f026ebeb4 is now 100% structurally built with placeholders. Saved graph includes the paid-or-gift owner gate, valid-email plus Email-DND gate, Day 1, Day 3, Day 7 emails, and odre:onboarding-o1-v1-complete marker. Exact URL reloaded and Fit to Screen readback passed. Workflow remains Draft with Publish off. Mia final copy, link and merge-field review, harmless legacy cleanup, Codex runtime tests, Alex tests, and whole-system tests remain."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T17:05:39Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_ODRE_GIFT_CORE_CHAIN_RUNTIME_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-o1-20260921",
+          "text": "Fresh wernincka+60@gmail.com entered published O1 from the verified Engine provider-success tag, passed the owner gate, and is waiting at Day 1. O1 is ON with placeholder copy. Codex entry proof passed. Install final Mia copy before September 22 at 12:49 pm EDT. Later messages, completion, Alex testing, and remaining lanes stay open."
+        }
+      ],
+      "owner": "engine-master-o1-20260921",
+      "planning_allowed_while_blocked": true,
+      "scope": "Proposed only. No SMS. Live work is blocked by the core proof.",
+      "status": "claimed",
+      "title": "Optional three-email owner follow-up",
+      "updated_at": "2026-09-21T17:05:39Z"
+    },
+    "OWNER_GUARD": {
+      "claim_scope": "planning",
+      "dependencies": [
+        "CORE_PROOF"
+      ],
+      "directives": [
+        {
+          "at": "2026-09-18T13:02:54Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md",
+          "meaning": "local coordination direction only, not a waiver of external gates or publication permission",
+          "reviewer": "engine-master-2026-09-18",
+          "text": "Two-hour focus: finish the smallest complete owner-protection design and independently checked traces, including existing-owner entry and upgrades during B1. Put the finish result and exact remaining build blocker in shared records. Begin each progress note with a short plain-English sentence for Alex and Mia. Read directives before waiting for an internal coordination answer. No new scope, live-version edits, publication or gate waiver is granted."
+        }
+      ],
+      "evidence": "00. Production System/output/_strategy/alex_handover/OWNER_GUARD_2026-09-18/EVIDENCE.md",
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-18T12:56:44Z",
+          "owner": "owner-guard-codex-20260918-14h-a91c",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T12:58:54Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_MASTER.md",
+          "owner": "owner-guard-codex-20260918-14h-a91c",
+          "text": "Planning claim active. Reused September 15 welcome plan and September 18 master/handoff; targeted read-only B1 and X1 UI inspected. Preparing ownership predicate, immutable replacement/target migration, portal SMS checkpoint and independent golden traces. No external mutations. Full map/compiler/verifier and live proof remain CORE_PROOF prerequisites."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:02:44Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/OWNER_GUARD_2026-09-18/PLAN.md",
+          "owner": "owner-guard-codex-20260918-14h-a91c",
+          "text": "Planning artifacts saved in OWNER_GUARD_2026-09-18. Master coordination requests: prove old B1 native payment admission closure before clone exposure; resolve book-state registry scope/permits; coordinate G2/H6 producer IDs with their owners; provide book access instructions outside B1 for existing Engine owners; resolve queued X3 help texts through activation chat. Proposed new X1 removes both old and replacement B1 IDs, no paid/ownership writes. Neutral factual excerpt review complete; independent planning review and golden authoring underway. No shared rules/tools/workflow edits."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:04:15Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/OWNER_GUARD_2026-09-18/EVIDENCE.md",
+          "owner": "owner-guard-codex-20260918-14h-a91c",
+          "text": "Independent planning review PASS, with full live prerequisites retained. Current local semantic receipt PASS: 35 independently authored cases, six owner/book event orders, ten known-bad mutations rejected and 33 local links checked. Targeted UI observations and neutral ESTABLISHED/UNKNOWN source review persisted. Final local evaluator regression review underway. Master review requests and proposed historical-log append are in PLAN.md; no live building or delivery claim."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:05:14Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/OWNER_GUARD_2026-09-18/EVIDENCE.md",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "owner-guard-codex-20260918-14h-a91c",
+          "result": "Review-ready for master planning review only. Prepared B1 owner admission/send guard, three exact paid/gift ownership operands, both event orders, Day 0 activation checkpoint, immutable B1/X1 replacement and two-target ID map, paid-tag protection, manifest/drain/checkpoint/rollback plan. Reused existing MD sources and persisted targeted read-only UI/neutral factual evidence. Independent planning and checker regression reviews PASS; final local receipt PASS: 37 independent cases, six event orders, ten known-bad mutations rejected, all local links valid. CORE_PROOF, full architecture/compile/collision/static/dynamic/inbox gates, old admission closure, X3 queued work and owner book-access instructions remain open. No live edits/messages/publication; T3 and other jobs untouched. Master integration, historical-log append and sanctioned save requested."
+        },
+        {
+          "action": "review_accept",
+          "at": "2026-09-18T13:07:18Z",
+          "decision": "accept",
+          "evidence": "00. Production System/output/_strategy/alex_handover/OWNER_GUARD_2026-09-18/MASTER_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Master accepts planning after independent source/checker review: exact paid and gift ownership, both event orders, old plus replacement B1 stop targets, paid-label preservation, and local Day0 activation guard. Local checker passed37 cases, six event orders and ten rejected bad mutations. Legacy admission closure, separate book-access welcome for Engine owners, migration, X3 queued work and all build/customer proofs remain open. No live prerequisite or publication authority is granted."
+        },
+        {
+          "action": "reopen",
+          "artifacts_meaning": "prior evidence and review history are historical, not current verification",
+          "at": "2026-09-18T16:59:54Z",
+          "owner": "engine-master-2026-09-18",
+          "reason": "Alex authorized continued new paused-draft building while in meetings. Continue actual B1 message guards, preserve published originals and human release gates. Not a CORE_PROOF pass."
+        },
+        {
+          "action": "claim",
+          "at": "2026-09-18T16:59:57Z",
+          "owner": "engine-master-2026-09-18",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T17:05:40Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_ODRE_GIFT_CORE_CHAIN_RUNTIME_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-2026-09-18",
+          "text": "Fresh Engine gift owner +60 entered X1, all four Remove from workflow actions executed, and the new protected B1 showed no enrollment. This is a Codex runtime pass for the ODRE gift lane only. Paid upgrade, queued-message, Alex, and remaining system tests stay open."
+        }
+      ],
+      "owner": "engine-master-2026-09-18",
+      "planning_allowed_while_blocked": true,
+      "result": "Review-ready for master planning review only. Prepared B1 owner admission/send guard, three exact paid/gift ownership operands, both event orders, Day 0 activation checkpoint, immutable B1/X1 replacement and two-target ID map, paid-tag protection, manifest/drain/checkpoint/rollback plan. Reused existing MD sources and persisted targeted read-only UI/neutral factual evidence. Independent planning and checker regression reviews PASS; final local receipt PASS: 37 independent cases, six event orders, ten known-bad mutations rejected, all local links valid. CORE_PROOF, full architecture/compile/collision/static/dynamic/inbox gates, old admission closure, X3 queued work and owner book-access instructions remain open. No live edits/messages/publication; T3 and other jobs untouched. Master integration, historical-log append and sanctioned save requested.",
+      "reviewed_by": "engine-master-2026-09-18",
+      "scope": "Planning is allowed while blocked. Any live build requires verified CORE_PROOF.",
+      "status": "claimed",
+      "title": "Ownership guard, B1, X1, replacement ID and migration planning",
+      "updated_at": "2026-09-21T17:05:40Z"
+    },
+    "PAID_WELCOME": {
+      "dependencies": [
+        "CORE_PROOF"
+      ],
+      "directives": [
+        {
+          "at": "2026-09-18T13:02:54Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_PROGRESS_FOR_MIA.html",
+          "meaning": "local coordination direction only, not a waiver of external gates or publication permission",
+          "reviewer": "engine-master-2026-09-18",
+          "text": "Master has received the planning handback and started independent review. Do not create additional detached welcome plans or alter canonical/shared files until review direction is recorded. The next target is a checked executable build path, including H8/zero-dollar/renewal evidence, not additional polished prose. Report updates in plain English for Alex and Mia; no live authority or gate waiver is granted."
+        }
+      ],
+      "evidence": "00. Production System/output/_strategy/alex_handover/paid_welcome_2026-09-18/EVIDENCE.md",
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-18T12:57:07Z",
+          "owner": "paid-welcome-codex-20260918-3c7e91",
+          "pending_dependencies": [
+            "CORE_PROOF"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:00:21Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/paid_welcome_2026-09-18/verify_plan.js",
+          "owner": "paid-welcome-codex-20260918-3c7e91",
+          "text": "Planning supplement and editable paid-only message slots saved in paid_welcome_2026-09-18. Existing canonical ODRE10 v4 and shared sequence slots preserved. Local verifier PASS: 22 assertions, 16 paid/gift/product selection cases. Two known-bad in-memory inputs rejected. H8, zero-dollar trial and renewal coverage UNKNOWN. Binding send-topology authority, collision CLI mismatch and all live build proofs remain open. No live reads or writes; no gifts/B1/T3 edits; independent planning delta review in progress."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-18T13:01:50Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/paid_welcome_2026-09-18/EVIDENCE.md",
+          "owner": "paid-welcome-codex-20260918-3c7e91",
+          "text": "Planning delta independently reviewed. Two local-checker catches fixed, final PASS FOR PLANNING REVIEW. Local assertions: 22 groups, 16 selection cases, five known-bad inputs rejected. Exact binding collision CLI refused --fail-on blocker with exit 2 before writes, resolution requested through master/CORE_PROOF. Consolidated evidence contains artifact links, source lines, checked fingerprints, limitations and next steps. No live build or delivery proof. Master integrates approved canonical/shared references and historical-log entry, then owns sanctioned save."
+        },
+        {
+          "action": "handback",
+          "at": "2026-09-18T13:01:50Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/paid_welcome_2026-09-18/EVIDENCE.md",
+          "evidence_meaning": "reported by worker, not independently verified",
+          "owner": "paid-welcome-codex-20260918-3c7e91",
+          "result": "Review-ready for master planning review only. Paid W2/ODRE10 architecture supplement, editable two-variant slots and H6/H8 coverage/fixture proof matrix prepared from existing MD work. Independent planning review PASS after corrections; 22 local check groups, 16 selection cases, five known-bad inputs rejected. H8/zero-dollar/renewal coverage, binding send topology and collision/tooling/live proof remain open. Existing ODRE10/shared slots and gifts/B1/T3 untouched. No live reads, builds, contacts, enrollment, messages, publication or delivery certification. Master integration, historical-log append and sanctioned save requested."
+        },
+        {
+          "action": "review_accept",
+          "at": "2026-09-18T13:04:04Z",
+          "decision": "accept",
+          "evidence": "00. Production System/output/_strategy/alex_handover/paid_welcome_2026-09-18/MASTER_REVIEW.md",
+          "evidence_meaning": "reported by reviewer, not automatically independent verification",
+          "owner": "engine-master-2026-09-18",
+          "scope": "planning",
+          "text": "Master planning review accepted after independent artifact/code inspection and local checker rerun. One paid-only welcome, exclusive audiobook variants and exact labels confirmed; missing live event/zero-dollar/renewal/compiled/customer proof stays open. This accepts planning only and does not authorize live build or publication."
+        },
+        {
+          "action": "reopen",
+          "artifacts_meaning": "prior evidence and review history are historical, not current verification",
+          "at": "2026-09-21T21:05:58Z",
+          "owner": "engine-master-2026-09-18",
+          "reason": "Alex authorized live W2 failure recovery build and tests on 2026-09-21; Mia final copy remains pending."
+        }
+      ],
+      "planning_allowed_while_blocked": true,
+      "result": "Review-ready for master planning review only. Paid W2/ODRE10 architecture supplement, editable two-variant slots and H6/H8 coverage/fixture proof matrix prepared from existing MD work. Independent planning review PASS after corrections; 22 local check groups, 16 selection cases, five known-bad inputs rejected. H8/zero-dollar/renewal coverage, binding send topology and collision/tooling/live proof remain open. Existing ODRE10/shared slots and gifts/B1/T3 untouched. No live reads, builds, contacts, enrollment, messages, publication or delivery certification. Master integration, historical-log append and sanctioned save requested.",
+      "reviewed_by": "engine-master-2026-09-18",
+      "scope": "Planning is allowed while blocked. Any live work requires verified proof.",
+      "status": "available",
+      "title": "Paid welcome, W2, ODRE10, H6 and H8",
+      "updated_at": "2026-09-21T21:05:58Z"
+    },
+    "QA_CANARY": {
+      "claim_scope": "planning",
+      "dependencies": [
+        "CORE_PROOF",
+        "OWNER_GUARD",
+        "PAID_WELCOME",
+        "GIFTS"
+      ],
+      "history": [
+        {
+          "action": "claim",
+          "at": "2026-09-19T15:58:31Z",
+          "owner": "engine-master-2026-09-19",
+          "pending_dependencies": [
+            "CORE_PROOF",
+            "OWNER_GUARD"
+          ],
+          "scope": "planning"
+        },
+        {
+          "action": "note",
+          "at": "2026-09-19T16:05:20Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_SIX_CUSTOMER_TEST_MANIFEST_2026-09-19.json",
+          "owner": "engine-master-2026-09-19",
+          "text": "Six-customer execution manifest prepared and locally fail-closed checked. Six cards, twelve unique identities, dated QA permit, live asset URLs, and three product-specific helper tags align with the runtime log, receiver gate, and live cutover receipt. Test permit remains disabled and no customer action has run."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-19T20:10:21Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_ZAPIER_PRODUCT_READBACK_2026-09-19.json",
+          "owner": "engine-master-2026-09-19",
+          "text": "Published Zapier product selections and exact product-specific callback helper targets align. The visual six-card board was corrected to include the dated QA permit and exact products, obsolete Card 6 tag manipulation was removed, and both fail-closed checkers pass. Runtime remains 0 of 6 and no customer action ran."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-21T17:05:40Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_ODRE_GIFT_CORE_CHAIN_RUNTIME_RECEIPT_2026-09-21.json",
+          "owner": "engine-master-2026-09-19",
+          "text": "Scenario 3C fresh natural ODRE gift retest passed through G1, Zapier v3, Thinkific, acknowledgement, X1 B1 suppression, and O1 Day 1 wait. Alex has not tested. Book, Audiobook, Everything, paid, negative, duplicate, and received-message checks remain open. Burned diagnostics and the +60 proof are recorded in the permanent runtime log."
+        }
+      ],
+      "owner": "engine-master-2026-09-19",
+      "planning_allowed_while_blocked": true,
+      "scope": "Full paid, gift, event order and inbox test planning is allowed. Live testing requires verified prerequisites.",
+      "status": "claimed",
+      "title": "QA canary",
+      "updated_at": "2026-09-21T17:05:40Z"
+    },
+    "T3_EXTERNAL": {
+      "dependencies": [],
+      "history": [],
+      "scope": "Another chat already owns this work. This board cannot claim it.",
+      "status": "owned_external",
+      "title": "T3 external work"
+    },
+    "W1_REVIEW": {
+      "dependencies": [
+        "CORE_PROOF"
+      ],
+      "history": [],
+      "planning_allowed_while_blocked": true,
+      "scope": "Parked draft and new post-launch invitation. Recommendation and planning are allowed now, live work requires verified proof.",
+      "status": "available",
+      "title": "W1 review"
+    }
+  },
+  "master_rule": "The designated coordinator records local board reviews through the locked review command. This designation is not security or authorization. review_ready never resolves a dependency. A planning verification never resolves a live prerequisite.",
+  "purpose": "Bounded local coordination only. Worker and reviewer evidence are reported evidence, not automatically independent verification. The CLI never changes external systems, customer contacts, email, external gate statuses, or publication permission.",
+  "schema_version": 1
+}
