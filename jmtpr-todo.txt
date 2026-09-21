@@ -1,0 +1,44 @@
+# Just Make The Phone Ring MVP deliverables
+
+## Core customer system
+
+- [x] New B1 draft protects paid and gifted Engine owners at entry and before active messages.
+- [x] New X1 draft removes paid and gifted Engine owners from old and new B1.
+- [x] Unified G1 draft accepts Book, Audiobook, Engine, and Everything gift inputs.
+- [x] Protected Book, Audiobook, and Engine enrollment receiver drafts exist.
+- [x] All three receivers have the same six-step fail-closed structure and the same 22-address test allowlist.
+- [x] Unauthorized stored samples stop before Thinkific in all three receiver drafts.
+- [x] Expanded the three GoHighLevel acknowledgement helper gates from eight controlled emails to all 22.
+- [x] Re-opened each helper and verified the permit, exact 22-email list, and matching provider-success tag.
+- [x] Later gift additions route back through G1 and skip products with provider-success tags. Runtime proof remains open.
+- [x] Every G1 gift is handed to the new protected B1. Engine ownership guards decide whether the person can continue.
+- [x] Freeze exact paused test versions and record the exact asset set.
+- [x] Freshly check the old gift workflows. Corrected exact-ID readback shows old G2, old G3, and old G4 are ON. All three must be switched off during the controlled G1 cutover.
+- [x] Write the exact activation and rollback order.
+- [x] Build the six-card whole-system test page with exact people and expected results.
+- [ ] Complete controlled publication and receiver activation.
+- [ ] Codex runs Book gift journey.
+- [ ] Codex runs Book plus Audiobook gift journey.
+- [ ] Codex runs Engine gift journey and proves B1 removal.
+- [ ] Codex runs Everything gift journey.
+- [ ] Codex runs duplicate and wrong-product negative journeys.
+- [ ] Alex repeats the frozen journeys.
+- [ ] Whole-system PASS.
+
+## Gift operating procedure
+
+- [x] Legacy manual and Claude Code SOPs reviewed.
+- [x] Stale product rules and stale workflow claims identified.
+- [x] `ghl_gift.py` now fails closed through a release-status file.
+- [x] User-friendly HTML SOP built with manual and AI-assisted paths.
+- [x] Copy-and-paste Codex and Claude Code prompt included.
+- [x] Influencer hand-send rule included.
+- [x] Facebook Messenger intake rule included.
+- [ ] Validate the SOP against a real controlled gift after the MVP workflow is frozen.
+- [ ] Change the board status from Draft to Functional only after the controlled test passes.
+
+## Status rule
+
+- The SOP may be opened and reviewed now.
+- The gifting command refuses all live writes until the release file is enabled.
+- The SOP is not handed over as functional until Codex, Alex, and whole-system gift tests pass.
