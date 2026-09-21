@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-22T00:01:09+01:00",
+  "release_status": "BLOCKED_PENDING_MIA_COPY_AND_ALEX_PHYSICAL_REVIEW",
+  "workflow_id": "691a7468-bf72-4fce-85e7-df47cde36b01",
+  "workflow_name": "G1 - Everything Gift - LIVE MVP",
+  "publication_state": "PUBLISHED_ON_CONTROLLED_USE_ONLY",
+  "gifts": {
+    "book": {
+      "tag": "gift:book",
+      "enabled": false,
+      "expected_products": [
+        "Just Make The Phone Ring Book"
+      ],
+      "blocked_reason": "G1 Book access and welcome actions have controlled Codex evidence. Mia final gift copy and Alex inbox and Thinkific review remain open."
+    },
+    "audiobook": {
+      "tag": "gift:audiobook",
+      "enabled": false,
+      "expected_products": [
+        "Just Make The Phone Ring Book",
+        "Just Make The Phone Ring Audiobook"
+      ],
+      "blocked_reason": "G1 Audiobook access and welcome actions have controlled Codex evidence. Mia final gift copy and Alex inbox and Thinkific review remain open."
+    },
+    "odre": {
+      "tag": "gift:odre",
+      "enabled": false,
+      "expected_products": [
+        "On-Demand Revenue Engine"
+      ],
+      "blocked_reason": "G1 Engine access, callback, B1 protection, O1 entry, and matching welcome action have controlled Codex evidence. Mia final gift copy and Alex physical review remain open."
+    },
+    "everything": {
+      "tag": "gift:everything",
+      "enabled": false,
+      "expected_products": [
+        "Just Make The Phone Ring Book",
+        "Just Make The Phone Ring Audiobook",
+        "On-Demand Revenue Engine"
+      ],
+      "blocked_reason": "G1 Everything welcome action executed. Complete physical product access, Mia final gift copy, Alex review, and the final whole journey remain open."
+    }
+  },
+  "enable_rule": "Normal customer gifting remains blocked until Mia final gift copy is installed and Alex passes the matching inbox and Thinkific checks. Controlled test identities remain governed by the dated QA permit and exact-email safety gates.",
+  "owner": "On-Demand Revenue Engine master chat",
+  "legacy_collision": {
+    "old_g2": "OFF",
+    "old_g3": "OFF",
+    "old_g4": "OFF",
+    "rule": "Keep old G2, G3, and G4 OFF. Unified G1 is the only live MVP gift router.",
+    "receipt": "ENGINE_LIVE_CUTOVER_RECEIPT_2026-09-19.json"
+  },
+  "prepublication_blocker": {
+    "state": "RESOLVED",
+    "description": "All three GoHighLevel acknowledgement helpers now match the receiver Zaps with the same 22 controlled emails.",
+    "required": "Expand and re-read each helper gate to the same 22-address allowlist used by the three receiver Zaps.",
+    "receipt": "ENGINE_HELPER_GATE_EXPANSION_2026-09-19.json",
+    "resolved_at": "2026-09-19T12:34:01+01:00"
+  },
+  "current_evidence": {
+    "g1": "ON. All five product-specific welcome actions executed in controlled GoHighLevel tests.",
+    "access": "Core Book, Audiobook, and Engine enrollment callback lanes have controlled evidence.",
+    "alex": "NOT RUN",
+    "whole_system": "PARTIAL"
+  }
+}
