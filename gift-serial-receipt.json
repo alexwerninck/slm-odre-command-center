@@ -1,0 +1,95 @@
+{
+  "receipt_version": 1,
+  "observed_at": "2026-09-19T09:48:49+01:00",
+  "location_id": "PD3fQBJGWmfpGiwQnwnW",
+  "workflow": {
+    "id": "691a7468-bf72-4fce-85e7-df47cde36b01",
+    "name": "G1 - Everything Gift - DRAFT 2026-09-18",
+    "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/691a7468-bf72-4fce-85e7-df47cde36b01/advanced-canvas",
+    "state": "Draft",
+    "saved": true,
+    "published": false
+  },
+  "input_triggers": [
+    {
+      "tag": "gift:everything",
+      "node_id": "Vw6TnJHAdVGQdOap1ePn"
+    },
+    {
+      "tag": "gift:book",
+      "node_id": "2Ky2YoE67HE37R8GEJyu"
+    },
+    {
+      "tag": "gift:audiobook",
+      "node_id": "IeUnL2psE6dIm89oKyDP"
+    },
+    {
+      "tag": "gift:odre",
+      "node_id": "O7DQRzWpDw57xO9cccua"
+    }
+  ],
+  "coalescing_wait": {
+    "node_id": "cc4d649a-7133-4d24-b264-af92f61cf4b2",
+    "name": "Coalesce gift tags before enrollment",
+    "duration": "2 minutes"
+  },
+  "product_guards": {
+    "book": {
+      "condition_node": "e7226e38-cd01-4f87-a7bc-c6aa9b56912f",
+      "request_branch": "fb4b8816-9c2c-4ee0-b5b4-9b5b090fc613",
+      "webhook_node": "6cfa2840-c99e-42e7-a341-fc31c4ae5169",
+      "success_tag": "odre:provider-enroll-book-success"
+    },
+    "audiobook": {
+      "condition_node": "258fbddd-b323-4281-ad52-7d8fd68766fe",
+      "request_branch": "d42dfd91-cd67-4626-afe4-92891ad616f3",
+      "webhook_node": "ef839f7a-3f6a-4ccc-8abc-9d90329482df",
+      "success_tag": "odre:provider-enroll-audiobook-success"
+    },
+    "engine": {
+      "condition_node": "3069e7bc-db48-4f74-be55-65ded13070d6",
+      "request_branch": "ff7cdc4b-19fa-4fe4-b841-608b3a8faac4",
+      "webhook_node": "f02dee97-a8a3-474a-942d-16cac3a648dd",
+      "success_tag": "odre:provider-enroll-engine-success"
+    }
+  },
+  "completion_router": {
+    "node_id": "e3e42a2c-5d6d-4ebd-ba08-7baee64f2c90",
+    "name": "Gift access ready and email allowed?",
+    "branches": [
+      "Complete Everything gift",
+      "Complete Audiobook plus Engine gift",
+      "Complete Engine gift",
+      "Complete Audiobook gift",
+      "Complete Book gift",
+      "Email missing - needs help",
+      "Access pending or email blocked - needs help"
+    ]
+  },
+  "settings": {
+    "allow_reentry": true,
+    "allow_multiple_opportunities": false,
+    "stop_on_response": false,
+    "fresh_saved_readback": true
+  },
+  "codex_static_verification": "PASS",
+  "codex_runtime_test": "NOT RUN",
+  "alex_physical_test": "NOT RUN",
+  "whole_system_test": "NOT RUN",
+  "current_limitations": [
+    "An identical gift tag must remain on the contact. Manually removing and re-adding it can create another completion pass.",
+    "The protected helper refuses an already-present gift tag, and provider-success guards skip repeat product requests.",
+    "Only the Everything branch retains a GoHighLevel placeholder email. Other product combinations currently rely on Thinkific access messaging.",
+    "No Thinkific enrollment, callback, email receipt, B1 admission or removal, duplicate-event, or full customer journey was run."
+  ],
+  "next_action": "Use the frozen draft set, complete controlled release, and run the six full-customer cards.",
+  "protected_b1_handoff": {
+    "node_id": "3bcdfd5d-601d-41b6-b23a-d109214ea23b",
+    "name": "Add eligible gift to NEW protected B1",
+    "target_workflow_id": "1f3cf55a-27dc-4ef2-822a-fdc62e90f11c",
+    "target_workflow_name": "B1 - Just Make The Phone Ring - Owner Protected - DRAFT 2026-09-18",
+    "position": "After access:comped and before Wait 5 mins",
+    "saved": true,
+    "fresh_reopened_readback": "PASS"
+  }
+}
