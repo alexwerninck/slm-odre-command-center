@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-22",
+  "location_id": "PD3fQBJGWmfpGiwQnwnW",
+  "overall_status": "NOT_100_PERCENT_COMPLETE",
+  "plain_status": "The selling pages and most follow-up assets exist. The intended sales and partner pipelines are not fully connected to the customer events, and one paid book event can reach two published B1 workflows.",
+  "evidence": {
+    "live_api_snapshot": "00. Production System/output/_ghl_map/snapshots/2026-09-22/raw",
+    "live_browser_read": "Fresh GoHighLevel definition read on 2026-09-22",
+    "workflow_count": 123,
+    "funnel_count": 59,
+    "pipeline_count": 19,
+    "calendar_count": 13,
+    "tag_count": 243,
+    "form_count": 47,
+    "survey_count": 9,
+    "custom_field_count": 240,
+    "custom_value_count": 48,
+    "product_count": 13,
+    "contact_count": 1099,
+    "email_template_library": "Unavailable after three API attempts. Live workflow bodies were read in the browser instead."
+  },
+  "current_journey": [
+    {
+      "step": 1,
+      "name": "Book sales page",
+      "what_happens": "A prospect sees the $7 Just Make The Phone Ring offer and checks out.",
+      "status": "LIVE",
+      "url": "https://justmakethephoneringbook.com/just-make-the-phone-ring-6812"
+    },
+    {
+      "step": 2,
+      "name": "Engine offer after the book",
+      "what_happens": "The buyer can accept the On-Demand Revenue Engine offer before the thank-you page.",
+      "status": "LIVE_PAGE, TRUE_PAID_PATH_NOT_TESTED",
+      "url": "https://justmakethephoneringbook.com/one-time-offer---on-demand-revenue-engine"
+    },
+    {
+      "step": 3,
+      "name": "Book access and customer record",
+      "what_happens": "H1 tags the purchase, sends the Thinkific webhook, creates an opportunity in SLM Customers, and adds the old B1 workflow.",
+      "status": "LIVE_WITH_LEGACY_ROUTING",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/539aced5-9856-4ea5-bac5-fb893c080a6c/advanced-canvas"
+    },
+    {
+      "step": 4,
+      "name": "Book buyer welcome",
+      "what_happens": "The old B1 and the protected B1 are both published with the same payment trigger. The protected B1 checks Engine ownership before sales messages.",
+      "status": "DUPLICATE_ENTRY_RISK",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/1f3cf55a-27dc-4ef2-822a-fdc62e90f11c/advanced-canvas"
+    },
+    {
+      "step": 5,
+      "name": "Move the buyer toward a call",
+      "what_happens": "B2 sends five emails and two SMS messages, and stops its call prompts after the booking tag appears.",
+      "status": "LIVE",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/bffeabcd-bdd6-444a-80bc-f2a7dc398f43/advanced-canvas"
+    },
+    {
+      "step": 6,
+      "name": "Blueprint Call page",
+      "what_happens": "The prospect sees the 30-minute Blueprint Call page and books through the active OFFICIAL Blueprint Call calendar.",
+      "status": "LIVE",
+      "url": "https://justmakethephoneringbook.com/book-a-call"
+    },
+    {
+      "step": 7,
+      "name": "Booked call follow-up",
+      "what_happens": "E1 sends confirmation, quiz reminders, 24-hour, 20-hour, 2-hour, and 15-minute reminders.",
+      "status": "LIVE, PIPELINE_WRITE_MISSING",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/b55853ef-7756-41c0-b943-0afc5226f5c2/advanced-canvas"
+    },
+    {
+      "step": 8,
+      "name": "No-show recovery",
+      "what_happens": "E2 sends the rescue sequence, but only after Alex manually applies bonus:strategy-call-noshow.",
+      "status": "LIVE_WITH_MANUAL_TRIGGER",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/aad4efea-a3fb-445e-9a25-a5822e19a77e/advanced-canvas"
+    },
+    {
+      "step": 9,
+      "name": "Call outcome and sale",
+      "what_happens": "The Founding Students stages exist, but no current workflow was found for Call Held, Closed-Won, Closed-Lost, or Ghost.",
+      "status": "NOT_WIRED",
+      "url": null
+    },
+    {
+      "step": 10,
+      "name": "Engine owner handoff",
+      "what_happens": "Paid or gifted owners receive access and a welcome, and X1 removes them from both B1 versions.",
+      "status": "BUILT, FINAL_COPY_AND_ALEX_TEST_PENDING",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9f410adb-299e-4ba2-882c-ebcfe7b6973a/advanced-canvas"
+    }
+  ],
+  "public_pages": [
+    {
+      "name": "Book sales page",
+      "url": "https://justmakethephoneringbook.com/just-make-the-phone-ring-6812",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Book checkout Engine offer",
+      "url": "https://justmakethephoneringbook.com/one-time-offer---on-demand-revenue-engine",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Book thank-you page",
+      "url": "https://justmakethephoneringbook.com/thank-you-v2",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Blueprint Call page",
+      "url": "https://justmakethephoneringbook.com/book-a-call",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Blueprint Call confirmation",
+      "url": "https://justmakethephoneringbook.com/book-a-call-confirmed",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Current Blueprint short link",
+      "url": "https://sharknow.co/blueprint",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Standalone Engine offer",
+      "url": "https://www.ondemandrevenueengine.com/founding-50-655992",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Engine offer thank-you",
+      "url": "https://www.ondemandrevenueengine.com/founding-50-thank-you",
+      "status": "HTTP 200"
+    },
+    {
+      "name": "Engine trial terms",
+      "url": "https://www.ondemandrevenueengine.com/trial-terms",
+      "status": "HTTP 200"
+    }
+  ],
+  "sales_pipeline": {
+    "name": "FOUNDING STUDENTS",
+    "id": "VIodsKCDyPXFMvEMKOoX",
+    "opportunity_count": 1,
+    "opportunity_note": "The only observed opportunity is in Ghost and appears to be a test record.",
+    "stages": [
+      "Trial Started",
+      "Calculator Done",
+      "In Chase",
+      "Call Booked",
+      "Call Held",
+      "Closed-Won Founding",
+      "Closed-Lost/Not Yet",
+      "Ghost"
+    ],
+    "fields_present": [
+      "Leak Total ($)",
+      "Trade",
+      "Revenue Tier",
+      "Rung Price Quoted ($)",
+      "Next Action Date"
+    ],
+    "fields_missing": [
+      "Source (First UTM)",
+      "Source (Self-Report)"
+    ],
+    "closest_existing_field": "Lead Source",
+    "writes_found": []
+  },
+  "partner_journey": [
+    {
+      "step": 1,
+      "name": "Partner applies",
+      "what_happens": "The Partnership Program short link reaches the live signup page.",
+      "status": "LIVE",
+      "url": "https://sharknow.co/partnerships"
+    },
+    {
+      "step": 2,
+      "name": "AF1 enrolls the applicant",
+      "what_happens": "AF1 reacts to the application form and enrolls the contact in the book and lead-magnet Affiliate Manager campaign.",
+      "status": "LIVE",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/41da11e2-978c-458f-ad69-8e1fc97d6237/advanced-canvas"
+    },
+    {
+      "step": 3,
+      "name": "AF2 creates the Partner welcome",
+      "what_happens": "AF2 stores am_id and application date, notifies Alex, and sends Welcome V6 with four personalized links, the portal, toolkit, and onboarding call.",
+      "status": "LIVE",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/d6daa097-78e7-4f02-826e-696d1b770cf0/advanced-canvas"
+    },
+    {
+      "step": 4,
+      "name": "Partner uses the portal and toolkit",
+      "what_happens": "The Partner can reopen tracked links from the Partner Toolkit.",
+      "status": "LIVE_WITH_PUBLIC_SOURCE_LEAK",
+      "url": "https://members.sharklife.media/affiliate-toolkit"
+    },
+    {
+      "step": 5,
+      "name": "Partner books onboarding",
+      "what_happens": "The active Partner Onboarding calendar routes to its confirmation page.",
+      "status": "LIVE",
+      "url": "https://members.sharklife.media/affiliate-onboarding-call-confirmation-page-page"
+    },
+    {
+      "step": 6,
+      "name": "Partner lifecycle reporting",
+      "what_happens": "The SLM Affiliate Lifecycle pipeline has ten useful stages but zero opportunities, and AF1 or AF2 does not create one.",
+      "status": "NOT_WIRED",
+      "url": null
+    }
+  ],
+  "partner_pipeline": {
+    "name": "SLM Affiliate Lifecycle",
+    "id": "kXZ3aIgr3lhAVLrFDdXP",
+    "opportunity_count": 0,
+    "stages": [
+      "Potential Affiliate",
+      "Potential - Sent SMS/Emails",
+      "Potential - Called",
+      "Affiliate Signed Up",
+      "Affiliate Logged In",
+      "Affiliate Onboarding Call",
+      "First Commission Earned",
+      "Top Performer Affiliate",
+      "Continued Support",
+      "LOST"
+    ],
+    "live_fields": [
+      "am_id",
+      "Affiliate Application Date",
+      "Affiliate Source ID",
+      "Why partner with SLM?"
+    ],
+    "writes_found": []
+  },
+  "critical_holes": [
+    {
+      "priority": "P0",
+      "title": "Choose one B1 entry path",
+      "finding": "H1 adds the old B1, while old B1 and protected B1 both listen to the same book payment.",
+      "required_fix": "Route H1 to protected B1, keep the provider-success trigger for gifts, and retire the duplicate paid entry after a controlled paid checkout test.",
+      "why": "This removes duplicate or timing-dependent book welcomes."
+    },
+    {
+      "priority": "P0",
+      "title": "Wire Founding Students",
+      "finding": "The correct pipeline and stages exist, but the selling events do not create or move its opportunities.",
+      "required_fix": "Create or move one opportunity on trial start, calculator completion, call booking, call held, close, loss, and day-14 ghost.",
+      "why": "Alex cannot run sales from a pipeline that stays empty."
+    },
+    {
+      "priority": "P0",
+      "title": "Run one true paid journey",
+      "finding": "Pages and automations exist, but a fresh payment has not proved book access, Engine upsell, B1 behavior, pipeline movement, and received messages together.",
+      "required_fix": "Use one new buyer email and follow it from checkout through GoHighLevel, Thinkific, inbox, booking, and pipeline.",
+      "why": "Static workflow reads cannot prove the full customer experience."
+    },
+    {
+      "priority": "P1",
+      "title": "Automate no-show and outcomes",
+      "finding": "E2 needs a manually added no-show tag, and no Founding Students outcome automations were found.",
+      "required_fix": "Trigger no-show recovery from the OFFICIAL Blueprint Call status and add simple held, won, lost, and ghost stage writers.",
+      "why": "The pipeline should follow the real call without Alex rebuilding history by hand."
+    },
+    {
+      "priority": "P1",
+      "title": "Connect the Partner pipeline",
+      "finding": "Partner signup and welcome work, but the lifecycle pipeline has zero opportunities.",
+      "required_fix": "Create a Partner opportunity at signup and move it on login, onboarding call, first commission, continued support, and loss.",
+      "why": "The current partner machine delivers links but does not give a usable operating board."
+    },
+    {
+      "priority": "P1",
+      "title": "Remove internal notes from the public toolkit",
+      "finding": "The public toolkit page source exposes developer comments and internal rate notes.",
+      "required_fix": "Remove the internal comments from the live custom HTML and recheck the rendered page and page source.",
+      "why": "Internal instructions should not ship to Partners or appear in public source."
+    },
+    {
+      "priority": "P1",
+      "title": "Verify the live attribution window",
+      "finding": "The approved source says 60 days, but the live Affiliate Manager setting was not reverified in this audit.",
+      "required_fix": "Open the current campaign settings, record the live window, and align the portal and any human-facing copy.",
+      "why": "The attribution promise must match what GoHighLevel actually credits."
+    },
+    {
+      "priority": "P2",
+      "title": "Standardize call links and names",
+      "finding": "Strategy Call names, a direct widget link, the older JMPTR call link, and the approved sharknow.co/blueprint link all remain in use.",
+      "required_fix": "Use Blueprint Call in human-facing copy and standardize on sharknow.co/blueprint after checking every workflow link.",
+      "why": "Working links are still a maintenance and reporting risk when several addresses mean the same action."
+    },
+    {
+      "priority": "P2",
+      "title": "Add exact source fields",
+      "finding": "Five of seven intended Founding Students card fields exist. The two exact source fields are missing.",
+      "required_fix": "Add Source (First UTM) and Source (Self-Report), then wire the forms and calculator sync.",
+      "why": "Lead Source alone cannot preserve both original attribution and what the buyer says."
+    }
+  ],
+  "strengths": [
+    "The customer-facing book, Engine, call, confirmation, partner, toolkit, and terms pages exist and returned HTTP 200.",
+    "The OFFICIAL Blueprint Call calendar is active and redirects to the correct confirmation page.",
+    "H1 already handles book ownership, Thinkific access, and an opportunity record.",
+    "B1, B2, E1, and E2 contain substantial follow-up instead of empty shells.",
+    "The Founding Students pipeline has the exact eight intended stages.",
+    "AF1 and AF2 create a working signup, Affiliate Manager enrollment, Partner ID, welcome, toolkit, and onboarding path.",
+    "The current AF2 Welcome V6 uses working personalized links and does not publish the stale commission table."
+  ],
+  "risks": [
+    "Two published B1 workflows can react to the same paid book event.",
+    "The intended sales pipeline is nearly empty because current workflows write elsewhere or do not write opportunities.",
+    "Legacy pipelines and legacy workflow names make it easy to connect future work to the wrong place.",
+    "A manual no-show tag means recovery depends on Alex remembering an administrative step.",
+    "The Partner journey has customer delivery but no lifecycle board.",
+    "The public toolkit contains internal comments in its source.",
+    "The email-template endpoint is unavailable, so this audit cannot certify every global email template."
+  ],
+  "mvp_fix_order": [
+    "Freeze one canonical B1 entry design and run the true paid book checkout canary.",
+    "Add Founding Students opportunity writes for call booked, call held, won, lost, and ghost.",
+    "Turn E2 from a manual tag into a calendar no-show trigger.",
+    "Create the two missing source fields and connect the current booking form and calculator handoff.",
+    "Create the SLM Affiliate Lifecycle opportunity at Partner signup and move it through the real milestones.",
+    "Remove the public toolkit developer comments and verify the live attribution window.",
+    "Run the full book-to-call-to-sale test and the full Partner signup-to-onboarding test."
+  ],
+  "later_improvements": [
+    "Consolidate legacy call calendars, old sales pipelines, and old workflow names after the MVP is proven.",
+    "Create Alex's pre-call one-page brief from calculator, contact, attribution, purchase, and appointment data.",
+    "Add daily and weekly reports once the first real volume makes individual notifications noisy.",
+    "Add revenue and source dashboards after the pipeline events are trustworthy.",
+    "Repair the workflow-guts pull tool so future audits can capture structured actions without browser-only reads."
+  ],
+  "test_plan": [
+    {
+      "name": "Paid book to Blueprint Call",
+      "codex": "Not run as one complete paid purchase",
+      "alex": "Not run",
+      "expected": "One book access event, one protected B1 start, one B2 path, one call booking, and one Founding Students opportunity moving to Call Booked."
+    },
+    {
+      "name": "Book buyer upgrades to the Engine",
+      "codex": "Ownership removal automation tested separately",
+      "alex": "Not run end to end",
+      "expected": "B1 stops, Engine access arrives, one correct Engine welcome arrives, and the sales opportunity records the purchase outcome."
+    },
+    {
+      "name": "Blueprint Call no-show",
+      "codex": "Workflow definition read only",
+      "alex": "Not run",
+      "expected": "Calendar no-show starts E2 automatically and moves the opportunity to the chosen recovery or Ghost stage."
+    },
+    {
+      "name": "Partner signup to onboarding",
+      "codex": "Pages, AF1, AF2, links, and empty pipeline checked",
+      "alex": "Not run as a fresh Partner",
+      "expected": "Application, Partner ID, welcome, portal, toolkit, onboarding booking, and one Partner pipeline opportunity all match the same email."
+    }
+  ],
+  "lamar_handoff": [
+    "Use FOUNDING STUDENTS as the only current customer sales pipeline for the On-Demand Revenue Engine motion.",
+    "Do not connect new work to Book a Call, SLM Customers, or the old funding, CCA, and credit sales pipelines without a dated migration decision.",
+    "Record the exact event that should move each of the eight stages before building any workflow.",
+    "Keep the Partner journey separate in SLM Affiliate Lifecycle, and create its first opportunity at application or approval.",
+    "Use Blueprint Call in human-facing names and sharknow.co/blueprint as the managed link after the link audit.",
+    "Do not call the Partner experience an affiliate program in human-facing copy. GoHighLevel may still label its back-end feature Affiliate Manager.",
+    "Require a dated receipt for every live change: exact asset, old state, new state, Codex test, Alex test, and remaining whole-system test."
+  ],
+  "generated_at": "2026-09-22T07:55:28+00:00"
+}
