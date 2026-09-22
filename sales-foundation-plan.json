@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_portugal": "2026-09-22T15:24:27+01:00",
+  "updated_at_portugal": "2026-09-22T15:30:20+01:00",
   "state": "READY_TO_RESUME_AFTER_GHL_REACTIVATION",
   "external_blocker": "GOHIGHLEVEL_ACCOUNT_LOCKED_FAILED_PAYMENT",
   "build_order": [
@@ -57,5 +57,53 @@
     "rule": "Remove HTML comments only. Preserve visible copy, links, personalization, layout, and styling.",
     "pass": "Rendered page unchanged, internal comment count zero, controlled personalized links pass.",
     "receipt": "ENGINE_PARTNER_TOOLKIT_PUBLIC_SOURCE_CLEANUP_2026-09-22.md"
+  },
+  "candidate_test_identities": {
+    "status": "CANDIDATE_ONLY_VERIFY_ABSENT_IN_GHL_AFTER_REACTIVATION",
+    "phone_rule": "Omit phone unless the trigger requires one.",
+    "lanes": [
+      {
+        "journey": "BOOKED_CALL_THROUGH_CALL_HELD",
+        "primary": "wernincka+65@gmail.com",
+        "retest": "wernincka+66@gmail.com",
+        "name": "SLM QA Booked Call"
+      },
+      {
+        "journey": "NO_SHOW_THROUGH_E2",
+        "primary": "wernincka+67@gmail.com",
+        "retest": "wernincka+68@gmail.com",
+        "name": "SLM QA No Show"
+      },
+      {
+        "journey": "PAID_BOOK_THROUGH_ENGINE_UPGRADE_B1_STOP",
+        "primary": "wernincka+69@gmail.com",
+        "retest": "wernincka+70@gmail.com",
+        "name": "SLM QA Paid Upgrade"
+      },
+      {
+        "journey": "FREE_TRIAL_THROUGH_NOTIFICATION",
+        "primary": "wernincka+71@gmail.com",
+        "retest": "wernincka+72@gmail.com",
+        "name": "SLM QA Trial Start"
+      },
+      {
+        "journey": "CALCULATOR_THROUGH_CALCULATOR_DONE",
+        "primary": "wernincka+73@gmail.com",
+        "retest": "wernincka+74@gmail.com",
+        "name": "SLM QA Calculator"
+      },
+      {
+        "journey": "PARTNER_APPLICATION_THROUGH_ONBOARDING",
+        "primary": "wernincka+75@gmail.com",
+        "retest": "wernincka+76@gmail.com",
+        "name": "SLM QA Partner"
+      }
+    ],
+    "release_gate": [
+      "Exact email search returns zero GoHighLevel contacts",
+      "Record contact id and Portugal event time",
+      "Use paired retest only after repair",
+      "Never reuse a burned test identity for a new proof claim"
+    ]
   }
 }
