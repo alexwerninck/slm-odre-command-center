@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T15:09:49+01:00",
+  "updated_at": "2026-09-22T15:18:31+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
@@ -266,11 +266,29 @@
     {
       "title": "Sales and Partnership Program Ecosystem Audit",
       "state": "FRESH LIVE GHL AUDIT. PUBLISHED MAP. REPAIR WORK PENDING.",
-      "description": "Maps the book-to-call-to-Engine customer journey and the Partnership Program, with exact pages, workflows, pipelines, fields, holes, repair order, Lamar handoff, and whole-journey tests.",
+      "description": "Maps the book-to-call-to-Engine customer journey and the Partnership Program, with exact pages, workflows, pipelines, fields, holes, repair order, and whole-journey tests.",
       "artifact": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html",
       "button": "Open the Sales and Partner Ecosystem",
       "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html#holes",
       "check": "Fresh September 22 GHL metadata and browser definition reads. No production workflow was edited. Founding Students and SLM Affiliate Lifecycle still need event wiring."
+    },
+    {
+      "title": "Sales foundation continuation plan",
+      "state": "READY TO RESUME AFTER GOHIGHLEVEL REACTIVATION",
+      "description": "Exact B1 cutover, S1 through S3 testing, Trial Started, Calculator Done, sales outcome, Partner pipeline, notification placement, IDs, and test order.",
+      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/sales-foundation-plan.json",
+      "button": "Open the machine-readable sales build plan",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html#holes",
+      "check": "Local verifier passed against the September 22 GoHighLevel snapshot. Live execution is blocked only by the GoHighLevel account lock."
+    },
+    {
+      "title": "Partner Toolkit public-source cleanup",
+      "state": "VERIFIED FINDING. READY AFTER GOHIGHLEVEL REACTIVATION.",
+      "description": "The live Partner Toolkit source contains 253 HTML comments, including internal build history, editable-copy directions, and internal commission guidance. The exact no-visible-change cleanup and proof steps are saved.",
+      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html#holes",
+      "button": "Open the Partner Toolkit cleanup finding",
+      "review": "https://members.sharklife.media/affiliate-toolkit",
+      "check": "Remove comments only, publish, confirm the visible page is unchanged, confirm the public source has zero internal comments, and test every personalized Partner link."
     },
     {
       "title": "SLM MASTER Morning Review",
