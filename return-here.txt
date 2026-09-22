@@ -1,14 +1,25 @@
 # On-Demand Revenue Engine, current restart checkpoint
 
-## Open this first after the computer restarts
+## Open this first when Alex returns
 
-1. Double-click `OPEN_ODRE_MASTER.command` in the project folder.
-2. Your browser opens `http://127.0.0.1:8874/progress.html`.
-3. Open the O1 deliverable card.
+1. Open the public Master Command Center: `https://alexwerninck.github.io/slm-odre-command-center/`.
+2. Open GoHighLevel and click `Reactivate Now`.
+3. Complete the account reactivation.
 4. Return to the Codex MASTER chat.
-5. Type `I am back.`
+5. Type `I am back. GoHighLevel is reactivated.`
+6. Codex resumes the saved S1, S2, S3, and B1 test and cutover plan.
 
-## Current truth, verified before restart on September 21, 2026
+## Current truth, updated September 22, 2026
+
+- GoHighLevel is the only outside blocker to the next live build.
+- The current failed-payment screen offers only `Reactivate Now`.
+- Codex did not attempt the financial action.
+- S1, S2, and S3 remain saved drafts. Their live tests and publication are still pending.
+- The B1 single-entry cutover is fully mapped but has not been executed.
+- The Trial Started, Calculator Done, sales outcome, Partner pipeline, and free-trial notification continuation plan is saved and verified against the current September 22 account snapshot.
+- Public Master Command Center: `https://alexwerninck.github.io/slm-odre-command-center/`.
+- Public Sales and Partnership Program Ecosystem: `https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html`.
+- Public Founding Students Automation Map: `https://alexwerninck.github.io/slm-odre-command-center/founding-students.html`.
 
 - Mia's public command center is published and can be shared now: `https://htmlpreview.github.io/?https://gist.githubusercontent.com/alexwerninck/ab9d85808e3ab5c7d199690463eab1c7/raw/MIA_SHARE_COMMAND_CENTER.html`.
 - The published Mia page passed an HTTP check and a visual browser check.
@@ -43,18 +54,20 @@
 - Final named-tab save audit passed. Every visible GoHighLevel workflow editor showed `Saved` or a disabled `Save workflow` button.
 - No named workflow displayed `Save action`, `Save trigger`, or an unsaved-changes warning.
 - The remaining unnamed Shark Life Media tabs were not workflow editors.
-- The earlier failed-payment page was not a hard workflow-builder blocker. If it appears, click `Bring me to my dashboard` and reopen the exact asset.
-- Do not click `Reactivate Now` as part of normal workflow navigation.
+- Historical September 21 behavior: the failed-payment page offered `Bring me to my dashboard` and allowed work to continue.
+- Current September 22 behavior: the button is gone and only `Reactivate Now` appears. Live GoHighLevel work must wait for Alex to reactivate the account.
+- `Reactivate Now` starts the account payment reactivation, so Alex must perform it. Codex will not click it.
 - Exact tab-save evidence: `ENGINE_RESTART_TAB_SAVE_AUDIT_2026-09-21.json`.
 
 ## What Alex reviews first
 
 1. Open the SLM MASTER board.
-2. Open the O1 deliverable card.
-3. Read `Alex review gate`.
-4. Open `Full customer journey tests`.
-5. Open the `Email and SMS Copy Center`.
-6. Review one deliverable at a time. Report each problem in the MASTER chat.
+2. Click `Open the Sales and Partner Ecosystem`.
+3. Read the three P0 repairs.
+4. Open the Founding Students Automation Map.
+5. Open the O1 deliverable card.
+6. Open the `Email and SMS Copy Center`.
+7. Review one deliverable at a time. Report each problem in the MASTER chat.
 
 ## What Codex does while Alex reviews
 
@@ -76,7 +89,11 @@
 
 ## Pages
 
-- Master board: `http://127.0.0.1:8874/progress.html`
+- Public Master board: `https://alexwerninck.github.io/slm-odre-command-center/`
+- Public Sales and Partnership Program Ecosystem: `https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html`
+- Public Founding Students Automation Map: `https://alexwerninck.github.io/slm-odre-command-center/founding-students.html`
+- Public Email and SMS Copy Center: `https://alexwerninck.github.io/slm-odre-command-center/copy-center.html`
+- Public Node-by-Node Workflow Guide: `https://alexwerninck.github.io/slm-odre-command-center/workflow-guide.html`
 - Mia public command center: `https://htmlpreview.github.io/?https://gist.githubusercontent.com/alexwerninck/ab9d85808e3ab5c7d199690463eab1c7/raw/MIA_SHARE_COMMAND_CENTER.html`
 - On-Demand Revenue Engine onboarding MVP build sheet: `http://127.0.0.1:8874/onboarding-mvp`
 - O1 saved build receipt: `http://127.0.0.1:8874/o1-build-receipt.json`
