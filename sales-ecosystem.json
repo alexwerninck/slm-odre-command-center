@@ -236,6 +236,56 @@
     ],
     "writes_found": []
   },
+  "routing_labels": [
+    {
+      "label": "purchase:book",
+      "job": "Records paid book ownership.",
+      "current_use": "The exact tag exists. Re-read H1 during the single-entry repair to verify its Add Tag action writes this exact label.",
+      "status": "VERIFY_WRITER"
+    },
+    {
+      "label": "gift:book",
+      "job": "Starts the unified gift route for book access.",
+      "current_use": "G1 accepts it. B1 can continue selling the Engine because book ownership is not Engine ownership.",
+      "status": "LIVE"
+    },
+    {
+      "label": "purchased:odre",
+      "job": "Records paid Engine ownership.",
+      "current_use": "B1 checks it, X1 reacts to it, and the paid welcome route uses it.",
+      "status": "LIVE"
+    },
+    {
+      "label": "gift:odre and gift:everything",
+      "job": "Record gifted Engine ownership.",
+      "current_use": "B1 checks them and X1 removes those owners from both B1 versions.",
+      "status": "LIVE"
+    },
+    {
+      "label": "seq:b2-active",
+      "job": "Shows the contact is currently in B2 call-booking follow-up.",
+      "current_use": "B2 adds it on entry and removes it on completion.",
+      "status": "LIVE"
+    },
+    {
+      "label": "bonus:strategy-call-booked",
+      "job": "Stops B2 from continuing to push a call after one is booked.",
+      "current_use": "E1 applies the booked state and B2 checks it before later messages.",
+      "status": "LIVE"
+    },
+    {
+      "label": "bonus:strategy-call-noshow",
+      "job": "Starts E2 no-show recovery.",
+      "current_use": "The tag exists, but the live record says Alex applies it manually.",
+      "status": "MANUAL"
+    },
+    {
+      "label": "Partner fields, not lifecycle tags",
+      "job": "Stores Partner identity and application data.",
+      "current_use": "am_id and three Partner fields exist. No consistent tag or opportunity writer was found for Partner lifecycle stages.",
+      "status": "PIPELINE_GAP"
+    }
+  ],
   "critical_holes": [
     {
       "priority": "P0",
@@ -299,6 +349,13 @@
       "finding": "Five of seven intended Founding Students card fields exist. The two exact source fields are missing.",
       "required_fix": "Add Source (First UTM) and Source (Self-Report), then wire the forms and calculator sync.",
       "why": "Lead Source alone cannot preserve both original attribution and what the buyer says."
+    },
+    {
+      "priority": "P2",
+      "title": "Freeze the sales label contract",
+      "finding": "Ownership and call-state labels exist, but the sales pipeline has no complete writer map and H1's exact paid-book tag writer needs a fresh configuration read during repair.",
+      "required_fix": "Record one approved writer and every reader for purchase:book, the Engine ownership labels, B2 active, call booked, and no-show before changing the workflows.",
+      "why": "A short label contract stops future Codex or Claude sessions from creating a second name for the same event."
     }
   ],
   "strengths": [
