@@ -2,11 +2,18 @@
   "schema_version": 1,
   "audit_date": "2026-09-22",
   "timezone": "Europe/Lisbon",
-  "updated_at_portugal": "2026-09-22T10:17:06+01:00",
-  "updated_at_portugal_display": "22 September 2026, 10:17 WEST",
+  "updated_at_portugal": "2026-09-22T15:09:49+01:00",
+  "updated_at_portugal_display": "22 September 2026, 15:09 WEST",
   "location_id": "PD3fQBJGWmfpGiwQnwnW",
   "overall_status": "NOT_100_PERCENT_COMPLETE",
   "plain_status": "The selling pages and most follow-up assets exist. The intended sales and partner pipelines are not fully connected to the customer events, and one paid book event can reach two published B1 workflows.",
+  "live_build_blocker": {
+    "state": "GOHIGHLEVEL_ACCOUNT_LOCKED_FAILED_PAYMENT",
+    "observed_at_portugal": "22 September 2026, approximately 15:00 WEST",
+    "plain_english": "GoHighLevel is temporarily locked because the account payment failed. The live workflows cannot be opened, tested, edited, or published until the account is reactivated.",
+    "next_action": "Alex completes the GoHighLevel account reactivation. Codex then resumes S1, S2, S3, and the B1 cutover from the saved build plan.",
+    "build_plan": "ENGINE_SALES_FOUNDATION_NEXT_BUILD_2026-09-22.md"
+  },
   "asset_guide": [
     {
       "code": "H1",
