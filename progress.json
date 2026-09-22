@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T15:22:13+01:00",
+  "updated_at": "2026-09-22T15:33:43+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
@@ -274,12 +274,12 @@
     },
     {
       "title": "Sales foundation continuation plan",
-      "state": "READY TO RESUME AFTER GOHIGHLEVEL REACTIVATION",
-      "description": "Exact B1 cutover, S1 through S3 testing, Trial Started, Calculator Done, sales outcome, Partner pipeline, notification placement, IDs, and test order.",
-      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/sales-foundation-plan.json",
-      "button": "Open the machine-readable sales build plan",
-      "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html#holes",
-      "check": "Local verifier passed against the September 22 GoHighLevel snapshot. Live execution is blocked only by the GoHighLevel account lock."
+      "state": "PUBLIC PLAIN-ENGLISH PLAN. READY AFTER GOHIGHLEVEL REACTIVATION.",
+      "description": "Exact build order, truthful completion states, B1 cutover, Founding Students stages, Partner pipeline, and paired fresh test identities.",
+      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/next-build.html",
+      "button": "Open What Codex Builds Next",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-foundation-plan.json",
+      "check": "The human page is generated from the verified machine plan. Candidate emails still require a zero-contact search after reactivation."
     },
     {
       "title": "Partner Toolkit public-source cleanup",
