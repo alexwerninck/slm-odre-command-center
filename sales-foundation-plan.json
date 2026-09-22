@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "updated_at_portugal": "2026-09-22T15:09:49+01:00",
+  "state": "READY_TO_RESUME_AFTER_GHL_REACTIVATION",
+  "external_blocker": "GOHIGHLEVEL_ACCOUNT_LOCKED_FAILED_PAYMENT",
+  "build_order": [
+    "S1_RUNTIME_AND_PUBLISH",
+    "S2_RUNTIME_AND_PUBLISH",
+    "S3_RUNTIME_AND_PUBLISH",
+    "B1_SINGLE_ENTRY_CUTOVER",
+    "TRIAL_STARTED_WRITER",
+    "CALCULATOR_DONE_WRITER",
+    "SALES_OUTCOME_WRITERS",
+    "PARTNER_PIPELINE_WRITERS"
+  ],
+  "founding_students": {
+    "pipeline_id": "VIodsKCDyPXFMvEMKOoX",
+    "stages": {
+      "Trial Started": "655dd033-cce5-4578-a3d2-9ca8748d1891",
+      "Calculator Done": "1f14f200-229e-4c83-b607-850d24cf2cd6",
+      "In Chase": "0f362b13-2a5a-4003-bb65-87d830a44166",
+      "Call Booked": "edc188eb-8db4-4adc-8674-a08be93ed97f",
+      "Call Held": "9125aac8-a1a3-49c7-9205-e3066ebab442",
+      "Closed-Won Founding": "e1b2f891-ccb0-42c0-9061-42134f50dc92",
+      "Closed-Lost/Not Yet": "53c4b0a6-8e39-467a-b063-150b4c91b83f",
+      "Ghost": "cbf06e1a-9b3b-4fb9-a63a-8fe6301bc879"
+    },
+    "saved_drafts": {
+      "S1": "9e9a1ff6-5c95-4cbd-a14c-9e5c827f56f3",
+      "S2": "90551956-1162-4647-8a82-75d49b1190ac",
+      "S3": "61eb29e0-8e51-4b30-a677-fe312ab8cc84"
+    },
+    "trial_writer_candidates": [
+      "f073cea3-2a88-4826-b271-5c524cb39f25",
+      "abaefc80-1724-4a6b-80cb-cbbefe51dcd2"
+    ],
+    "calculator_form_id": "EiPB045altOEwjNqUgWH"
+  },
+  "partner_pipeline": {
+    "pipeline_id": "kXZ3aIgr3lhAVLrFDdXP",
+    "application_form_id": "LwDoROnkgnLdh3dx7pXg",
+    "onboarding_calendar_id": "iUlVTTbUQgMRucYmYV2o",
+    "first_stage_id": "e46ce0ba-0316-418c-b7d1-edcd9521bdf0",
+    "signed_up_stage_id": "30e80d94-2232-471d-b690-ca0f601e2f9b",
+    "onboarding_stage_id": "0bdd7d51-3a35-4a5a-b46f-cc3a7f01827a"
+  },
+  "notification_requirement": {
+    "event": "On-Demand Revenue Engine seven-day free trial starts",
+    "placement": "After successful Trial Started opportunity action",
+    "details_status": "PARKED_PENDING_ALEX_AND_MIA",
+    "requirements_file": "ENGINE_MIA_MEETING_REQUIREMENTS_INBOX.md"
+  }
+}
