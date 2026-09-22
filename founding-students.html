@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Founding Students Automation Map | Shark Life Media</title>
+  <style>
+    :root{--ink:#11253f;--navy:#07172b;--blue:#0b74ff;--aqua:#20d6d6;--cream:#f5f1e8;--white:#fff;--green:#147d52;--amber:#a66300;--muted:#617086}
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(135deg,#eef8ff,#f9f4e9);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+    header{background:var(--navy);color:white;padding:28px 20px;border-bottom:6px solid var(--aqua)}
+    header .wrap,main{max-width:1100px;margin:auto} h1{margin:0;font-size:clamp(2rem,4vw,3.4rem);line-height:1.05} header p{max-width:760px;margin:12px 0 0;color:#d5e7ff;font-size:1.08rem}
+    main{padding:24px 16px 56px}.top{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}.meter,.card,.step{background:var(--white);border:1px solid #d7e2ed;border-radius:16px;box-shadow:0 8px 24px #09264a12}
+    .meter{padding:16px}.meter b{display:block;font-size:1.55rem}.meter span{color:var(--muted);font-size:.9rem}.green{color:var(--green)}.amber{color:var(--amber)}
+    h2{margin:30px 0 12px;font-size:1.55rem}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:20px;display:flex;flex-direction:column}.badge{display:inline-block;width:max-content;padding:5px 10px;border-radius:999px;background:#e9f8f0;color:var(--green);font-weight:800;font-size:.8rem}.card h3{margin:12px 0 6px;font-size:1.3rem}.card ul{padding-left:20px;margin:8px 0 18px}.card li{margin:7px 0}.btn{display:inline-block;margin-top:auto;padding:11px 14px;border-radius:10px;background:var(--blue);color:white;text-decoration:none;font-weight:800;text-align:center}.btn.secondary{background:var(--navy)}
+    .steps{display:grid;gap:12px}.step{padding:17px 18px}.step strong{display:block;font-size:1.05rem;margin-bottom:4px}.note{margin-top:22px;padding:18px;border-left:5px solid var(--amber);background:#fff8e7;border-radius:10px}.back{display:inline-block;margin-bottom:18px;color:var(--blue);font-weight:800;text-decoration:none}
+    @media(max-width:800px){.top,.cards{grid-template-columns:1fr}.top{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><h1>Founding Students Automation Map</h1><p>What the three new GoHighLevel workflows do, what is proven, and exactly how Alex tests the complete appointment journey.</p></div></header>
+  <main>
+    <a class="back" href="./">&larr; Back to Master Command Center</a>
+    <div class="top">
+      <div class="meter"><b class="green">3 of 3</b><span>workflows built and saved</span></div>
+      <div class="meter"><b class="green">3 of 3</b><span>fresh configuration readbacks passed</span></div>
+      <div class="meter"><b class="amber">0 of 3</b><span>Codex runtime tests passed</span></div>
+      <div class="meter"><b class="amber">0 of 3</b><span>Alex whole-journey tests passed</span></div>
+    </div>
+
+    <h2>The three workflows</h2>
+    <div class="cards">
+      <article class="card"><span class="badge">BUILT, DRAFT</span><h3>S1, Call Booked</h3><p>When a Blueprint Call becomes confirmed, the contact gets one open Founding Students opportunity at Call Booked.</p><ul><li>Calendar: OFFICIAL Blueprint Call</li><li>Status: confirmed</li><li>Pipeline stage: Call Booked</li><li>Duplicates: off</li></ul><a class="btn" href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9e9a1ff6-5c95-4cbd-a14c-9e5c827f56f3">Open S1 in GoHighLevel</a></article>
+      <article class="card"><span class="badge">BUILT, DRAFT</span><h3>S2, No Show Recovery</h3><p>When a Blueprint Call becomes No-show, the contact moves to In Chase and the existing E2 recovery starts.</p><ul><li>Calendar: OFFICIAL Blueprint Call</li><li>Status: No-show</li><li>Adds: bonus:strategy-call-noshow</li><li>Pipeline stage: In Chase</li></ul><a class="btn" href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/90551956-1162-4647-8a82-75d49b1190ac">Open S2 in GoHighLevel</a></article>
+      <article class="card"><span class="badge">BUILT, DRAFT</span><h3>S3, Call Held</h3><p>When a Blueprint Call becomes Showed, the same open opportunity moves to Call Held.</p><ul><li>Calendar: OFFICIAL Blueprint Call</li><li>Status: Showed</li><li>Pipeline stage: Call Held</li><li>Duplicates: off</li></ul><a class="btn" href="https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/61eb29e0-8e51-4b30-a677-fe312ab8cc84">Open S3 in GoHighLevel</a></article>
+    </div>
+
+    <h2>What happens to one customer</h2>
+    <div class="steps">
+      <div class="step"><strong>1. They book the OFFICIAL Blueprint Call.</strong>S1 should create one Founding Students card at Call Booked.</div>
+      <div class="step"><strong>2A. They attend.</strong>Set the appointment to Showed. S3 should move the same card to Call Held.</div>
+      <div class="step"><strong>2B. They do not attend.</strong>For a separate test person, set the appointment to No-show. S2 should move the card to In Chase, add the no-show tag, and start E2 once.</div>
+      <div class="step"><strong>3. Check duplicates.</strong>Each person should have one opportunity, not two.</div>
+    </div>
+
+    <h2>Exact testing order</h2>
+    <div class="steps">
+      <div class="step"><strong>Codex test 1</strong>Create a fresh contact and a test OFFICIAL Blueprint Call. Confirm it. Check Call Booked.</div>
+      <div class="step"><strong>Codex test 2</strong>Mark that appointment Showed. Check Call Held.</div>
+      <div class="step"><strong>Codex test 3</strong>Use a second fresh contact. Mark the appointment No-show. Check In Chase, the no-show tag, and one E2 enrollment.</div>
+      <div class="step"><strong>Alex test</strong>Repeat the full path and confirm the real received emails and SMS.</div>
+    </div>
+    <div class="note"><strong>Current truth:</strong> all three workflows are built, saved, and freshly read back. They are still Draft. They are not 100% complete until Codex runtime testing, publication, Alex testing, and the whole-system test pass.</div>
+  </main>
+</body>
+</html>
