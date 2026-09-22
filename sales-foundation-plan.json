@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_portugal": "2026-09-22T15:09:49+01:00",
+  "updated_at_portugal": "2026-09-22T15:24:27+01:00",
   "state": "READY_TO_RESUME_AFTER_GHL_REACTIVATION",
   "external_blocker": "GOHIGHLEVEL_ACCOUNT_LOCKED_FAILED_PAYMENT",
   "build_order": [
@@ -49,5 +49,13 @@
     "placement": "After successful Trial Started opportunity action",
     "details_status": "PARKED_PENDING_ALEX_AND_MIA",
     "requirements_file": "ENGINE_MIA_MEETING_REQUIREMENTS_INBOX.md"
+  },
+  "external_blocker_action": "Alex clicks Reactivate Now and completes GoHighLevel account reactivation.",
+  "partner_toolkit_cleanup": {
+    "status": "READY_AFTER_GO_HIGH_LEVEL_REACTIVATION",
+    "public_comment_count": 253,
+    "rule": "Remove HTML comments only. Preserve visible copy, links, personalization, layout, and styling.",
+    "pass": "Rendered page unchanged, internal comment count zero, controlled personalized links pass.",
+    "receipt": "ENGINE_PARTNER_TOOLKIT_PUBLIC_SOURCE_CLEANUP_2026-09-22.md"
   }
 }
