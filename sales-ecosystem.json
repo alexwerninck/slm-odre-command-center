@@ -20,6 +20,20 @@
     "contact_count": 1099,
     "email_template_library": "Unavailable after three API attempts. Live workflow bodies were read in the browser instead."
   },
+  "repo_sources_reviewed": [
+    "Funnel_Routing_Map.md",
+    "SPEC_A_PIPELINE_VALUES.md",
+    "FUNNEL_ASSET_FLOW.md",
+    "FOUNDING_OFFER_STACK_DECISION_SHEET.md",
+    "AFFILIATE_FUNNEL_KNOWLEDGE_BASE.md",
+    "_PARTNERSHIP_PROGRAM_OFFICIAL.md",
+    "PARTNERSHIP_PROGRAM_TERMS.md",
+    "BOOKACALL_SIDEKICK_EXTRACT_2026-09-09.md",
+    "TRIAL_ROOM_SPEC_0_5.md",
+    "ALEX_SALES_KIT_PASSOFF_PROMPT.md",
+    "Alex Sales Desk README.md, MAP.md, and SALES_CONTINUE_HERE.md",
+    "ALEX_SALES_COACHING_PROFILE.md"
+  ],
   "current_journey": [
     {
       "step": 1,
