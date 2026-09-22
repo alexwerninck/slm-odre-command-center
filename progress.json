@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22T08:57:06+01:00",
+  "updated_at": "2026-09-22T10:35:00+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
-  "summary": "W2 passed both welcome branches, one approved retry, retry-tag consumption, and duplicate suppression. All five G1 gift welcome actions executed. Mia final copy, Alex inbox and Thinkific review, a true paid-checkout journey, O1 later-message testing, and remaining whole-system journeys are open. A fresh sales and Partnership Program audit found duplicate paid-book B1 admission risk and missing pipeline event wiring. The public audit map is linked from the Master.",
+  "summary": "W2 and G1 have partial runtime proof, O1 has entry proof, and three Founding Students appointment-to-pipeline drafts are now saved. Mia final copy, S1 to S3 runtime tests and publication, Alex physical review, a true paid checkout, single-path B1 cutover, and remaining whole-system journeys are open.",
   "completed_setup": [
     "A canonical current-state registry now holds the exact MVP asset IDs, links, states, evidence and open gaps.",
     "A permanent operating system now defines read order, evidence levels, account readback, safe stopping points and board synchronization for Codex and Claude Code.",
@@ -246,13 +246,12 @@
   "focus_phase": 3,
   "launch_statement": "Core product access and welcome automations are live with partial Codex runtime proof. Final copy, Alex physical tests, a true paid checkout, single-path B1 admission, Founding Students stage wiring, Partner lifecycle wiring, and whole-system tests remain before the ecosystem is complete.",
   "next_work": [
-    "Install Mia final On-Demand Revenue Engine copy into W2, G1, and O1 as soon as it is supplied, then verify every link, merge field, audience, and delay.",
-    "Run the W2 audiobook-owner variant and finish O1 later-message and completion tests.",
-    "Alex checks the documented inboxes and Thinkific student access, then runs the final whole-system review.",
-    "Delete the three disabled O1 leftovers after Alex gives the required action-time confirmation.",
-    "Resolve the duplicate paid book entry: H1 still adds old B1 while old and protected B1 both have the paid book trigger. Use one canonical path and prove it with a true paid checkout.",
-    "Wire the Founding Students pipeline for trial start, calculator completion, call booked, call held, won, lost, and ghost.",
-    "Connect SLM Affiliate Lifecycle to Partner signup and later milestones, remove internal comments from the public toolkit, and verify the live attribution window."
+    "Fresh-reload S2, then run controlled Codex tests for S1 confirmed, S2 no-show plus E2, and S3 showed. Publish only after each exact result passes.",
+    "Resolve the duplicate paid Book entry so one canonical B1 path remains, then prove it with a true paid checkout.",
+    "Install Mia final On-Demand Revenue Engine copy into W2, G1, and O1 when supplied, then verify every link, merge field, audience, and delay.",
+    "Wire the remaining Founding Students stages: Trial Started, Calculator Done, Closed-Won, Closed-Lost, and Ghost.",
+    "Connect SLM Affiliate Lifecycle to Partner signup and later milestones, remove internal comments from the public toolkit, and verify the live attribution window.",
+    "Alex checks the documented inboxes and Thinkific student access, then runs the final whole-system review."
   ],
   "founder_now": "Use the public Master for status. Review W2, G1, and O1 in that order. Mia copy is pending, so the automation structure is complete where possible and the words remain placeholders.",
   "artifacts": [
@@ -569,6 +568,33 @@
       "button": "Open actual G4 gift draft",
       "review": "G4_ACCOUNT_BUILD_RECEIPT_2026-09-18.json",
       "check": "Fresh root and independent configuration reads recorded. Exact selected controls, receiver/products, failures and all actual customer journeys remain open."
+    },
+    {
+      "title": "Founding Students Call Booked",
+      "state": "Actual GoHighLevel draft saved, runtime not run",
+      "description": "Confirmed Blueprint Call writes Call Booked.",
+      "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9e9a1ff6-5c95-4cbd-a14c-9e5c827f56f3",
+      "button": "Open exact GHL workflow",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/founding-students.html",
+      "check": "Saved structure. Codex runtime, Alex physical test, publication, and whole-system test remain open."
+    },
+    {
+      "title": "Founding Students No Show Recovery",
+      "state": "Actual GoHighLevel draft saved, runtime not run",
+      "description": "No-show writes In Chase and starts E2 through the existing tag.",
+      "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/90551956-1162-4647-8a82-75d49b1190ac",
+      "button": "Open exact GHL workflow",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/founding-students.html",
+      "check": "Saved structure. Codex runtime, Alex physical test, publication, and whole-system test remain open."
+    },
+    {
+      "title": "Founding Students Call Held",
+      "state": "Actual GoHighLevel draft saved, runtime not run",
+      "description": "Showed Blueprint Call writes Call Held.",
+      "artifact": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/61eb29e0-8e51-4b30-a677-fe312ab8cc84",
+      "button": "Open exact GHL workflow",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/founding-students.html",
+      "check": "Saved structure. Codex runtime, Alex physical test, publication, and whole-system test remain open."
     }
   ],
   "customer_links": {
@@ -656,6 +682,21 @@
       "title": "Engine enrollment result helper",
       "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/5339b229-4387-4a94-8a53-17978a72fb1f",
       "detail": "ON. CODEX CALLBACK RUNTIME PASS. ALEX PHYSICAL TEST OPEN.. Alex physical Engine student-account confirmation and received-message review."
+    },
+    {
+      "title": "S1, Founding Students Call Booked",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/9e9a1ff6-5c95-4cbd-a14c-9e5c827f56f3",
+      "detail": "DRAFT SAVED. FRESH CONFIGURATION READBACK PASS. Confirmed OFFICIAL Blueprint Call creates or updates one open opportunity at Call Booked. Runtime, Alex, publication, and whole-system tests remain open."
+    },
+    {
+      "title": "S2, Founding Students No Show Recovery",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/90551956-1162-4647-8a82-75d49b1190ac",
+      "detail": "DRAFT SAVED. FRESH CONFIGURATION READBACK PASS. No-show adds bonus:strategy-call-noshow, hands to E2, and moves the opportunity to In Chase. Runtime, Alex, publication, and whole-system tests remain open."
+    },
+    {
+      "title": "S3, Founding Students Call Held",
+      "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/61eb29e0-8e51-4b30-a677-fe312ab8cc84",
+      "detail": "DRAFT SAVED. FRESH CONFIGURATION READBACK PASS. Showed OFFICIAL Blueprint Call creates or updates one open opportunity at Call Held. Runtime, Alex, publication, and whole-system tests remain open."
     }
   ],
   "platform_counts": {
@@ -1347,7 +1388,7 @@
   "test_identity_policy": "Eight actual controlled GHL contacts created, zero reserved. All use fresh wernincka+ aliases. Phone blank, tags blank, Thinkific not created. No explicit product-tag application, enrollment or sends. Hidden downstream contact-created executions UNKNOWN. SMS delivery and all automation/Alex/whole-system tests NOT RUN.",
   "gift_rules": "gift:book=book; gift:audiobook=book+audio; gift:odre=Engine; gift:everything OR all three individual tags=all three. Gift request tags do not prove enrollment.",
   "test_people_report": "ENGINE_TEST_PEOPLE_2026-09-18.md",
-  "last_updated": "2026-09-22T08:57:06+01:00",
+  "last_updated": "2026-09-22T10:35:00+01:00",
   "public_urls": {
     "master_command_center": "https://alexwerninck.github.io/slm-odre-command-center/",
     "email_sms_copy_center": "https://alexwerninck.github.io/slm-odre-command-center/copy-center.html",
@@ -1356,6 +1397,7 @@
     "full_customer_tests": "https://alexwerninck.github.io/slm-odre-command-center/test-real.html",
     "mia_system_map": "https://alexwerninck.github.io/slm-odre-command-center/system.html",
     "product_gifting_sop": "https://alexwerninck.github.io/slm-odre-command-center/gift-sop.html",
-    "sales_ecosystem": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html"
+    "sales_ecosystem": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html",
+    "founding_students_automation_map": "https://alexwerninck.github.io/slm-odre-command-center/founding-students.html"
   }
 }
