@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22T10:35:00+01:00",
+  "updated_at": "2026-09-22T10:10:07+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
-  "summary": "W2 and G1 have partial runtime proof, O1 has entry proof, and three Founding Students appointment-to-pipeline drafts are now saved. Mia final copy, S1 to S3 runtime tests and publication, Alex physical review, a true paid checkout, single-path B1 cutover, and remaining whole-system journeys are open.",
+  "summary": "W2 and G1 have partial runtime proof, O1 has entry proof, and three Founding Students appointment-to-pipeline drafts are saved with fresh configuration readbacks. The Sales and Partnership Ecosystem now explains every workflow code, the unfinished B1 migration, and the permanent historical-business exclusion. Mia final copy, runtime tests, Alex physical review, the paid B1 cutover, and remaining whole-system journeys are open.",
   "completed_setup": [
     "A canonical current-state registry now holds the exact MVP asset IDs, links, states, evidence and open gaps.",
     "A permanent operating system now defines read order, evidence levels, account readback, safe stopping points and board synchronization for Codex and Claude Code.",
@@ -1388,7 +1388,7 @@
   "test_identity_policy": "Eight actual controlled GHL contacts created, zero reserved. All use fresh wernincka+ aliases. Phone blank, tags blank, Thinkific not created. No explicit product-tag application, enrollment or sends. Hidden downstream contact-created executions UNKNOWN. SMS delivery and all automation/Alex/whole-system tests NOT RUN.",
   "gift_rules": "gift:book=book; gift:audiobook=book+audio; gift:odre=Engine; gift:everything OR all three individual tags=all three. Gift request tags do not prove enrollment.",
   "test_people_report": "ENGINE_TEST_PEOPLE_2026-09-18.md",
-  "last_updated": "2026-09-22T10:35:00+01:00",
+  "last_updated": "2026-09-22T10:10:07+01:00",
   "public_urls": {
     "master_command_center": "https://alexwerninck.github.io/slm-odre-command-center/",
     "email_sms_copy_center": "https://alexwerninck.github.io/slm-odre-command-center/copy-center.html",
