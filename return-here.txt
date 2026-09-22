@@ -20,6 +20,7 @@
 - Public Master Command Center: `https://alexwerninck.github.io/slm-odre-command-center/`.
 - Public Sales and Partnership Program Ecosystem: `https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html`.
 - Public Founding Students Automation Map: `https://alexwerninck.github.io/slm-odre-command-center/founding-students.html`.
+- Public exact next-build page: `https://alexwerninck.github.io/slm-odre-command-center/next-build.html`.
 
 - Mia's public command center is published and can be shared now: `https://htmlpreview.github.io/?https://gist.githubusercontent.com/alexwerninck/ab9d85808e3ab5c7d199690463eab1c7/raw/MIA_SHARE_COMMAND_CENTER.html`.
 - The published Mia page passed an HTTP check and a visual browser check.
@@ -92,6 +93,7 @@
 - Public Master board: `https://alexwerninck.github.io/slm-odre-command-center/`
 - Public Sales and Partnership Program Ecosystem: `https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html`
 - Public Founding Students Automation Map: `https://alexwerninck.github.io/slm-odre-command-center/founding-students.html`
+- Public exact next-build page: `https://alexwerninck.github.io/slm-odre-command-center/next-build.html`
 - Public Email and SMS Copy Center: `https://alexwerninck.github.io/slm-odre-command-center/copy-center.html`
 - Public Node-by-Node Workflow Guide: `https://alexwerninck.github.io/slm-odre-command-center/workflow-guide.html`
 - Mia public command center: `https://htmlpreview.github.io/?https://gist.githubusercontent.com/alexwerninck/ab9d85808e3ab5c7d199690463eab1c7/raw/MIA_SHARE_COMMAND_CENTER.html`
