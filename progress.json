@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-21T23:42:59+01:00",
+  "updated_at": "2026-09-22T08:57:06+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
-  "summary": "W2 passed both welcome branches, one approved retry, retry-tag consumption, and duplicate suppression. All five G1 gift welcome actions executed. Mia final copy, Alex inbox and Thinkific review, a true paid-checkout journey, O1 later-message testing, and remaining whole-system journeys are open.",
+  "summary": "W2 passed both welcome branches, one approved retry, retry-tag consumption, and duplicate suppression. All five G1 gift welcome actions executed. Mia final copy, Alex inbox and Thinkific review, a true paid-checkout journey, O1 later-message testing, and remaining whole-system journeys are open. A fresh sales and Partnership Program audit found duplicate paid-book B1 admission risk and missing pipeline event wiring. The public audit map is linked from the Master.",
   "completed_setup": [
     "A canonical current-state registry now holds the exact MVP asset IDs, links, states, evidence and open gaps.",
     "A permanent operating system now defines read order, evidence levels, account readback, safe stopping points and board synchronization for Codex and Claude Code.",
@@ -226,9 +226,9 @@
   "human_actions": [
     {
       "id": "ALEX_MORNING_REVIEW",
-      "text": "Morning review: open W2, G1, and O1 from this Master. Then check the documented +63 and +64 W2 inboxes, the five G1 welcome inboxes, and the matching Thinkific access. Record each result separately.",
+      "text": "First open the Sales and Partner Ecosystem map. Review the three P0 fixes. Then continue the existing W2, G1, O1 inbox and Thinkific checks.",
       "status": "AWAITING_ALEX_PHYSICAL_REVIEW",
-      "review": "https://alexwerninck.github.io/slm-odre-command-center/"
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html"
     }
   ],
   "weekend_target": "MVP target: paid or gifted customers receive the correct Book, Audiobook and Engine access, Engine owners stop B1, Codex passes the frozen journeys, and Alex receives exact board instructions for his physical test.",
@@ -238,18 +238,33 @@
     "O1 is ON with placeholder copy. The controlled Engine owner entered, passed the owner gate, and reached the Day 1 wait.",
     "B1 and X1 are ON. Controlled Engine owners were kept out of or removed from B1.",
     "Book, Audiobook, and Engine access routes are published. Core enrollment callbacks returned to GoHighLevel.",
-    "Mia final copy, Alex inbox and Thinkific checks, true paid checkout, O1 later timing, and a real bounce test remain open."
+    "Mia final copy, Alex inbox and Thinkific checks, true paid checkout, O1 later timing, and a real bounce test remain open.",
+    "The September 22 sales audit found that H1 still targets old B1 while two published B1 workflows can react to the same paid book event.",
+    "The Founding Students pipeline has the correct eight stages but only one likely test card and no current journey writers.",
+    "The Partnership Program signup, welcome, portal, toolkit, and onboarding pages exist, but SLM Affiliate Lifecycle has zero opportunities and no AF1 or AF2 pipeline writer."
   ],
   "focus_phase": 3,
-  "launch_statement": "Core gift access paths are live and have partial Codex runtime proof. Final copy, paid-upgrade proof, duplicate protection, received-message checks, and Alex physical testing remain before the ecosystem is complete.",
+  "launch_statement": "Core product access and welcome automations are live with partial Codex runtime proof. Final copy, Alex physical tests, a true paid checkout, single-path B1 admission, Founding Students stage wiring, Partner lifecycle wiring, and whole-system tests remain before the ecosystem is complete.",
   "next_work": [
     "Install Mia final On-Demand Revenue Engine copy into W2, G1, and O1 as soon as it is supplied, then verify every link, merge field, audience, and delay.",
     "Run the W2 audiobook-owner variant and finish O1 later-message and completion tests.",
     "Alex checks the documented inboxes and Thinkific student access, then runs the final whole-system review.",
-    "Delete the three disabled O1 leftovers after Alex gives the required action-time confirmation."
+    "Delete the three disabled O1 leftovers after Alex gives the required action-time confirmation.",
+    "Resolve the duplicate paid book entry: H1 still adds old B1 while old and protected B1 both have the paid book trigger. Use one canonical path and prove it with a true paid checkout.",
+    "Wire the Founding Students pipeline for trial start, calculator completion, call booked, call held, won, lost, and ghost.",
+    "Connect SLM Affiliate Lifecycle to Partner signup and later milestones, remove internal comments from the public toolkit, and verify the live attribution window."
   ],
   "founder_now": "Use the public Master for status. Review W2, G1, and O1 in that order. Mia copy is pending, so the automation structure is complete where possible and the words remain placeholders.",
   "artifacts": [
+    {
+      "title": "Sales and Partnership Program Ecosystem Audit",
+      "state": "FRESH LIVE GHL AUDIT. PUBLISHED MAP. REPAIR WORK PENDING.",
+      "description": "Maps the book-to-call-to-Engine customer journey and the Partnership Program, with exact pages, workflows, pipelines, fields, holes, repair order, Lamar handoff, and whole-journey tests.",
+      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html",
+      "button": "Open the Sales and Partner Ecosystem",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html#holes",
+      "check": "Fresh September 22 GHL metadata and browser definition reads. No production workflow was edited. Founding Students and SLM Affiliate Lifecycle still need event wiring."
+    },
     {
       "title": "SLM MASTER Morning Review",
       "state": "PUBLISHED ZERO-CONTEXT START PAGE",
@@ -1332,7 +1347,7 @@
   "test_identity_policy": "Eight actual controlled GHL contacts created, zero reserved. All use fresh wernincka+ aliases. Phone blank, tags blank, Thinkific not created. No explicit product-tag application, enrollment or sends. Hidden downstream contact-created executions UNKNOWN. SMS delivery and all automation/Alex/whole-system tests NOT RUN.",
   "gift_rules": "gift:book=book; gift:audiobook=book+audio; gift:odre=Engine; gift:everything OR all three individual tags=all three. Gift request tags do not prove enrollment.",
   "test_people_report": "ENGINE_TEST_PEOPLE_2026-09-18.md",
-  "last_updated": "2026-09-21T23:18:46+01:00",
+  "last_updated": "2026-09-22T08:57:06+01:00",
   "public_urls": {
     "master_command_center": "https://alexwerninck.github.io/slm-odre-command-center/",
     "email_sms_copy_center": "https://alexwerninck.github.io/slm-odre-command-center/copy-center.html",
@@ -1340,6 +1355,7 @@
     "morning_review": "https://alexwerninck.github.io/slm-odre-command-center/morning-review.html",
     "full_customer_tests": "https://alexwerninck.github.io/slm-odre-command-center/test-real.html",
     "mia_system_map": "https://alexwerninck.github.io/slm-odre-command-center/system.html",
-    "product_gifting_sop": "https://alexwerninck.github.io/slm-odre-command-center/gift-sop.html"
+    "product_gifting_sop": "https://alexwerninck.github.io/slm-odre-command-center/gift-sop.html",
+    "sales_ecosystem": "https://alexwerninck.github.io/slm-odre-command-center/sales-ecosystem.html"
   }
 }
