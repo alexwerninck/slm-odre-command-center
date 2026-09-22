@@ -1,9 +1,107 @@
 {
   "schema_version": 1,
   "audit_date": "2026-09-22",
+  "timezone": "Europe/Lisbon",
   "location_id": "PD3fQBJGWmfpGiwQnwnW",
   "overall_status": "NOT_100_PERCENT_COMPLETE",
   "plain_status": "The selling pages and most follow-up assets exist. The intended sales and partner pipelines are not fully connected to the customer events, and one paid book event can reach two published B1 workflows.",
+  "asset_guide": [
+    {
+      "code": "H1",
+      "anchor": "asset-h1",
+      "name": "Paid Book Purchase, Access, and Routing",
+      "job": "Starts when a paid Just Make The Phone Ring order is received. It records the buyer, requests book access, creates the customer opportunity, and currently sends the buyer into the legacy B1 workflow.",
+      "why_it_matters": "H1 is the first automation after a paid book order. Its B1 handoff must be corrected during the B1 cutover.",
+      "urls": [
+        [
+          "Open H1 in GoHighLevel",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/539aced5-9856-4ea5-bac5-fb893c080a6c/advanced-canvas"
+        ]
+      ]
+    },
+    {
+      "code": "B1",
+      "anchor": "asset-b1",
+      "name": "Book Buyer Follow-up",
+      "job": "Welcomes book buyers and continues the sales follow-up toward the On-Demand Revenue Engine.",
+      "why_it_matters": "There are two versions because the protected version is a replacement built during migration. It is not a backup. The protected version adds Engine-owner checks so people stop receiving Engine sales messages after they buy or receive the Engine. The legacy version is still published, and H1 still sends buyers to it. Both versions also listen to the same paid book event, so one buyer can enter twice. The intended finish is one protected B1 as the only active version, with the legacy version kept as inactive history, not deleted.",
+      "urls": [
+        [
+          "Open protected B1",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/1f3cf55a-27dc-4ef2-822a-fdc62e90f11c/advanced-canvas"
+        ],
+        [
+          "Open legacy B1",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/4547ecd0-ef61-4d8c-8893-d2c44f9248aa/advanced-canvas"
+        ]
+      ]
+    },
+    {
+      "code": "B2",
+      "anchor": "asset-b2",
+      "name": "Blueprint Call Booking Follow-up",
+      "job": "Sends five emails and two SMS messages that move book buyers toward a Blueprint Call.",
+      "why_it_matters": "It stops pushing the call after the booked-call tag appears.",
+      "urls": [
+        [
+          "Open B2 in GoHighLevel",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/bffeabcd-bdd6-444a-80bc-f2a7dc398f43/advanced-canvas"
+        ]
+      ]
+    },
+    {
+      "code": "E1",
+      "anchor": "asset-e1",
+      "name": "Blueprint Call Confirmation and Reminders",
+      "job": "Starts from a confirmed OFFICIAL Blueprint Call and sends the booking confirmation, quiz prompts, and timed reminders.",
+      "why_it_matters": "It prepares the prospect for the call. The new S1 draft separately writes the Call Booked pipeline stage.",
+      "urls": [
+        [
+          "Open E1 in GoHighLevel",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/b55853ef-7756-41c0-b943-0afc5226f5c2/advanced-canvas"
+        ]
+      ]
+    },
+    {
+      "code": "E2",
+      "anchor": "asset-e2",
+      "name": "Blueprint Call No-show Recovery",
+      "job": "Sends the follow-up that tries to recover a missed Blueprint Call.",
+      "why_it_matters": "The published E2 starts from the no-show tag. The new S2 draft will add that tag automatically from the OFFICIAL Blueprint Call No-show status and move the opportunity to In Chase. S2 still needs runtime testing and publication.",
+      "urls": [
+        [
+          "Open E2 in GoHighLevel",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/aad4efea-a3fb-445e-9a25-a5822e19a77e/advanced-canvas"
+        ]
+      ]
+    },
+    {
+      "code": "AF1",
+      "anchor": "asset-af1",
+      "name": "Partner Application Enrollment",
+      "job": "Starts when the Partner application is submitted and enrolls the applicant in the correct Affiliate Manager campaign.",
+      "why_it_matters": "It begins the Partner journey, but it does not yet create the operating pipeline card.",
+      "urls": [
+        [
+          "Open AF1 in GoHighLevel",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/41da11e2-978c-458f-ad69-8e1fc97d6237/advanced-canvas"
+        ]
+      ]
+    },
+    {
+      "code": "AF2",
+      "anchor": "asset-af2",
+      "name": "Partner Welcome and Link Delivery",
+      "job": "Stores the Partner ID and application date, notifies Alex, and sends the welcome with personalized links, portal, toolkit, and onboarding call.",
+      "why_it_matters": "It delivers the Partner experience, but it does not yet move a Partner lifecycle pipeline card.",
+      "urls": [
+        [
+          "Open AF2 in GoHighLevel",
+          "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/d6daa097-78e7-4f02-826e-696d1b770cf0/advanced-canvas"
+        ]
+      ]
+    }
+  ],
   "evidence": {
     "live_api_snapshot": "00. Production System/output/_ghl_map/snapshots/2026-09-22/raw",
     "live_browser_read": "Fresh GoHighLevel definition read on 2026-09-22",
@@ -52,14 +150,14 @@
     {
       "step": 3,
       "name": "Book access and customer record",
-      "what_happens": "H1 tags the purchase, sends the Thinkific webhook, creates an opportunity in SLM Customers, and adds the old B1 workflow.",
+      "what_happens": "H1 is the paid-book intake workflow. It records the purchase, requests book access, creates the customer opportunity, and currently sends the buyer into legacy B1.",
       "status": "LIVE_WITH_LEGACY_ROUTING",
       "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/539aced5-9856-4ea5-bac5-fb893c080a6c/advanced-canvas"
     },
     {
       "step": 4,
       "name": "Book buyer welcome",
-      "what_happens": "The old B1 and the protected B1 are both published with the same payment trigger. The protected B1 checks Engine ownership before sales messages.",
+      "what_happens": "Protected B1 is the intended replacement for legacy B1, not a backup. Both are still published, both can react to the same payment, and H1 still sends buyers to legacy B1. The migration is unfinished.",
       "status": "DUPLICATE_ENTRY_RISK",
       "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/1f3cf55a-27dc-4ef2-822a-fdc62e90f11c/advanced-canvas"
     },
@@ -87,16 +185,16 @@
     {
       "step": 8,
       "name": "No-show recovery",
-      "what_happens": "E2 sends the rescue sequence, but only after Alex manually applies bonus:strategy-call-noshow.",
-      "status": "LIVE_WITH_MANUAL_TRIGGER",
+      "what_happens": "E2 sends the rescue sequence from bonus:strategy-call-noshow. A new S2 draft now applies that tag from the calendar No-show status, but S2 is not published or runtime-tested yet.",
+      "status": "LIVE_RECOVERY, AUTOMATION_DRAFT_PENDING_TEST",
       "url": "https://app.gohighlevel.com/v2/location/PD3fQBJGWmfpGiwQnwnW/automation/workflow/aad4efea-a3fb-445e-9a25-a5822e19a77e/advanced-canvas"
     },
     {
       "step": 9,
       "name": "Call outcome and sale",
-      "what_happens": "The Founding Students stages exist, but no current workflow was found for Call Held, Closed-Won, Closed-Lost, or Ghost.",
-      "status": "NOT_WIRED",
-      "url": null
+      "what_happens": "S1, S2, and S3 drafts now cover Call Booked, No-show to In Chase, and Call Held. Trial Started, Calculator Done, Closed-Won, Closed-Lost, and Ghost remain unwired.",
+      "status": "PARTIALLY_BUILT, TESTS_AND_PUBLICATION_PENDING",
+      "url": "https://alexwerninck.github.io/slm-odre-command-center/founding-students.html"
     },
     {
       "step": 10,
@@ -180,7 +278,11 @@
       "Source (Self-Report)"
     ],
     "closest_existing_field": "Lead Source",
-    "writes_found": []
+    "writes_found": [
+      "S1 draft: confirmed OFFICIAL Blueprint Call to Call Booked",
+      "S2 draft: No-show to In Chase plus E2 tag",
+      "S3 draft: Showed to Call Held"
+    ]
   },
   "partner_journey": [
     {
@@ -311,8 +413,8 @@
     {
       "priority": "P0",
       "title": "Wire Founding Students",
-      "finding": "The correct pipeline and stages exist, but the selling events do not create or move its opportunities.",
-      "required_fix": "Create or move one opportunity on trial start, calculator completion, call booking, call held, close, loss, and day-14 ghost.",
+      "finding": "S1, S2, and S3 drafts now cover Call Booked, No-show to In Chase, and Call Held. They still need runtime tests and publication. Trial Started, Calculator Done, Closed-Won, Closed-Lost, and Ghost remain unwired.",
+      "required_fix": "Test and publish S1 through S3, then add the remaining stage writers without creating duplicate opportunities.",
       "why": "Alex cannot run sales from a pipeline that stays empty."
     },
     {
@@ -325,8 +427,8 @@
     {
       "priority": "P1",
       "title": "Automate no-show and outcomes",
-      "finding": "E2 needs a manually added no-show tag, and no Founding Students outcome automations were found.",
-      "required_fix": "Trigger no-show recovery from the OFFICIAL Blueprint Call status and add simple held, won, lost, and ghost stage writers.",
+      "finding": "The S2 draft can add E2's no-show tag from the calendar status, and S3 can write Call Held. Neither draft has runtime proof or publication yet. Won, lost, and ghost remain unwired.",
+      "required_fix": "Run the controlled S2 and S3 tests, publish them after they pass, then add won, lost, and ghost stage writers.",
       "why": "The pipeline should follow the real call without Alex rebuilding history by hand."
     },
     {
@@ -384,7 +486,7 @@
   "risks": [
     "Two published B1 workflows can react to the same paid book event.",
     "The intended sales pipeline is nearly empty because current workflows write elsewhere or do not write opportunities.",
-    "Legacy pipelines and legacy workflow names make it easy to connect future work to the wrong place.",
+    "Historical business assets in the account can make it easy to connect future work to the wrong place. They are excluded from current decisions.",
     "A manual no-show tag means recovery depends on Alex remembering an administrative step.",
     "The Partner journey has customer delivery but no lifecycle board.",
     "The public toolkit contains internal comments in its source.",
@@ -392,8 +494,8 @@
   ],
   "mvp_fix_order": [
     "Freeze one canonical B1 entry design and run the true paid book checkout canary.",
-    "Add Founding Students opportunity writes for call booked, call held, won, lost, and ghost.",
-    "Turn E2 from a manual tag into a calendar no-show trigger.",
+    "Test and publish S1, S2, and S3 for call booked, no-show recovery, and call held.",
+    "Add the remaining Founding Students writers for trial, calculator, won, lost, and ghost.",
     "Create the two missing source fields and connect the current booking form and calculator handoff.",
     "Create the SLM Affiliate Lifecycle opportunity at Partner signup and move it through the real milestones.",
     "Remove the public toolkit developer comments and verify the live attribution window.",
@@ -421,7 +523,7 @@
     },
     {
       "name": "Blueprint Call no-show",
-      "codex": "Workflow definition read only",
+      "codex": "S2 draft configuration readback passed. Runtime not run.",
       "alex": "Not run",
       "expected": "Calendar no-show starts E2 automatically and moves the opportunity to the chosen recovery or Ghost stage."
     },
@@ -432,9 +534,9 @@
       "expected": "Application, Partner ID, welcome, portal, toolkit, onboarding booking, and one Partner pipeline opportunity all match the same email."
     }
   ],
-  "lamar_handoff": [
+  "builder_rules": [
     "Use FOUNDING STUDENTS as the only current customer sales pipeline for the On-Demand Revenue Engine motion.",
-    "Do not connect new work to Book a Call, SLM Customers, or the old funding, CCA, and credit sales pipelines without a dated migration decision.",
+    "Treat every historical old-business asset as excluded from current audits, recommendations, routing, builds, and tests. Preserve it in the account, but never use it unless Alex explicitly asks for a dated historical review.",
     "Record the exact event that should move each of the eight stages before building any workflow.",
     "Keep the Partner journey separate in SLM Affiliate Lifecycle, and create its first opportunity at application or approval.",
     "Use Blueprint Call in human-facing names and sharknow.co/blueprint as the managed link after the link audit.",
