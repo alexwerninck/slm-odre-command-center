@@ -705,6 +705,13 @@
           "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_SALES_FOUNDATION_NEXT_BUILD_2026-09-22.md",
           "owner": "engine-master-2026-09-19",
           "text": "Live GoHighLevel continuation is externally blocked: authenticated Shark Life Media redirected to inactive?type=failed-payment and displayed Reactivate Now at approximately 15:00 WEST. No financial action was attempted. S1, S2, and S3 remain saved drafts. Exact resume order, B1 cutover, Trial Started, Calculator Done, sales outcomes, Partner pipeline, test cases, and free-trial notification intake are now saved in ENGINE_SALES_FOUNDATION_NEXT_BUILD_2026-09-22.md/json and ENGINE_MIA_MEETING_REQUIREMENTS_INBOX.md. Public boards are being updated. Runtime and publication remain NOT RUN."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-22T14:22:56Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_PARTNER_TOOLKIT_PUBLIC_SOURCE_CLEANUP_2026-09-22.md",
+          "owner": "engine-master-2026-09-19",
+          "text": "September 22 continuation update: the current GoHighLevel failed-payment screen offers only Reactivate Now, and the former Bring me to my dashboard bypass is gone. No financial action was attempted. S1, S2, and S3 remain saved drafts and live tests remain NOT RUN. Public Master, Sales, Founding Students, and machine build-plan pages were updated. Fresh Partner Toolkit source audit found 253 HTML comments containing internal build history, editable-copy directions, and internal commission guidance. Exact no-visible-change cleanup and zero-comment pass conditions are saved in ENGINE_PARTNER_TOOLKIT_PUBLIC_SOURCE_CLEANUP_2026-09-22.md."
         }
       ],
       "owner": "engine-master-2026-09-19",
@@ -712,7 +719,7 @@
       "scope": "Full paid, gift, event order and inbox test planning is allowed. Live testing requires verified prerequisites.",
       "status": "claimed",
       "title": "QA canary",
-      "updated_at": "2026-09-22T14:10:34Z"
+      "updated_at": "2026-09-22T14:22:56Z"
     },
     "T3_EXTERNAL": {
       "dependencies": [],
