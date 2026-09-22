@@ -412,13 +412,20 @@
           "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_FOUNDING_STUDENTS_ACCOUNT_BUILD_RECEIPT_2026-09-22.json",
           "owner": "engine-master-2026-09-21-night",
           "text": "2026-09-22 sales follow-through: three saved GoHighLevel drafts now connect OFFICIAL Blueprint Call confirmed to Founding Students Call Booked, No-show to In Chase plus existing E2 tag, and Showed to Call Held. S1 and S3 fresh configuration readback passed. S2 fresh reload, all runtime tests, Alex tests, publication, and whole-system proof remain open. Exact links and node maps are saved in the Founding Students build guide and structured receipt."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-22T09:13:24Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_SALES_AFFILIATE_MAP_2026-09-22.html",
+          "owner": "engine-master-2026-09-21-night",
+          "text": "Alex review corrections applied and published. Sales page now shows Portugal timestamp, defines H1, B1, B2, E1, E2, AF1, and AF2 with clickable anchors and exact GHL links, explains protected B1 as the intended migration replacement rather than a backup, and removes the incorrect Lamar section. Permanent old-business exclusion and public-HTML Portugal-time rules were added to root and production AGENTS, Engine operating system, Master, and source index. Public Sales page and Master render passed; current-page browser console errors zero."
         }
       ],
       "owner": "engine-master-2026-09-21-night",
       "scope": "Finish W2 failure recovery, finish every non-copy gift welcome component, clean O1, re-read all already-built MVP assets, and run controlled Codex tests. Mia final copy and Alex physical testing remain separate dependencies.",
       "status": "claimed",
       "title": "September 21 MVP automation completion",
-      "updated_at": "2026-09-22T08:44:47Z"
+      "updated_at": "2026-09-22T09:13:24Z"
     },
     "OWNER_CARE": {
       "blocker": "Proposed optional sequence, blocked for live work until core proof is verified.",
@@ -684,6 +691,20 @@
           "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_ODRE_GIFT_CORE_CHAIN_RUNTIME_RECEIPT_2026-09-21.json",
           "owner": "engine-master-2026-09-19",
           "text": "Scenario 3C fresh natural ODRE gift retest passed through G1, Zapier v3, Thinkific, acknowledgement, X1 B1 suppression, and O1 Day 1 wait. Alex has not tested. Book, Audiobook, Everything, paid, negative, duplicate, and received-message checks remain open. Burned diagnostics and the +60 proof are recorded in the permanent runtime log."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-22T14:00:56Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_FOUNDING_STUDENTS_BUILD_GUIDE_2026-09-22.md",
+          "owner": "engine-master-2026-09-19",
+          "text": "Alex authorized continued unattended execution on 2026-09-22. Current bounded run: fresh-read S1, S2, and S3, run controlled appointment-to-pipeline tests with unused aliases, publish only after exact results pass, and record Codex versus Alex versus whole-system proof separately. B1 migration remains a separate controlled cutover. No customer contacts or unregistered identities."
+        },
+        {
+          "action": "note",
+          "at": "2026-09-22T14:10:34Z",
+          "evidence": "00. Production System/output/_strategy/alex_handover/ENGINE_SALES_FOUNDATION_NEXT_BUILD_2026-09-22.md",
+          "owner": "engine-master-2026-09-19",
+          "text": "Live GoHighLevel continuation is externally blocked: authenticated Shark Life Media redirected to inactive?type=failed-payment and displayed Reactivate Now at approximately 15:00 WEST. No financial action was attempted. S1, S2, and S3 remain saved drafts. Exact resume order, B1 cutover, Trial Started, Calculator Done, sales outcomes, Partner pipeline, test cases, and free-trial notification intake are now saved in ENGINE_SALES_FOUNDATION_NEXT_BUILD_2026-09-22.md/json and ENGINE_MIA_MEETING_REQUIREMENTS_INBOX.md. Public boards are being updated. Runtime and publication remain NOT RUN."
         }
       ],
       "owner": "engine-master-2026-09-19",
@@ -691,7 +712,7 @@
       "scope": "Full paid, gift, event order and inbox test planning is allowed. Live testing requires verified prerequisites.",
       "status": "claimed",
       "title": "QA canary",
-      "updated_at": "2026-09-21T17:05:40Z"
+      "updated_at": "2026-09-22T14:10:34Z"
     },
     "T3_EXTERNAL": {
       "dependencies": [],
