@@ -2,8 +2,8 @@
   "schema_version": 1,
   "audit_date": "2026-09-22",
   "timezone": "Europe/Lisbon",
-  "updated_at_portugal": "2026-09-22T15:09:49+01:00",
-  "updated_at_portugal_display": "22 September 2026, 15:09 WEST",
+  "updated_at_portugal": "2026-09-22T15:18:31+01:00",
+  "updated_at_portugal_display": "22 September 2026, 15:18 WEST",
   "location_id": "PD3fQBJGWmfpGiwQnwnW",
   "overall_status": "NOT_100_PERCENT_COMPLETE",
   "plain_status": "The selling pages and most follow-up assets exist. The intended sales and partner pipelines are not fully connected to the customer events, and one paid book event can reach two published B1 workflows.",
@@ -450,8 +450,8 @@
     {
       "priority": "P1",
       "title": "Remove internal notes from the public toolkit",
-      "finding": "The public toolkit page source exposes developer comments and internal rate notes.",
-      "required_fix": "Remove the internal comments from the live custom HTML and recheck the rendered page and page source.",
+      "finding": "A fresh public-source check found 253 HTML comments. They include internal build history, editable-copy notes, and internal commission guidance.",
+      "required_fix": "Remove the HTML comments from the live custom HTML without changing the visible page. Recheck both the rendered page and page source, and require zero internal comments before closing this repair.",
       "why": "Internal instructions should not ship to Partners or appear in public source."
     },
     {
