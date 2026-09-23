@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "timezone": "Europe/Lisbon",
+  "updated_at_portugal": "2026-09-23T08:41:18+01:00",
+  "updated_at_portugal_display": "23 September 2026, 08:41 WEST",
+  "status": "PLAN_COMPLETE_LIVE_BUILD_BLOCKED",
+  "blocker": "GoHighLevel account is locked for failed payment. Alex owns reactivation.",
+  "one_sentence_goal": "Every serious lead creates one visible sales record, one next action, and the correct follow-up without flooding the pipeline with cold imports.",
+  "decisions": [
+    "FOUNDING STUDENTS is the customer sales pipeline.",
+    "SLM Affiliate Lifecycle is the Partner pipeline.",
+    "OUTREACH ENGINE can track partner targets. It is not the customer sales pipeline.",
+    "Bulk cold-email imports create contacts only. They never create sales opportunities.",
+    "A positive reply, trial start, calculator completion, or booked call can create the one customer sales opportunity.",
+    "Every later event updates that same open opportunity instead of creating another one.",
+    "GHL authenticated views are the MVP dashboard because they are private, maintainable, and already connected to the records.",
+    "Routine success appears on the dashboard. Only events requiring a person or an exception send an alert."
+  ],
+  "provider_discovery": {
+    "enrichment_stack": "Apollo plus Apify, orchestrated by n8n. This finds and enriches contacts. It does not prove the sending platform.",
+    "conflict": "CMP01 CAMPAIGN_STRUCTURE says Mia sends one-to-one from Gmail drafts. Older strategy files say sends use 16 warmed inboxes.",
+    "current_truth": "The active cold-email sender and its reply webhook are not proven in the current repository evidence.",
+    "safe_contract": "The sender must emit a normalized Positive Reply event with contact identity, reply time, campaign, source message ID, and external lead ID.",
+    "help_io": "No current project definition or integration for help.io was found. It remains one focused clarification and is not an MVP dependency."
+  },
+  "existing_assets": [
+    {
+      "code": "S1",
+      "name": "Booked Call writer",
+      "status": "BUILT_DRAFT",
+      "tested": "STATIC_ONLY",
+      "live": false,
+      "id": "9e9a1ff6-5c95-4cbd-a14c-9e5c827f56f3",
+      "job": "Creates or updates one Founding Students opportunity at Call Booked after a confirmed OFFICIAL Blueprint Call."
+    },
+    {
+      "code": "S2",
+      "name": "No-show writer",
+      "status": "BUILT_DRAFT",
+      "tested": "STATIC_ONLY",
+      "live": false,
+      "id": "90551956-1162-4647-8a82-75d49b1190ac",
+      "job": "Marks a confirmed no-show, starts E2 once, and moves the same opportunity to In Chase."
+    },
+    {
+      "code": "S3",
+      "name": "Call Held writer",
+      "status": "BUILT_DRAFT",
+      "tested": "STATIC_ONLY",
+      "live": false,
+      "id": "61eb29e0-8e51-4b30-a677-fe312ab8cc84",
+      "job": "Moves the same Founding Students opportunity to Call Held after the appointment is marked Showed."
+    },
+    {
+      "code": "E1",
+      "name": "Booked Call reminders",
+      "status": "PUBLISHED",
+      "tested": "NOT_END_TO_END",
+      "live": true,
+      "id": "b55853ef-7756-41c0-b943-0afc5226f5c2",
+      "job": "Sends booking confirmation and reminders."
+    },
+    {
+      "code": "E2",
+      "name": "No-show recovery",
+      "status": "PUBLISHED",
+      "tested": "NOT_END_TO_END",
+      "live": true,
+      "id": "aad4efea-a3fb-445e-9a25-a5822e19a77e",
+      "job": "Sends the recovery sequence after the no-show tag is applied."
+    },
+    {
+      "code": "AF1",
+      "name": "Partner application",
+      "status": "PUBLISHED",
+      "tested": "NOT_END_TO_END",
+      "live": true,
+      "id": "41da11e2-978c-458f-ad69-8e1fc97d6237",
+      "job": "Accepts the Partner application. It does not yet create the Partner pipeline record."
+    },
+    {
+      "code": "AF2",
+      "name": "Partner welcome",
+      "status": "PUBLISHED",
+      "tested": "NOT_END_TO_END",
+      "live": true,
+      "id": "d6daa097-78e7-4f02-826e-696d1b770cf0",
+      "job": "Stores Partner identity and sends the welcome. It does not yet move the Partner pipeline record."
+    }
+  ],
+  "mvp_build_order": [
+    {
+      "order": 1,
+      "name": "Booked Call core",
+      "scope": "Test and publish S1, S2, and S3. Prove booking, held, and no-show update one opportunity.",
+      "state": "WAITING_FOR_GHL_UNLOCK"
+    },
+    {
+      "order": 2,
+      "name": "Cold reply intake",
+      "scope": "Normalize the confirmed sender's positive reply event. Create or update one contact, one Founding Students opportunity at In Chase, and one Alex task. Bulk import remains contact-only.",
+      "state": "PROVIDER_NAME_REQUIRED_FOR_CONNECTOR"
+    },
+    {
+      "order": 3,
+      "name": "Call outcome control",
+      "scope": "Add one Call Outcome field. Alex selects Held, No-show, Follow-up, Won, or Lost/Not Yet. Follow-up requires a due date. The field moves the same opportunity and creates the next task.",
+      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+    },
+    {
+      "order": 4,
+      "name": "Trial Day 5 action",
+      "scope": "At trial day 5, recheck eligibility. If no Blueprint Call is booked, create one Alex task and send one actionable alert. Booked, purchased, ended, or ineligible trials are suppressed.",
+      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+    },
+    {
+      "order": 5,
+      "name": "Influencer gift action",
+      "scope": "When an influencer receives an SLM product, create one Mia task named Send handwritten email and one notification. Track completion. Do not auto-send the email.",
+      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+    },
+    {
+      "order": 6,
+      "name": "Partner operating board",
+      "scope": "AF1 creates or updates one Partner opportunity. AF2 moves it to Affiliate Signed Up. Partner onboarding booking moves the same record to Affiliate Onboarding Call.",
+      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+    },
+    {
+      "order": 7,
+      "name": "Private daily dashboard",
+      "scope": "Create saved GHL views for Alex's tasks, upcoming calls, unresolved outcomes, no-shows, trial Day 5, Mia influencer tasks, Partner stages, and failures.",
+      "state": "READY_TO_BUILD_AFTER_CORE_EVENTS"
+    },
+    {
+      "order": 8,
+      "name": "Thinkific activation view",
+      "scope": "Show this week's cohort, true first logins, non-login names and waiting time, and access failures. Never count access granted as a login.",
+      "state": "SOURCE_EVENT_PROOF_REQUIRED"
+    }
+  ],
+  "event_stage_map": [
+    [
+      "Cold prospect imported",
+      "Contact only",
+      "No opportunity",
+      "Preserve original source and external IDs."
+    ],
+    [
+      "Positive cold-email reply",
+      "In Chase",
+      "Create if missing, otherwise update",
+      "Create Alex task. Pause sender sequence."
+    ],
+    [
+      "Trial starts",
+      "Trial Started",
+      "Create if missing, otherwise update",
+      "Store actual trial start and end."
+    ],
+    [
+      "Calculator completed",
+      "Calculator Done",
+      "Create if missing, otherwise update",
+      "Store calculator facts and source."
+    ],
+    [
+      "Blueprint Call booked",
+      "Call Booked",
+      "Update same opportunity",
+      "Store appointment ID. Stop booking prompts."
+    ],
+    [
+      "Confirmed no-show",
+      "In Chase",
+      "Update same opportunity",
+      "Start one E2 recovery. Cancellation does not count."
+    ],
+    [
+      "Call marked Showed",
+      "Call Held",
+      "Update same opportunity",
+      "Appointment end time alone never proves held."
+    ],
+    [
+      "Call outcome is Won",
+      "Closed-Won Founding",
+      "Update same opportunity",
+      "Purchase or explicit human outcome is required."
+    ],
+    [
+      "Call outcome is Lost/Not Yet",
+      "Closed-Lost/Not Yet",
+      "Update same opportunity",
+      "Store reason and optional revisit date."
+    ],
+    [
+      "Explicit ghost rule fires",
+      "Ghost",
+      "Update same opportunity",
+      "Never infer ghost from silence without the approved timing rule."
+    ]
+  ],
+  "fields": {
+    "reuse": [
+      [
+        "Lead Source",
+        "Text",
+        "Existing original source until the exact source fields are added."
+      ],
+      [
+        "Touch Owner",
+        "Dropdown",
+        "Existing human owner field."
+      ],
+      [
+        "Next Action Date",
+        "Date",
+        "Existing due date."
+      ],
+      [
+        "Appointment Time",
+        "Text",
+        "Existing display field. Appointment ID remains required."
+      ]
+    ],
+    "create": [
+      [
+        "Source (First UTM)",
+        "Text",
+        "Write once. Never overwrite."
+      ],
+      [
+        "Source (Self-Report)",
+        "Text",
+        "What the lead says brought them here."
+      ],
+      [
+        "Source Campaign",
+        "Text",
+        "Campaign name or ID that created the contact."
+      ],
+      [
+        "First Seen At",
+        "Date and time",
+        "Write once on the first known event."
+      ],
+      [
+        "Latest Meaningful Source",
+        "Text",
+        "Update only on a meaningful new event."
+      ],
+      [
+        "External Lead ID",
+        "Text",
+        "ID from the cold-email or lead source system."
+      ],
+      [
+        "External Campaign ID",
+        "Text",
+        "Campaign ID from the source system."
+      ],
+      [
+        "Next Action",
+        "Text",
+        "The plain-English action Alex or Mia must take."
+      ],
+      [
+        "Trial Start At",
+        "Date and time",
+        "Actual trial start time."
+      ],
+      [
+        "Trial End At",
+        "Date and time",
+        "Actual trial end time."
+      ],
+      [
+        "Appointment ID",
+        "Text",
+        "Unique calendar appointment ID used for deduplication."
+      ],
+      [
+        "Last Meaningful Reply At",
+        "Date and time",
+        "Latest human reply that requires action."
+      ],
+      [
+        "Call Outcome",
+        "Dropdown",
+        "Held, No-show, Follow-up, Won, Lost/Not Yet."
+      ],
+      [
+        "Lost Reason",
+        "Dropdown",
+        "Reason for Lost/Not Yet."
+      ],
+      [
+        "Revisit Date",
+        "Date",
+        "Date for a real future follow-up."
+      ]
+    ]
+  },
+  "tags": [
+    [
+      "bonus:strategy-call-booked",
+      "Existing",
+      "E1 writes. B2, S1, and trial Day 5 read. Removed only after a distinct later booking lifecycle begins."
+    ],
+    [
+      "bonus:strategy-call-noshow",
+      "Existing",
+      "S2 writes. E2 reads. Remove after rebooking, purchase, opt-out, disqualification, or recovery completion."
+    ],
+    [
+      "bonus:strategy-call-cancelled",
+      "Existing",
+      "Calendar cancellation writes. No-show recovery must exclude it."
+    ],
+    [
+      "influencer:hand-send",
+      "Existing",
+      "Gift route writes for an influencer gifting event. Mia task workflow reads and removes only after creating the event-keyed task."
+    ],
+    [
+      "source:cold-email",
+      "Create",
+      "Cold intake writes. Attribution and dashboard read. Never creates an opportunity by itself."
+    ],
+    [
+      "intent:positive-reply",
+      "Create",
+      "Reply connector writes. Sales intake reads, creates task, and pauses sender sequence."
+    ],
+    [
+      "trial:day5-action-created",
+      "Create",
+      "Trial Day 5 workflow writes after task creation. Reset only for a distinct new trial ID."
+    ],
+    [
+      "recovery:blueprint-noshow-active",
+      "Create",
+      "S2 writes with appointment event key. Rebooking or stop conditions remove."
+    ]
+  ],
+  "dedupe_rules": [
+    "One open Founding Students opportunity per contact and current On-Demand Revenue Engine sales motion.",
+    "Search by email first. Use external lead ID as the secondary identity. Never use name alone.",
+    "Every event stores its external event ID. If no event ID exists, use source plus contact ID plus event type plus source timestamp.",
+    "No-show identity is Appointment ID plus No-show status plus source timestamp.",
+    "Rebooking ends the active recovery, but a later separate no-show can start one new recovery.",
+    "Purchase, opt-out, cancellation, disqualification, and trial end stop or branch the relevant follow-up.",
+    "Replies pause automated follow-up and create a human task."
+  ],
+  "notifications": [
+    [
+      "Positive reply",
+      "Alex",
+      "One task plus one alert",
+      "Action required now. Confirm sender connector first."
+    ],
+    [
+      "Trial Day 5 without booked call",
+      "Alex",
+      "One task plus one alert",
+      "Explicit Alex requirement."
+    ],
+    [
+      "Influencer gift",
+      "Mia",
+      "One Send handwritten email task plus one notification",
+      "Explicit Mia requirement. Do not auto-send."
+    ],
+    [
+      "Thinkific access failure",
+      "System owner",
+      "One exception alert",
+      "Recommended because the customer is blocked."
+    ],
+    [
+      "Routine success",
+      "Nobody",
+      "Dashboard only",
+      "Prevents notification overload."
+    ]
+  ],
+  "dashboard": {
+    "choice": "Authenticated GoHighLevel dashboard and saved views for MVP.",
+    "reason": "It is private, uses the live records, and is faster to maintain than a second customer-data application.",
+    "views": [
+      "My tasks due today and overdue",
+      "Upcoming Blueprint Calls",
+      "Held calls missing an outcome",
+      "Active no-show recovery",
+      "Trials reaching day 5 without a booked call",
+      "Trials approaching expiry",
+      "Mia influencer gift tasks",
+      "Partner applications and onboarding",
+      "Automation and Thinkific access failures",
+      "Counts by original source and Founding Students stage"
+    ],
+    "privacy_rule": "No customer names, emails, phone numbers, or private action queue may appear on the public GitHub Pages command center."
+  },
+  "tests": [
+    [
+      "Bulk cold import",
+      "100 contacts create 100 contacts and zero Founding Students opportunities."
+    ],
+    [
+      "Positive reply",
+      "One positive reply creates or updates one opportunity at In Chase, one task, and one alert. Sender sequence pauses."
+    ],
+    [
+      "Repeat reply",
+      "A second reply updates the same opportunity and does not create another open task for the same unresolved reply event."
+    ],
+    [
+      "Booked call",
+      "A fresh booking produces one opportunity at Call Booked, one appointment ID, and no duplicate."
+    ],
+    [
+      "Held call",
+      "Marking Showed moves the same opportunity to Call Held. Calendar end time alone does nothing."
+    ],
+    [
+      "No-show",
+      "Confirmed no-show starts E2 once and moves the same opportunity to In Chase."
+    ],
+    [
+      "Cancellation",
+      "Cancelled appointment never starts E2 and never receives a no-show tag."
+    ],
+    [
+      "Rebooking",
+      "Rebooking stops active no-show recovery. A later distinct no-show can start one new recovery."
+    ],
+    [
+      "Trial Day 5",
+      "An eligible trial with no booked call creates one Alex task and one alert."
+    ],
+    [
+      "Trial suppression",
+      "Booked, purchased, ended, or ineligible trials create no Day 5 task."
+    ],
+    [
+      "Existing active trials",
+      "A bounded backfill creates at most one task per eligible trial and does not flood alerts."
+    ],
+    [
+      "Influencer gift",
+      "One gifting event creates one Mia task and one notification. Repeat processing of the same event creates nothing."
+    ],
+    [
+      "Partner application",
+      "AF1 creates one Partner opportunity. AF2 and onboarding move the same record."
+    ],
+    [
+      "Thinkific activation",
+      "Access granted and first login stay separate. Unknown login data displays unavailable, never zero."
+    ]
+  ],
+  "daily_checklist": {
+    "alex": [
+      "Open My tasks due today.",
+      "Work positive replies first.",
+      "Check today's Blueprint Calls.",
+      "Record one Call Outcome after every call.",
+      "Complete trial Day 5 tasks.",
+      "Clear failures before checking reports."
+    ],
+    "mia": [
+      "Open Mia influencer gift tasks.",
+      "Send the requested handwritten email.",
+      "Mark the task complete.",
+      "Review Partner applications needing a human decision."
+    ]
+  },
+  "definition_of_done": [
+    "Built: the saved live GHL structure exists.",
+    "Codex tested: a fresh controlled test produced the expected contact, opportunity, task, tag, message, and stop behavior.",
+    "Alex tested: Alex physically repeated the journey and confirmed the customer experience.",
+    "Live: the tested workflow is published and its first real event is visible in execution logs.",
+    "100% complete: Built, Codex tested, Alex tested, Live, and the full journey has no duplicate or missing handoff."
+  ]
+}
