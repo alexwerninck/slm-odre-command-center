@@ -2,10 +2,10 @@
   "schema_version": 1,
   "date": "2026-09-23",
   "timezone": "Europe/Lisbon",
-  "updated_at_portugal": "2026-09-23T08:41:18+01:00",
-  "updated_at_portugal_display": "23 September 2026, 08:41 WEST",
-  "status": "PLAN_COMPLETE_LIVE_BUILD_BLOCKED",
-  "blocker": "GoHighLevel account is locked for failed payment. Alex owns reactivation.",
+  "updated_at_portugal": "2026-09-23T18:31:12+01:00",
+  "updated_at_portugal_display": "23 September 2026, 18:31 WEST",
+  "status": "LIVE_BUILD_IN_PROGRESS_SMARTLEAD_PAUSED",
+  "blocker": "No account lock. Alex paused Smartlead for later. The immediate priority is the booked-call, call-outcome, trial, dashboard, and Partner sales system.",
   "one_sentence_goal": "Every serious lead creates one visible sales record, one next action, and the correct follow-up without flooding the pipeline with cold imports.",
   "decisions": [
     "FOUNDING STUDENTS is the customer sales pipeline.",
@@ -17,38 +17,42 @@
     "GHL authenticated views are the MVP dashboard because they are private, maintainable, and already connected to the records.",
     "Routine success appears on the dashboard. Only events requiring a person or an exception send an alert."
   ],
+  "review_now": [
+    "Confirm the Founding Students stage order: Trial Started, In Chase, Call Booked, Call Held, Closed-Won Founding, and Closed-Lost/Not Yet.",
+    "Confirm the three manual call outcomes Alex needs after a held call: Follow-up, Won, and Lost/Not Yet.",
+    "Confirm that a Follow-up outcome must include the next task and due date.",
+    "After those rules are approved, Codex builds Call Outcome Control and runs the real calendar tests."
+  ],
   "provider_discovery": {
-    "enrichment_stack": "Apollo plus Apify, orchestrated by n8n. This finds and enriches contacts. It does not prove the sending platform.",
-    "conflict": "CMP01 CAMPAIGN_STRUCTURE says Mia sends one-to-one from Gmail drafts. Older strategy files say sends use 16 warmed inboxes.",
-    "current_truth": "The active cold-email sender and its reply webhook are not proven in the current repository evidence.",
-    "safe_contract": "The sender must emit a normalized Positive Reply event with contact identity, reply time, campaign, source message ID, and external lead ID.",
-    "help_io": "No current project definition or integration for help.io was found. It remains one focused clarification and is not an MVP dependency."
+    "current_truth": "Smartlead sends scaled cold email. The three active GOLD EMAIL campaign IDs were verified on 23 September 2026.",
+    "current_priority": "Alex paused the Smartlead reply connector for later. It is saved as an inactive n8n draft and is not part of today's review.",
+    "manual_outreach": "Manual Gmail drafts apply only to Partner, affiliate, and influencer outreach."
   },
   "existing_assets": [
     {
       "code": "S1",
       "name": "Booked Call writer",
-      "status": "BUILT_DRAFT",
-      "tested": "STATIC_ONLY",
-      "live": false,
+      "status": "PUBLISHED",
+      "tested": "CODEX_ACTION_PASS_REAL_TRIGGER_OPEN",
+      "live": true,
       "id": "9e9a1ff6-5c95-4cbd-a14c-9e5c827f56f3",
       "job": "Creates or updates one Founding Students opportunity at Call Booked after a confirmed OFFICIAL Blueprint Call."
     },
     {
       "code": "S2",
       "name": "No-show writer",
-      "status": "BUILT_DRAFT",
-      "tested": "STATIC_ONLY",
-      "live": false,
+      "status": "PUBLISHED",
+      "tested": "CODEX_ACTION_PASS_REAL_TRIGGER_OPEN",
+      "live": true,
       "id": "90551956-1162-4647-8a82-75d49b1190ac",
       "job": "Marks a confirmed no-show, starts E2 once, and moves the same opportunity to In Chase."
     },
     {
       "code": "S3",
       "name": "Call Held writer",
-      "status": "BUILT_DRAFT",
-      "tested": "STATIC_ONLY",
-      "live": false,
+      "status": "PUBLISHED",
+      "tested": "CODEX_ACTION_PASS_REAL_TRIGGER_OPEN",
+      "live": true,
       "id": "61eb29e0-8e51-4b30-a677-fe312ab8cc84",
       "job": "Moves the same Founding Students opportunity to Call Held after the appointment is marked Showed."
     },
@@ -92,51 +96,51 @@
   "mvp_build_order": [
     {
       "order": 1,
-      "name": "Booked Call core",
-      "scope": "Test and publish S1, S2, and S3. Prove booking, held, and no-show update one opportunity.",
-      "state": "WAITING_FOR_GHL_UNLOCK"
+      "name": "Review and real-test the booked-call core",
+      "scope": "S1, S2, and S3 are published and Codex action-tested. Alex reviews the stage rules, then the real booking, Showed, no-show, cancellation, and rebooking triggers are tested.",
+      "state": "READY_FOR_ALEX_REVIEW_AND_REAL_TESTS"
     },
     {
       "order": 2,
-      "name": "Cold reply intake",
-      "scope": "Normalize the confirmed sender's positive reply event. Create or update one contact, one Founding Students opportunity at In Chase, and one Alex task. Bulk import remains contact-only.",
-      "state": "PROVIDER_NAME_REQUIRED_FOR_CONNECTOR"
+      "name": "Call outcome control",
+      "scope": "Add one Call Outcome field. Alex selects Follow-up, Won, or Lost/Not Yet. Follow-up requires a due date. The field moves the same opportunity and creates the next task.",
+      "state": "NEXT_BUILD"
     },
     {
       "order": 3,
-      "name": "Call outcome control",
-      "scope": "Add one Call Outcome field. Alex selects Held, No-show, Follow-up, Won, or Lost/Not Yet. Follow-up requires a due date. The field moves the same opportunity and creates the next task.",
-      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+      "name": "Trial sales path",
+      "scope": "H6 and H8 now place trial users at Trial Started and passed Codex action tests. Run real checkout tests, then add the approved follow-up task rule without notification overload.",
+      "state": "ACTION_TEST_PASS_REAL_TEST_OPEN"
     },
     {
       "order": 4,
-      "name": "Trial Day 5 action",
-      "scope": "At trial day 5, recheck eligibility. If no Blueprint Call is booked, create one Alex task and send one actionable alert. Booked, purchased, ended, or ineligible trials are suppressed.",
-      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+      "name": "Private daily dashboard",
+      "scope": "Create saved GHL views for tasks due, upcoming calls, unresolved outcomes, no-shows, trials, Partner stages, and failures.",
+      "state": "READY_AFTER_CORE_EVENTS"
     },
     {
       "order": 5,
       "name": "Influencer gift action",
       "scope": "When an influencer receives an SLM product, create one Mia task named Send handwritten email and one notification. Track completion. Do not auto-send the email.",
-      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+      "state": "READY_TO_BUILD"
     },
     {
       "order": 6,
       "name": "Partner operating board",
       "scope": "AF1 creates or updates one Partner opportunity. AF2 moves it to Affiliate Signed Up. Partner onboarding booking moves the same record to Affiliate Onboarding Call.",
-      "state": "READY_TO_BUILD_AFTER_UNLOCK"
+      "state": "READY_TO_BUILD"
     },
     {
       "order": 7,
-      "name": "Private daily dashboard",
-      "scope": "Create saved GHL views for Alex's tasks, upcoming calls, unresolved outcomes, no-shows, trial Day 5, Mia influencer tasks, Partner stages, and failures.",
-      "state": "READY_TO_BUILD_AFTER_CORE_EVENTS"
-    },
-    {
-      "order": 8,
       "name": "Thinkific activation view",
       "scope": "Show this week's cohort, true first logins, non-login names and waiting time, and access failures. Never count access granted as a login.",
       "state": "SOURCE_EVENT_PROOF_REQUIRED"
+    },
+    {
+      "order": 8,
+      "name": "Smartlead positive-reply connector",
+      "scope": "Saved as an inactive draft. Alex paused this work for later. It is outside the immediate Sales MVP review.",
+      "state": "PAUSED_BY_ALEX"
     }
   ],
   "event_stage_map": [
