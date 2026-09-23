@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22T15:33:43+01:00",
+  "updated_at": "2026-09-23T08:42:21+01:00",
   "goal": "Buy or receive a gift. Get the right access and welcome. Engine owners stop getting B1 emails selling the Engine.",
   "phase": "MULTIPRODUCT_CODEX_RUNTIME_PARTIAL_PASS_FINAL_COPY_AND_REMAINING_TESTS_NEXT",
   "launch_ready": false,
-  "summary": "W2 and G1 have partial runtime proof, O1 has entry proof, and S1, S2, and S3 are saved drafts with configuration readbacks. Live GoHighLevel work is temporarily blocked because the Shark Life Media account is locked after a failed payment. The exact B1 cutover, Founding Students, Trial Started, Calculator Done, sales outcome, Partner pipeline, and notification continuation plan is saved. Mia final copy, runtime tests, Alex physical review, and whole-system tests remain open.",
+  "summary": "The Sales Operations MVP now has an exact event map, field and tag contract, duplicate rules, notification policy, private dashboard choice, and fourteen whole-system tests. S1, S2, and S3 remain saved drafts. GoHighLevel is still locked after a failed payment, so no new live workflow change or runtime test is claimed.",
   "completed_setup": [
     "A canonical current-state registry now holds the exact MVP asset IDs, links, states, evidence and open gaps.",
     "A permanent operating system now defines read order, evidence levels, account readback, safe stopping points and board synchronization for Codex and Claude Code.",
@@ -76,7 +76,7 @@
     "When awake, perform the physical inbox and Thinkific checks listed on the Master.",
     "Reply DELETE O1 LEFTOVERS when you are ready for Codex to delete the one-second legacy bypass and two disabled duplicate email nodes."
   ],
-  "today_focus": "Install final O1 copy and finish the remaining controlled customer lanes. The ODRE gift access, B1 suppression, callback, and O1 entry path now have one fresh Codex runtime pass.",
+  "today_focus": "Sales Operations MVP contract is complete. Live GHL work resumes with S1, S2, and S3 immediately after Alex reactivates the account.",
   "copy_map": [
     {
       "place": "B1",
@@ -239,6 +239,7 @@
   ],
   "weekend_target": "MVP target: paid or gifted customers receive the correct Book, Audiobook and Engine access, Engine owners stop B1, Codex passes the frozen journeys, and Alex receives exact board instructions for his physical test.",
   "return_facts": [
+    "Sales Operations MVP contract is complete and linked from the Sales Ecosystem. Bulk cold imports stay out of the pipeline. Positive replies, trials, calculators, and bookings update one Founding Students opportunity.",
     "W2 is ON. Both paid-welcome choices, one approved retry, and ordinary duplicate suppression passed in GoHighLevel.",
     "G1 is ON. All five product-specific gift welcome actions executed in controlled GoHighLevel tests.",
     "O1 is ON with placeholder copy. The controlled Engine owner entered, passed the owner gate, and reached the Day 1 wait.",
@@ -253,6 +254,7 @@
   "focus_phase": 3,
   "launch_statement": "Core product access and welcome automations are live with partial Codex runtime proof. Final copy, Alex physical tests, a true paid checkout, single-path B1 admission, Founding Students stage wiring, Partner lifecycle wiring, and whole-system tests remain before the ecosystem is complete.",
   "next_work": [
+    "After GoHighLevel reactivation, execute the Sales Operations MVP: test and publish S1, S2, S3, then build the reply intake, call outcome, trial Day 5, influencer gift task, and Partner pipeline writers.",
     "Alex reactivates GoHighLevel so live workflow reads, controlled tests, edits, and publication can resume.",
     "Fresh-reload S2, then run controlled Codex tests for S1 confirmed, S2 no-show plus E2, and S3 showed. Publish only after each exact result passes.",
     "Resolve the duplicate paid Book entry so one canonical B1 path remains, then prove it with a true paid checkout.",
@@ -263,6 +265,15 @@
   ],
   "founder_now": "First reactivate the GoHighLevel account. Then use the public Sales and Partner Ecosystem repair order. Codex resumes S1, S2, S3, and the B1 cutover. Mia meeting requirements can be supplied without changing this order.",
   "artifacts": [
+    {
+      "title": "Sales Operations MVP",
+      "state": "PUBLIC BUILD CONTRACT. LIVE BUILD BLOCKED BY GOHIGHLEVEL ACCOUNT LOCK.",
+      "description": "Fast functional plan for cold replies, trials, booked calls, no-shows, call outcomes, influencer gifts, Partners, private dashboards, and whole-system tests.",
+      "artifact": "https://alexwerninck.github.io/slm-odre-command-center/sales-operations-mvp.html",
+      "button": "Open Sales Operations MVP",
+      "review": "https://alexwerninck.github.io/slm-odre-command-center/sales-operations-mvp.json",
+      "check": "The contract was verified against the current GHL pipeline, field, tag, and workflow snapshot. No live GHL change is claimed."
+    },
     {
       "title": "Sales and Partnership Program Ecosystem Audit",
       "state": "FRESH LIVE GHL AUDIT. PUBLISHED MAP. REPAIR WORK PENDING.",
@@ -1414,7 +1425,7 @@
   "test_identity_policy": "Eight actual controlled GHL contacts created, zero reserved. All use fresh wernincka+ aliases. Phone blank, tags blank, Thinkific not created. No explicit product-tag application, enrollment or sends. Hidden downstream contact-created executions UNKNOWN. SMS delivery and all automation/Alex/whole-system tests NOT RUN.",
   "gift_rules": "gift:book=book; gift:audiobook=book+audio; gift:odre=Engine; gift:everything OR all three individual tags=all three. Gift request tags do not prove enrollment.",
   "test_people_report": "ENGINE_TEST_PEOPLE_2026-09-18.md",
-  "last_updated": "2026-09-22T10:10:07+01:00",
+  "last_updated": "2026-09-23T08:42:21+01:00",
   "public_urls": {
     "master_command_center": "https://alexwerninck.github.io/slm-odre-command-center/",
     "email_sms_copy_center": "https://alexwerninck.github.io/slm-odre-command-center/copy-center.html",
